@@ -1,6 +1,5 @@
-/doc
-/lib/*.html
-!/lib/meta.html
-/site/files
-/symp20*
-/images
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

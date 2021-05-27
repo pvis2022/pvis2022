@@ -1,1 +1,0 @@
-# PacificVis 2022
