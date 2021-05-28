@@ -12,7 +12,7 @@ gem "github-pages", "~> 214", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
-gem "jekyll-theme-basically-basic"
+#gem "jekyll-theme-basically-basic"
 gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache", group: :jekyll_plugins
 
