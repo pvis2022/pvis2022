@@ -10,7 +10,7 @@
 
     Otherwise `git clone https://github.com/pvis2022/pvis2022.git`
 
-1. 'cd pvis2022' and `chmod a+x bin/*`
+1. `cd pvis2022` and `chmod a+x bin/*`
 
 ---
 
