@@ -28,6 +28,7 @@ author: publicity
 baseurl: "/pvis2022" # the subpath of your site, e.g. /blog
 url: "https://pvis2022.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PacificVis
+facebook_username: PacificVis
 github_username:  jekyll
 
 # Build settings
