@@ -1,16 +1,8 @@
 ---
-layout: page
+layout: collection
+entries_layout: grid
 title: 'CFP'
+collection: cfp
 permalink: '/cfp/'
 ---
-
-# Call for Papers
-
-## [Full Papers](full/)
-
-## [Visualization Notes](notes/)
-
-## [Posters](posters)
-
-## [Visual Data Storytelling Contest](story/)
 

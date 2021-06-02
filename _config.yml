@@ -30,19 +30,20 @@ url: "https://pvis2022.github.io" # the base hostname & protocol for your site, 
 twitter_username: PacificVis
 github_username:  jekyll
 
-collection:
-  cfp:
-    output: true
-    permalink: /colcfp/
-  program:
-    output: true
-    permalink: /prg/
-
 # Build settings
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+# - jekyll-include-cache
+
+collections:
+  cfp:
+    output: true
+    permalink: /:collection/:path/
+  program:
+    output: true
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
