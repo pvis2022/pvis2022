@@ -69,3 +69,4 @@ collections:
 exclude:
   - bin/
   - data/
+  - Readme.md
