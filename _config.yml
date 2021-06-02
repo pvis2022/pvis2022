@@ -30,9 +30,7 @@ twitter_username: PacificVis
 github_username:  jekyll
 
 # Build settings
-#theme: minima
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
-#remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -56,3 +54,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - bin/
+  - data/
