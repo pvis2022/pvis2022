@@ -1,7 +1,7 @@
 navigation_pages:
-  - cfp.md
-  - program.md
-  - venue.md
-  - contact.md
+  - pages/cfp.md
+  - pages/program.md
+  - pages/venue.md
+  - pages/contact.md
 
 skin: tsukuba
