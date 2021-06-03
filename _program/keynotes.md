@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Program - Keynotes'
-permalink: '/program/keynotes'
+permalink: '/program/keynotes/'
 collection: program
 ---
 

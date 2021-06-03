@@ -16,7 +16,7 @@ const PREV_EVENTS =
 
 // Missing pages: 2009, 2013, 2014, 2016
 
-console.log(PREV_EVENTS);
+// console.log(PREV_EVENTS);
 
 new Vue({
   el: '#prevevents',

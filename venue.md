@@ -1,5 +1,6 @@
 ---
 title: 'Venue+Travel'
+permalink: '/venue/'
 ---
 
 # Venue Information

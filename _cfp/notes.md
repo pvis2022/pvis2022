@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'CFP - Visualization Notes'
-permalink: 'cfp/notes'
+permalink: 'cfp/notes/'
 collection: cfp
 ---
 

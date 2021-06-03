@@ -1,5 +1,6 @@
 ---
 title: 'Contact'
+permalink: '/contact/'
 ---
 
 {% include icon-facebook.html username=site.facebook_username label='Facebook' %}

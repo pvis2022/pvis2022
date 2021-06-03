@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Program - Workshops'
-permalink: '/program/workshops'
+permalink: '/program/workshops/'
 collection: program
 ---
 

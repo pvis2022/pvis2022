@@ -1,5 +1,7 @@
 navigation_pages:
-  - index.md
   - cfp.md
   - program.md
   - venue.md
+  - contact.md
+
+skin: tsukuba

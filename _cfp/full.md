@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'CFP - Full Papers'
-permalink: '/cfp/full'
+permalink: '/cfp/full/'
 collection: cfp
 ---
 

@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+h1.entry-title,
+h2.entry-title,
+h3.entry-title,
+h4.entry-title,
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(71, 33, 109);
+}
+
+.intro-title {
+  color: rgb(71, 33, 109);
+}
+
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";

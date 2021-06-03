@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Program - Social Events'
-permalink: '/program/social'
+permalink: '/program/social/'
 collection: program
 ---
 

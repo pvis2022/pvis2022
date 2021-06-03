@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Program - PacificVis'
-permalink: '/program/conference'
+permalink: '/program/conference/'
 collection: program
 ---
 
