@@ -11,9 +11,8 @@ gc = gspread.service_account()
 book = gc.open_by_key(GSHEET_ID)
 
 for sheet in book.worksheets():
+    title = sheet.title.replace(' ', '')
     print(sheet.title)
     values = sheet.get_all_values()
     df = pd.DataFrame(values[1:], columns=values[0])
-    df.to_csv(f'_data/gsheet/{sheet.title}.csv')
-
-#url = f'https://docs.google.com/spreadsheets/d/{GSHEET_ID}/gviz/tq?tqx=out:csv&sheet={GSHEET_ID}'
+    df.to_csv(f'_data/gsheet/{title}.csv')
