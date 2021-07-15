@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# Download all the sheets from Google (PacificVis2022OC/Publicity/PVis2022)
+
+import pandas as pd
+import gspread
+
+# GSHEET_ID is part of the URL of the above mentioned Google Sheet
+GSHEET_ID = '1rPzr4MkIXbpyc8-0zAU7eTBKxi0LovUAQJuhmQ2sP5I'
+
+gc = gspread.service_account()
+book = gc.open_by_key(GSHEET_ID)
+
+for sheet in book.worksheets():
+    print(sheet.title)
+    values = sheet.get_all_values()
+    df = pd.DataFrame(values[1:], columns=values[0])
+    df.to_csv(f'_data/gsheet/{sheet.title}.csv')
+
+#url = f'https://docs.google.com/spreadsheets/d/{GSHEET_ID}/gviz/tq?tqx=out:csv&sheet={GSHEET_ID}'

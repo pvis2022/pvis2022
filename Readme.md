@@ -2,9 +2,16 @@
 
 1. [Install Prerequisites](https://jekyllrb.com/docs/installation/)
 
+    I had to update ruby as one of the dependedt packages (zeitwerk-2.4.2) requested for ruby version >= 2.4.4.
+
+    Ended up with specifying per-project installation of ruby as follows: 
+    `rbenv install 2.7.4; rbenv local 2.7.4` 
+
 1. Install the jekyll and bundler.
 
     `gem install jekyll bundler`
+
+1. `bundle install`:  This command installs all the required packages.
 
 1. `git clone git@github.com:pvis2022/pvis2022.git`, if you use an SSH key.
 
