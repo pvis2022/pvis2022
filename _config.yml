@@ -68,5 +68,5 @@ collections:
 
 exclude:
   - bin/
-  - data/
+  - etc/
   - Readme.md
