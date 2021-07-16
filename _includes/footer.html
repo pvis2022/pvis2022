@@ -1,6 +1,6 @@
 <footer id="footer" class="site-footer">
   <div class="inner">
-    <div id="prevevents"></div>
+    {% include past_events.html %}
     <div class="copyright">
       {% if site.copyright %}
         {{ site.copyright | markdownify }}
