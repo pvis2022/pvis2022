@@ -1,11 +1,11 @@
 <h2>Previous Events</h2>
 
 <table>
-  <thead><td>Year</td><td>City</td><td>Date</td><td>URL</td>
+  <thead><th>Year</th><th>City</th><th>Dates</th><th>URL</th>
   </thead>
   <tbody>
     {% for ev in site.data.gsheet.PastEvents %}
-    <tr><td>{{ev.Year}}</td><td>{{ev.City}}</td><td>{{ev.Date}}</td><td><a href="{{ev.URL}}">Website</a></td></tr>
+    <tr><td>{{ev.Year}}</td><td>{{ev.City}}</td><td>{{ev.Dates}}</td><td><a href="{{ev.URL}}">Website</a></td></tr>
     {% endfor %}
   </tbody>
 </table>
