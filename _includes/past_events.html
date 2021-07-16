@@ -5,7 +5,7 @@
   </thead>
   <tbody>
     {% for ev in site.data.gsheet.PastEvents %}
-    <tr><td>{{ev.Year}}</td><td>{{ev.City}}</td><td>{{ev.Date}}</td><td><a :href="ev.URL">Website</a></td></tr>
+    <tr><td>{{ev.Year}}</td><td>{{ev.City}}</td><td>{{ev.Date}}</td><td><a href="{{ev.URL}}">Website</a></td></tr>
     {% endfor %}
   </tbody>
 </table>
