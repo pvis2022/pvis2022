@@ -6,3 +6,4 @@ collection: cfp
 permalink: '/cfp/'
 ---
 
+To be announced soon.

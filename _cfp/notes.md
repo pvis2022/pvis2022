@@ -4,7 +4,9 @@ title: 'CFP - Visualization Notes'
 permalink: 'cfp/notes/'
 collection: cfp
 ---
+To be announced soon.
 
+<!--
 # Important Dates
 
 # Submission
@@ -14,3 +16,4 @@ collection: cfp
 # Contact
 
 # Visualization Notes Co-Chairs
+-->

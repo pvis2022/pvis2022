@@ -5,6 +5,9 @@ permalink: '/cfp/story/'
 collection: cfp
 ---
 
+To be announced soon.
+
+<<!--!--
 # Requirements
 
 # Submission Procedure
@@ -16,3 +19,5 @@ collection: cfp
 # Contact
 
 # Contest Chairs
+-->
+-->

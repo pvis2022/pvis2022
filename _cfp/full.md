@@ -5,6 +5,9 @@ permalink: '/cfp/full/'
 collection: cfp
 ---
 
+To be announced soon.
+
+<!--
 # Important Dates
 
 |                        | Dates      |
@@ -30,3 +33,4 @@ collection: cfp
 <!-- For questions regarding poster submission, please do not hesitate to contact the chairs directly via pvis_posters(at)pvis.org -->
 
 # Papers Chairs
+-->
