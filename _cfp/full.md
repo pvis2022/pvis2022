@@ -136,13 +136,11 @@ Original, unpublished papers of up to ten (10) pages (two-column, single-spaced,
 
 ## Papers Chairs
 
-- Nan Cao (Tongji University, China)
-
-
-- Timo Ropinski (Ulm University, Germany)
-
-
-- Jian Zhao (University of Waterloo, Canada)
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role == "Papers Chairs" %}
+- {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
+  {% endif %}
+{% endfor %}
 
 
 ## Contact
