@@ -6,4 +6,4 @@ collection: cfp
 permalink: '/cfp/'
 ---
 
-To be announced soon.
+- [CFP - Full Papers](/pvis2022/cfp/full) is out! (Aug 10, 2021)
