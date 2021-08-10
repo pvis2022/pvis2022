@@ -5,10 +5,10 @@ permalink: '/cfp/full/'
 collection: cfp
 ---
 
-PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization, graph and network visualization, visual analytics, and visualization applications in domains such as (but not limited to) biological sciences, education, machine learning, physical sciences, security, and social science. Authors are invited to submit original and unpublished research and application papers in all areas of visualization. PacificVis 2022 (http://pvis.org/) will be held in Tsukuba, Japan on April 11-14, 2022. We encourage papers in any new, novel, and exciting research area that pertains to visualization.
+PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization, graph and network visualization, visual analytics, and visualization applications in domains such as (but not limited to) biological sciences, education, machine learning, physical sciences, security, and social science. Authors are invited to submit original and unpublished research and application papers in all areas of visualization. [PacificVis 2022](http://pvis.org/) will be held in Tsukuba, Japan on April 11-14, 2022. We encourage papers in any new, novel, and exciting research area that pertains to visualization.
 
 
-All submitted papers will go through a two-stage review process to guarantee the publication of high-quality papers. All accepted papers will be presented orally at the conference and will also be published by IEEE and included in the IEEE Digital Library. Selected papers will be published directly in IEEE Transactions on Visualization and Computer Graphics (TVCG). 
+All submitted papers will go through a two-stage review process to guarantee the publication of high-quality papers. All accepted papers will be presented orally at the conference and will also be published by IEEE and included in [the IEEE Digital Library](https://www.computer.org/csdl/home). Selected papers will be published directly in [IEEE Transactions on Visualization and Computer Graphics (TVCG)](https://conferences.computer.org/vr-tvcg/2020/content/TVCG/about.html).
 
 
 # Important Dates
