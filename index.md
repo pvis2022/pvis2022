@@ -18,7 +18,19 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
     {% assign role = member.Role %}
 **{{ member.Role }}**
   {% endif %}
-- {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
+  {% if member.Photo == "yes" %}
+
+<div style="width: 33%; text-align: center;">
+<img src="assets/images/oc/{{ member.First }}_{{ member.Given }}.jpg" class="circle" width="100" height="100"><br/>
+<strong>{{ member.First }} {{ member.Given }}</strong><br/>
+({{ member.Affiliation }})
+</div>
+
+  {% else %}
+
+{{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
+
+  {% endif %}
 {% endfor %}
 
 ---
