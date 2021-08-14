@@ -16,21 +16,18 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 {% for member in site.data.gsheet.Organization %}
   {% if role != member.Role %}
     {% assign role = member.Role %}
-**{{ member.Role }}**
+<p class="oc-role">{{ member.Role }}</p>
   {% endif %}
+<div style="display: inline-block; width: 33%; text-align: center;">
   {% if member.Photo == "yes" %}
-
-<div style="width: 33%; text-align: center;">
-<img src="assets/images/oc/{{ member.First }}_{{ member.Given }}.jpg" class="circle" width="100" height="100"><br/>
-<strong>{{ member.First }} {{ member.Given }}</strong><br/>
-({{ member.Affiliation }})
-</div>
-
+<img src="assets/images/oc/{{ member.First }}_{{ member.Given }}.jpg"
+     class="circle" width="150" height="150" /><br />
   {% else %}
-
-{{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
-
+<img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
   {% endif %}
+<strong>{{ member.First }} {{ member.Given }}</strong><br/>
+{{ member.Affiliation }}
+</div>
 {% endfor %}
 
 ---
