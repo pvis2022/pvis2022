@@ -1,6 +1,8 @@
 ---
 layout: home
 title: 'Welcome to the 15th IEEE Pacific Visualization Symposium'
+image:
+  path: 'assets/images/tsukuba20210814.png'
 ---
 
 Welcome to the 15th IEEE Pacific Visualization Symposium!  PacificVis 2022 <!-- will --> is planned to be held during April 11, 2022 through April 14, 2022 at Tsukuba Center for Institutes, Japan.
