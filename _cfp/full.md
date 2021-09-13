@@ -142,6 +142,13 @@ Original, unpublished papers of up to ten (10) pages (two-column, single-spaced,
   {% endif %}
 {% endfor %}
 
+## PC Members
+
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role == "Papers PC" %}
+- {{ member.First }} {{ member.Given }}
+  {% endif %}
+{% endfor %}
 
 ## Contact
 
