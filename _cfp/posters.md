@@ -18,3 +18,11 @@ To be announced soon.
 
 # Posters Co-Chairs
 -->
+
+# Chairs
+
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role == "Posters Chairs" %}
+- {{ member.First }} {{ member.Given }}
+  {% endif %}
+{% endfor %}

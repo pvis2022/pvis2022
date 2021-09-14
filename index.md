@@ -11,6 +11,19 @@ Visualization has become an increasingly important research area due to its wide
 
 PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as: information visualization, scientific visualization, graph and network visualization, visual analytics, and specific applications such as (but not limited to) security-, software- and bio-visualization. Authors are invited to submit original and unpublished research and application papers in all areas of visualization. We encourage papers in any new, novel, and exciting research area that pertains to visualization.
 
+# Program Committee
+
+{% assign role = "" %}
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role contains "Chairs" %}
+    {% if role != member.Role %}
+      {% assign role = member.Role %}
+<p class="pc-role">{{ member.Role }}</p>
+    {% endif %}
+- {{ member.First }} {{ member.Given }}
+  {% endif %}
+{% endfor %}
+
 
 # Organizing Committee Members
 

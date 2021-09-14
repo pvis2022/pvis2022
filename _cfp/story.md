@@ -7,7 +7,7 @@ collection: cfp
 
 To be announced soon.
 
-<<!--!--
+<!--
 # Requirements
 
 # Submission Procedure
@@ -17,7 +17,12 @@ To be announced soon.
 # Jury
 
 # Contact
+-->
 
-# Contest Chairs
--->
--->
+# Chairs
+
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role == "Visual Storytelling Contest Chairs" %}
+- {{ member.First }} {{ member.Given }}
+  {% endif %}
+{% endfor %}

@@ -14,6 +14,12 @@ To be announced soon.
 # Camera Ready
 
 # Contact
-
-# Visualization Notes Co-Chairs
 -->
+
+# Chairs
+
+{% for member in site.data.gsheet.PC %}
+  {% if member.Role == "VisNotes Chairs" %}
+- {{ member.First }} {{ member.Given }}
+  {% endif %}
+{% endfor %}
