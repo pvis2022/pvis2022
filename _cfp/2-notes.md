@@ -4,6 +4,9 @@ title: 'CFP - Visualization Notes'
 permalink: 'cfp/notes/'
 collection: cfp
 ---
+
+{% assign data = site.data.publicity %}
+
 To be announced soon.
 
 <!--
@@ -18,7 +21,7 @@ To be announced soon.
 
 # Chairs
 
-{% for member in site.data.gsheet.PC %}
+{% for member in data.PC %}
   {% if member.Role == "VisNotes Chairs" %}
 - {{ member.First }} {{ member.Given }}
   {% endif %}

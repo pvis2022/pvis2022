@@ -1,3 +1,28 @@
+#!/Users/wakita/.venvs/web/bin/python3
+
+import json
+from pathlib import Path
+
+import gspread
+import pandas as pd
+
+ROOT = Path(__file__).parent.parent
+GSHEET_ID = '1rPzr4MkIXbpyc8-0zAU7eTBKxi0LovUAQJuhmQ2sP5I'
+
+def download():
+  gc = gspread.service_account()
+  book = gc.open_by_key(GSHEET_ID)
+  tables = {}
+  for sheet in book.worksheets():
+    tables[sheet.title] = json.loads(pd.DataFrame(sheet.get_all_records()).to_json(orient='records', force_ascii=False))
+  with open(ROOT.joinpath('_data', 'publicity.json'), 'w') as w:
+    json.dump(tables, w, ensure_ascii=False, indent=2)
+
+if __name__ == '__main__':
+  download()
+
+'''
+
 #!/Users/wakita/.venvs/vis/bin/python3
 # Download all the sheets from Google (PacificVis2022OC/Publicity/PVis2022)
 
@@ -16,3 +41,6 @@ for sheet in book.worksheets():
     values = sheet.get_all_values()
     df = pd.DataFrame(values[1:], columns=values[0])
     df.to_csv(f'_data/gsheet/{title}.csv')
+'''
+
+# vi: ft=python sw=2

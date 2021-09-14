@@ -5,6 +5,8 @@ permalink: '/cfp/full/'
 collection: cfp
 ---
 
+{% assign data = site.data.publicity %}
+
 PacificVis is a unified visualization symposium, welcoming all areas of visualization research such as information visualization, scientific visualization, graph and network visualization, visual analytics, and visualization applications in domains such as (but not limited to) biological sciences, education, machine learning, physical sciences, security, and social science. Authors are invited to submit original and unpublished research and application papers in all areas of visualization. [PacificVis 2022](http://pvis.org/) will be held in Tsukuba, Japan on April 11-14, 2022. We encourage papers in any new, novel, and exciting research area that pertains to visualization.
 
 
@@ -136,7 +138,7 @@ Original, unpublished papers of up to ten (10) pages (two-column, single-spaced,
 
 ## Chairs
 
-{% for member in site.data.gsheet.PC %}
+{% for member in data.PC %}
   {% if member.Role == "Papers Chairs" %}
 - {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
   {% endif %}
@@ -144,7 +146,7 @@ Original, unpublished papers of up to ten (10) pages (two-column, single-spaced,
 
 ## PC Members
 
-{% for member in site.data.gsheet.PC %}
+{% for member in data.PC %}
   {% if member.Role == "Papers PC members" %}
 - {{ member.First }} {{ member.Given }}
   {% endif %}

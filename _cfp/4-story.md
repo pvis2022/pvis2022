@@ -5,6 +5,8 @@ permalink: '/cfp/story/'
 collection: cfp
 ---
 
+{% assign data = site.data.publicity %}
+
 To be announced soon.
 
 <!--
@@ -21,7 +23,7 @@ To be announced soon.
 
 # Chairs
 
-{% for member in site.data.gsheet.PC %}
+{% for member in data.PC %}
   {% if member.Role == "Visual Storytelling Contest Chairs" %}
 - {{ member.First }} {{ member.Given }}
   {% endif %}
