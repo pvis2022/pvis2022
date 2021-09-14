@@ -38,6 +38,8 @@ plugins:
   - jekyll-feed
 # - jekyll-include-cache
 
+collections_dir: _collections
+
 collections:
   cfp:
     output: true
@@ -70,3 +72,4 @@ exclude:
   - bin/
   - etc/
   - Readme.md
+  - work/
