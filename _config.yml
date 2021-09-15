@@ -48,6 +48,28 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+defaults:
+  - scope:
+      path: ""
+      type: "page"
+    values:
+      image:
+        path: 'assets/images/mt-tsukuba-finish.jpg'
+  - scope:
+      path: "_collections/_cfp"
+    values:
+      collection: cfp
+      layout: page
+      image:
+        path: 'assets/images/mt-tsukuba-finish.jpg'
+  - scope:
+      path: "_collections/_program"
+    values:
+      collection: program
+      layout: page
+      image:
+        path: 'assets/images/mt-tsukuba-finish.jpg'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

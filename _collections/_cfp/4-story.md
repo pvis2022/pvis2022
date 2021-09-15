@@ -1,8 +1,6 @@
 ---
-layout: page
 title: 'CFP - Visual Data Storytelling Contest'
 permalink: '/cfp/story/'
-collection: cfp
 ---
 
 {% assign data = site.data.publicity %}

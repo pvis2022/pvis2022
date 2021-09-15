@@ -1,8 +1,6 @@
 ---
 layout: home
 title: 'Welcome to the 15th IEEE Pacific Visualization Symposium'
-image:
-  path: 'assets/images/mt-tsukuba-finish.jpg'
 ---
 
 {% assign data = site.data.publicity %}

@@ -1,8 +1,6 @@
 ---
-layout: page
 title: 'CFP - Visualization Meets AI Workshop'
 permalink: 'cfp/ai/'
-collection: cfp
 ---
 
 {% assign data = site.data.publicity %}

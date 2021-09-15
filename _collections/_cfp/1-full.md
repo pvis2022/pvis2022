@@ -1,8 +1,6 @@
 ---
-layout: page
 title: 'CFP - Full Papers'
 permalink: '/cfp/full/'
-collection: cfp
 ---
 
 {% assign data = site.data.publicity %}

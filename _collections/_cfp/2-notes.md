@@ -1,8 +1,6 @@
 ---
-layout: page
 title: 'CFP - Visualization Notes'
 permalink: 'cfp/notes/'
-collection: cfp
 ---
 
 {% assign data = site.data.publicity %}
