@@ -51,7 +51,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "page"
+      type: "pages"
     values:
       image:
         path: 'assets/images/mt-tsukuba-finish.jpg'
