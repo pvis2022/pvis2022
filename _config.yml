@@ -54,21 +54,21 @@ defaults:
       type: "pages"
     values:
       image:
-        path: 'assets/images/mt-tsukuba-finish.jpg'
+        path: 'assets/images/tsukuba_center_wide.jpg'
   - scope:
       path: "_collections/_cfp"
     values:
       collection: cfp
       layout: page
       image:
-        path: 'assets/images/mt-tsukuba-finish.jpg'
+        path: 'assets/images/tsukuba_center_wide.jpg'
   - scope:
       path: "_collections/_program"
     values:
       collection: program
       layout: page
       image:
-        path: 'assets/images/mt-tsukuba-finish.jpg'
+        path: 'assets/images/tsukuba_center_wide.jpg'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
