@@ -10,6 +10,18 @@ To be announced soon.
 <!--
 # Important Dates
 
+{% assign dates = data['Important Dates'] %}
+
+|                         | Dates          |
+| ------------------------|----------------|
+{%- for date in dates %}
+  {%- if date['Event Type'] == "poster" %}
+| {{ date.Event }} | {{ date.Date }} |
+  {%- endif %}
+{%- endfor %}
+
+
+
 # Submission
 
 # Poster Presentation
@@ -17,6 +29,7 @@ To be announced soon.
 # Contact
 
 # Posters Co-Chairs
+
 -->
 
 # Chairs

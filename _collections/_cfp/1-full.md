@@ -13,14 +13,24 @@ All submitted papers will go through a two-stage review process to guarantee the
 
 # Important Dates
 
+{% assign dates = data['Important Dates'] %}
+
 |                         | Dates          |
 | ------------------------|----------------|
+{%- for date in dates %}
+  {%- if date['Event Type'] == "full" %}
+| {{ date.Event }} | {{ date.Date }} |
+  {%- endif %}
+{%- endfor %}
+
+<!--
 | Abstract due            | Oct. 15, 2021  |
 | Full paper due          | Oct. 22,  2021 |
-| 1st cycle notification  | Dec. 17,  2021  |
+| 1st cycle notification  | Dec. 17,  2021 |
 | Revision due            | Jan. 14, 2021  |
 | 2nd cycle notification  | Feb. 11, 2022  |
 | Camera ready paper due  | Feb. 18, 2022  |
+-->
 
 All deadlines are due at 9:00 pm Pacific Time (PDT/PST).
 
