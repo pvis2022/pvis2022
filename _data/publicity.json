@@ -524,14 +524,14 @@
       "Role": "Posters Chairs",
       "First": "Siming",
       "Given": "Chen",
-      "Affiliation": "",
+      "Affiliation": "Fudan University, China",
       "Email": "simingchen@fudan.edu.cn"
     },
     {
       "Role": "Posters Chairs",
       "First": "Hiroaki",
       "Given": "Natsukawa",
-      "Affiliation": "",
+      "Affiliation": "Kyoto University, Japan",
       "Email": "natsukawa.hiroaki.3u@kyoto-u.ac.jp"
     },
     {
@@ -675,14 +675,6 @@
       "show": "no"
     },
     {
-      "name": "For inquiries about submissions",
-      "nickname": "submissions",
-      "email": "pvis2022_submissions@priv.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "no"
-    },
-    {
       "name": "PacificVis 2022 Contests Co-chairs",
       "nickname": "contest",
       "email": "pvis2022_contest@priv.org",
@@ -699,6 +691,14 @@
       "show": ""
     },
     {
+      "name": "For inquiries about submissions",
+      "nickname": "submissions",
+      "email": "pvis2022_submissions@priv.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "no"
+    },
+    {
       "name": "PacificVis 2022 Registration Chair",
       "nickname": "visa",
       "email": "pvis2022_visa@priv.org",
@@ -713,6 +713,28 @@
       "twitter": "@PacificVis",
       "facebook": "@PacificVis",
       "show": "yes"
+    }
+  ],
+  "Navigation": [
+    {
+      "Title": "pvis2022",
+      "URL": "index"
+    },
+    {
+      "Title": "cfp",
+      "URL": "pages/cfp"
+    },
+    {
+      "Title": "program",
+      "URL": "pages/program"
+    },
+    {
+      "Title": "venue",
+      "URL": "pages/venue"
+    },
+    {
+      "Title": "contact",
+      "URL": "pages/contact"
     }
   ],
   "Important Dates": [
@@ -747,18 +769,23 @@
       "Date": "February 18, 2022"
     },
     {
+      "Event Type": "note",
+      "Event": "",
+      "Date": ""
+    },
+    {
       "Event Type": "poster",
-      "Event": "Submission",
+      "Event": "Poster papers submission deadline",
       "Date": "February 11, 2022"
     },
     {
       "Event Type": "poster",
-      "Event": "Notification",
+      "Event": "Poster papers notification",
       "Date": "February 25, 2022"
     },
     {
       "Event Type": "poster",
-      "Event": "Camera-ready",
+      "Event": "Camera ready poster papers due",
       "Date": "March 8, 2022"
     },
     {
