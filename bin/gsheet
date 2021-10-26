@@ -14,7 +14,11 @@ def download():
   book = gc.open_by_key(GSHEET_ID)
   tables = {}
   for sheet in book.worksheets():
-    tables[sheet.title] = json.loads(pd.DataFrame(sheet.get_all_records()).to_json(orient='records', force_ascii=False))
+    df = pd.DataFrame(sheet.get_all_records())
+    if sheet.title == 'PC':
+      df = pd.DataFrame(sheet.get_all_records(), dtype=str)
+      df.loc[(df['Role'] == 'Papers Chairs') & (df['Given'] == 'Cao'),'First'] = 'Nan'
+    tables[sheet.title] = json.loads(df.to_json(orient='records', force_ascii=False))
   with open(ROOT.joinpath('_data', 'publicity.json'), 'w') as w:
     json.dump(tables, w, ensure_ascii=False, indent=2)
 
