@@ -19,6 +19,22 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 - [Contact](contact/)
 
+# General Conference Chair and Organization Chair
+
+<div style="display: inline-block; width: 32%; text-align: center;">
+<img src="assets/images/oc/Kazuo_Misue.jpg"
+     class="circle" width="150" height="150" /><br />
+<strong>Kazuo Misue</strong><br/>
+University of Tsukuba
+</div>
+
+<div style="display: inline-block; width: 32%; text-align: center;">
+<img src="assets/images/oc/Naohisa_Sakamoto.jpg"
+     class="circle" width="150" height="150" /><br />
+<strong>Naohisa Sakamoto Misue</strong><br/>
+Kobe University
+</div>
+
 # Program Committee
 
 {% assign role = "" %}
@@ -28,7 +44,7 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
       {% assign role = member.Role %}
 <p class="pc-role">{{ member.Role }}</p>
     {% endif %}
-<div style="display: inline-block; width: 33%; text-align: center;">
+<div style="display: inline-block; width: 32%; text-align: center;">
     {% if member.Photo == "yes" %}
 <img src="assets/images/pc/{{ member.First }}_{{ member.Given }}.jpg"
      class="circle" width="150" height="150" /><br />
@@ -48,18 +64,22 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 {% for member in data.Organization %}
   {% if role != member.Role %}
     {% assign role = member.Role %}
+    {% if role != "General Conference Chair" and role != "Organizing Chair" %}
 <p class="oc-role">{{ member.Role }}</p>
+    {% endif %}
   {% endif %}
-<div style="display: inline-block; width: 33%; text-align: center;">
-  {% if member.Photo == "yes" %}
+  {% if role != "General Conference Chair" and role != "Organizing Chair" %}
+<div style="display: inline-block; width: 32%; text-align: center;">
+    {% if member.Photo == "yes" %}
 <img src="assets/images/oc/{{ member.First }}_{{ member.Given }}.jpg"
      class="circle" width="150" height="150" /><br />
-  {% else %}
+    {% else %}
 <img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
-  {% endif %}
+    {% endif %}
 <strong>{{ member.First }} {{ member.Given }}</strong><br/>
 {{ member.Affiliation }}
 </div>
+  {% endif %}
 {% endfor %}
 
 ---
