@@ -34,13 +34,8 @@ Submissions should be made electronically in the Adobe PDF format by the deadlin
 # Poster Presentation
 -->
 
-# Chairs
-
-{% for member in data.PC %}
-  {% if member.Role == "Posters Chairs" %}
-- {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
-  {% endif %}
-{% endfor %}
+{% assign role = "Posters Chairs" %}
+{% include chairs.md %}
 
 # Contact
 

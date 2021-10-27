@@ -4,6 +4,11 @@
 
 @charset "utf-8";
 
+.site-title {
+  background-color: rgb(71, 33, 109);
+}
+
+
 h1.entry-title,
 h2.entry-title,
 h3.entry-title,
@@ -29,7 +34,21 @@ img.circle {
   border-radius: 50%;
 }
 
+p.menu {
+  padding: .5em .5em .5em 3.5em;
+  background-color: rgb(200, 200, 200);
+  color: rgb(71, 33, 109);
+  a {
+    padding-right: 1em;
+    font-size: 20px;
+  } 
+}
+
 // Theme skin
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 
 @import "basically-basic";
+
+.site-title a {
+  color: rgb(181, 143, 219);
+}

@@ -142,22 +142,13 @@ Papers are to be submitted online through [the new Precision Conference System](
 
 Original, unpublished papers of up to ten (10) pages (two-column, single-spaced, 9 point font, including figures, tables, and references) are invited. Manuscripts must be written in English and follow [the formatting guidelines](https://pacificvis.github.io/). It is recommended (but not mandatory) to submit an anonymized version of your manuscript for double-blind review - in this case, please remove all author and affiliation information from submissions and supplemental files as well as substitute your paper’s ID number for the author name. Papers should be submitted electronically in Adobe PDF format. Please provide supplemental videos in QuickTime MPEG-4 or DivX version 5, and use TIFF, JPEG, or PNG for supplemental images.
 
-
-## Chairs
-
-{% for member in data.PC %}
-  {% if member.Role == "Papers Chairs" %}
-- {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
-  {% endif %}
-{% endfor %}
+{% assign role = "Papers Chairs" %}
+{% include chairs.md %}
 
 ## PC Members
 
-{% for member in data.PC %}
-  {% if member.Role == "Papers PC members" %}
-- {{ member.First }} {{ member.Given }}
-  {% endif %}
-{% endfor %}
+{% assign role = "Papers PC members" %}
+{% include pc_members.md %}
 
 ## Contact
 

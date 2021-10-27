@@ -32,15 +32,8 @@ formatting guidelines: http://junctionpublishing.org/vgtc/Track/pacvis.html
 
 # Visualization Notes Co-Chairs
 
-{% for member in data.PC %}
-  {% if member.Role == "VisNotes Chairs" %}
-- {{ member.First }} {{ member.Given }} ({{ member.Affiliation }})
-  {% endif %}
-{% endfor %}
-
-<!-- Steffen Frey, University of Groningen, Netherlands
-Bum Chul Kwon, IBM Research, United States
-Wenwen Dou, University of North Carolina at Charlotte, United States -->
+{% assign role = "VisNotes Chairs" %}
+{% include chairs.md %}
 
 # Committes
 

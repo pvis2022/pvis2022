@@ -127,8 +127,5 @@ For questions regarding the contest, please do not hesitate to contact the chair
 
 # Chairs
 
-{% for member in data.PC %}
-  {% if member.Role == "Visual Storytelling Contest Chairs" %}
-- {{ member.First }} {{ member.Given }}, {{ member.Affiliation }}
-  {% endif %}
-{% endfor %}
+{% assign role = "Visual Storytelling Contest Chairs" %}
+{% include chairs.md %}
