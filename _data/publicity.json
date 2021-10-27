@@ -89,7 +89,7 @@
       "First": "Koji",
       "Given": "Koyamada",
       "Affiliation": "Kyoto University",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Advisors",
@@ -113,7 +113,7 @@
       "Given": "Cao",
       "Affiliation": "Tongji University, China",
       "Email": "nan.cao@tongji.edu.cn",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Papers Chairs",
@@ -593,7 +593,7 @@
       "Given": "Natsukawa",
       "Affiliation": "Kyoto University, Japan",
       "Email": "natsukawa.hiroaki.3u@kyoto-u.ac.jp",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Visual Storytelling Contest Chairs",
@@ -625,7 +625,7 @@
       "Given": "Wang",
       "Affiliation": "Visa Research",
       "Email": "junpeng.wang.nk@gmail.com",
-      "Photo": ""
+      "Photo": "yes"
     }
   ],
   "Past Events": [
