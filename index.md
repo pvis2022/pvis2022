@@ -46,7 +46,7 @@ Kobe University
     {% endif %}
 <div style="display: inline-block; width: 32%; text-align: center;">
     {% if member.Photo == "yes" %}
-<img src="assets/images/pc/{{ member.First }}_{{ member.Given }}.jpg"
+<img src="assets/images/pc/{{ member.First | replace: " ", "_" }}_{{ member.Given }}.jpg"
      class="circle" width="150" height="150" /><br />
     {% else %}
 <img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
