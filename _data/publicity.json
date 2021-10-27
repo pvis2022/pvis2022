@@ -121,7 +121,7 @@
       "Given": "Ropinski",
       "Affiliation": "Ulm University, Germany",
       "Email": "timo.ropinski@uni-ulm.de",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Papers Chairs",
@@ -617,7 +617,7 @@
       "Given": "Fujiwara",
       "Affiliation": "University of California at Davis",
       "Email": "tfujiwara@ucdavis.edu",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Visualization Meets AI Workshop Chairs",
