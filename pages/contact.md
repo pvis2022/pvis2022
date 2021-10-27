@@ -3,6 +3,16 @@ title: 'Contact'
 permalink: '/contact/'
 ---
 
+{% assign contacts = site.data.publicity['Contacts'] %}
+
+Contact | Email
+--- | ---
+{%- for contact in contacts %}
+  {%- if contact.show == "yes" and contact.email != "" %}
+{{ contact.name }} | {{ contact.email }}
+  {%- endif %}
+{%- endfor %}
+
 {% include icon-facebook.html username=site.facebook_username label='Facebook' %}
 
 {% include icon-twitter.html username=site.twitter_username label='Twitter' %}

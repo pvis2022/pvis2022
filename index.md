@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Welcome to the 15th IEEE Pacific Visualization Symposium'
+title: 'PacificVis 2022'
 ---
 
 {% assign data = site.data.publicity %}
@@ -28,7 +28,16 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
       {% assign role = member.Role %}
 <p class="pc-role">{{ member.Role }}</p>
     {% endif %}
-- {{ member.First }} {{ member.Given }}
+<div style="display: inline-block; width: 33%; text-align: center;">
+    {% if member.Photo == "yes" %}
+<img src="assets/images/pc/{{ member.First }}_{{ member.Given }}.jpg"
+     class="circle" width="150" height="150" /><br />
+    {% else %}
+<img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
+    {% endif %}
+<strong>{{ member.First }} {{ member.Given }}</strong><br/>
+{{ member.Affiliation }}
+</div>
   {% endif %}
 {% endfor %}
 

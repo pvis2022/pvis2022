@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PacificVis 2022
+title: Welcome to the 15th IEEE Pacific Visualization Symposium
 email: "pvis2022oc at vislab cs tsukuba ac jp"
 description: >- # this means to ignore newlines until "baseurl:"
   PacificVis 2022 will be held in the spring of 2022 at Tsukuba, Japan.
@@ -94,4 +94,5 @@ exclude:
   - bin/
   - etc/
   - Readme.md
+  - theme/
   - work/
