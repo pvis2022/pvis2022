@@ -10,7 +10,6 @@
             <span>{{ site.title | escape }}</span>
           </a>
         </h1>
-        {% include menu.html %}
       {% else %}
         <p class="site-title">
           <a href="{{ '/' | relative_url }}">
@@ -19,6 +18,7 @@
           </a>
         </p>
       {% endif %}
+      {% include menu.html %}
     </div>
   </div>
 </header>

@@ -1,7 +1,7 @@
 ---
 layout: collection
 entries_layout: grid
-title: 'CFP'
+title: 'Call for Papers'
 collection: cfp
 permalink: '/cfp/'
 ---

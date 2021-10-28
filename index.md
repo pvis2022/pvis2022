@@ -19,18 +19,20 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 - [Contact](contact/)
 
-# General Conference Chair and Organization Chair
+# Welcome to PacificVis 2022!
 
-<div style="display: inline-block; width: 32%; text-align: center;">
+<div class="conf-chair" style="display: inline-block; width: 47%; text-align: center;">
+<span class="role">General Conference Chair</span><br/>
 <img src="assets/images/oc/Kazuo_Misue.jpg"
-     class="circle" width="150" height="150" /><br />
+     class="circle" width="200" height="200" /><br />
 <strong>Kazuo Misue</strong><br/>
 University of Tsukuba
 </div>
 
-<div style="display: inline-block; width: 32%; text-align: center;">
+<div class="conf-chair" style="display: inline-block; width: 47%; text-align: center;">
+<span class="role">Organization Chair</span><br/>
 <img src="assets/images/oc/Naohisa_Sakamoto.jpg"
-     class="circle" width="150" height="150" /><br />
+     class="circle" width="200" height="200" /><br />
 <strong>Naohisa Sakamoto Misue</strong><br/>
 Kobe University
 </div>
