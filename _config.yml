@@ -55,6 +55,7 @@ defaults:
     values:
       image:
         path: 'assets/images/tsukuba_center_wide.jpg'
+        #path: 'assets/images/intro-image/intro-morning.jpg'
   - scope:
       path: "_collections/_cfp"
     values:
