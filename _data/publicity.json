@@ -15,13 +15,6 @@
       "Photo": "yes"
     },
     {
-      "Role": "Poster Co-chairs",
-      "First": "Hiroaki",
-      "Given": "Natsukawa",
-      "Affiliation": "Kyoto University",
-      "Photo": "yes"
-    },
-    {
       "Role": "Registration Chair",
       "First": "Yuki",
       "Given": "Igarashi",
@@ -628,6 +621,72 @@
       "Photo": "yes"
     }
   ],
+  "Contacts": [
+    {
+      "name": "PacificVis 2022 Papers Co-chairs",
+      "nickname": "papers",
+      "email": "pvis_papers@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Visualizaton Notes Co-chairs",
+      "nickname": "notes",
+      "email": "pvis_notes@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Posters Co-chairs",
+      "nickname": "posters",
+      "email": "pvis_posters@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Contests Co-chairs",
+      "nickname": "contest",
+      "email": "pvis_contest@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "Visualization Meets AI Workshop Co-chairs",
+      "nickname": "vis4ai",
+      "email": "pvis_ai4vis@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": ""
+    },
+    {
+      "name": "For inquiries about submissions",
+      "nickname": "submissions",
+      "email": "pvis_submissions@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Registration Chair",
+      "nickname": "visa",
+      "email": "pvis_visa@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "Publicity",
+      "nickname": "publicity",
+      "email": "",
+      "twitter": "@PacificVis",
+      "facebook": "@PacificVis",
+      "show": "yes"
+    }
+  ],
   "Past Events": [
     {
       "Year": 2021,
@@ -714,92 +773,22 @@
       "URL": "http://www.viz.media.kyoto-u.ac.jp/conf/pvis2008/"
     }
   ],
-  "Contacts": [
-    {
-      "name": "PacificVis 2022 Papers Co-chairs",
-      "nickname": "papers",
-      "email": "pvis_papers@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "PacificVis 2022 Visualizaton Notes Co-chairs",
-      "nickname": "notes",
-      "email": "pvis_notes@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "PacificVis 2022 Posters Co-chairs",
-      "nickname": "posters",
-      "email": "pvis_posters@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "PacificVis 2022 Contests Co-chairs",
-      "nickname": "contest",
-      "email": "pvis_contest@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "Visualization Meets AI Workshop Co-chairs",
-      "nickname": "vis4ai",
-      "email": "pvis_ai4vis@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": ""
-    },
-    {
-      "name": "For inquiries about submissions",
-      "nickname": "submissions",
-      "email": "pvis_submissions@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "PacificVis 2022 Registration Chair",
-      "nickname": "visa",
-      "email": "pvis_visa@pvis.org",
-      "twitter": "",
-      "facebook": "",
-      "show": "yes"
-    },
-    {
-      "name": "Publicity",
-      "nickname": "publicity",
-      "email": "",
-      "twitter": "@PacificVis",
-      "facebook": "@PacificVis",
-      "show": "yes"
-    }
-  ],
   "Navigation": [
     {
-      "Title": "pvis2022",
-      "URL": "index"
+      "title": "pvis2022",
+      "path": "index.md"
     },
     {
-      "Title": "cfp",
-      "URL": "pages/cfp"
+      "title": "contribute",
+      "path": "pages/cfp.md"
     },
     {
-      "Title": "program",
-      "URL": "pages/program"
+      "title": "attend",
+      "path": "pages/venue.md"
     },
     {
-      "Title": "venue",
-      "URL": "pages/venue"
-    },
-    {
-      "Title": "contact",
-      "URL": "pages/contact"
+      "title": "contact",
+      "path": "pages/contact.md"
     }
   ],
   "Important Dates": [
