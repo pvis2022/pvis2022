@@ -29,43 +29,19 @@ University of Tsukuba
 Kobe University
 </div>
 
-# Program Committee
-
-{% assign role = "" %}
-{% for member in data.PC %}
-  {% if member.Role contains "Chairs" %}
-    {% if role != member.Role %}
-      {% assign role = member.Role %}
-<p class="pc-role">{{ member.Role }}</p>
-    {% endif %}
-<div style="display: inline-block; width: 32%; text-align: center;">
-    {% if member.Photo == "yes" %}
-<img src="assets/images/pc/{{ member.First | replace: " ", "_" }}_{{ member.Given }}.jpg"
-     class="circle" width="150" height="150" /><br />
-    {% else %}
-<img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
-    {% endif %}
-<strong>{{ member.First }} {{ member.Given }}</strong><br/>
-{{ member.Affiliation }}
-</div>
-  {% endif %}
-{% endfor %}
-
-
-# Organizing Committee Members
+# Conference Committees
 
 {% assign role = "" %}
 {% for member in data.Organization %}
-  {% if role != member.Role %}
-    {% assign role = member.Role %}
-    {% if role != "General Conference Chair" and role != "Organizing Chair" %}
+  {% if member.Role != "General Conference Chair" and member.Role != "Organizing Chair" %}
+    {% if role != member.Role %}
+      {% assign role = member.Role %}
 <p class="oc-role">{{ member.Role }}</p>
     {% endif %}
-  {% endif %}
-  {% if role != "General Conference Chair" and role != "Organizing Chair" %}
+
 <div style="display: inline-block; width: 32%; text-align: center;">
     {% if member.Photo == "yes" %}
-<img src="assets/images/oc/{{ member.First }}_{{ member.Given }}.jpg"
+<img src="assets/images/oc/{{ member.First | replace: " ", "_" }}_{{ member.Given }}.jpg"
      class="circle" width="150" height="150" /><br />
     {% else %}
 <img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
@@ -73,6 +49,7 @@ Kobe University
 <strong>{{ member.First }} {{ member.Given }}</strong><br/>
 {{ member.Affiliation }}
 </div>
+
   {% endif %}
 {% endfor %}
 

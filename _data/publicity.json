@@ -15,6 +15,90 @@
       "Photo": "yes"
     },
     {
+      "Role": "Papers Chairs",
+      "First": "Nan",
+      "Given": "Cao",
+      "Affiliation": "Tongji University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Timo",
+      "Given": "Ropinski",
+      "Affiliation": "Ulm University, Germany",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Jian",
+      "Given": "Zhao",
+      "Affiliation": "University of Waterloo, Canada",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Steffen",
+      "Given": "Frey",
+      "Affiliation": "University of Groningen, Netherlands",
+      "Photo": ""
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Bum Chul",
+      "Given": "Kwon",
+      "Affiliation": "IBM Research, United States",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Wenwen",
+      "Given": "Dou",
+      "Affiliation": "University of North Carolina at Charlotte, United States",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Siming",
+      "Given": "Chen",
+      "Affiliation": "Fudan University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Hiroaki",
+      "Given": "Natsukawa",
+      "Affiliation": "Kyoto University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Yoon Chung",
+      "Given": "Han",
+      "Affiliation": "San Jose State University, USA",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Nam Wook",
+      "Given": "Kim",
+      "Affiliation": "Boston College, USA",
+      "Photo": ""
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Takanori",
+      "Given": "Fujiwara",
+      "Affiliation": "University of California at Davis",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Junpeng",
+      "Given": "Wang",
+      "Affiliation": "Visa Research",
+      "Photo": "yes"
+    },
+    {
       "Role": "Registration Chair",
       "First": "Yuki",
       "Given": "Igarashi",
