@@ -40,7 +40,7 @@
       "First": "Steffen",
       "Given": "Frey",
       "Affiliation": "University of Groningen, Netherlands",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "VisNotes Chairs",
@@ -82,7 +82,7 @@
       "First": "Nam Wook",
       "Given": "Kim",
       "Affiliation": "Boston College, USA",
-      "Photo": ""
+      "Photo": "yes"
     },
     {
       "Role": "Visualization Meets AI Workshop Chairs",
@@ -181,6 +181,92 @@
       "Given": "Itoh",
       "Affiliation": "Ochanomizu University",
       "Photo": "yes"
+    }
+  ],
+  "Past Events": [
+    {
+      "Year": 2021,
+      "City": "Tianjin",
+      "Dates": "Apr 19 - Apr 21",
+      "URL": "http://vis.tju.edu.cn/pvis2021/"
+    },
+    {
+      "Year": 2020,
+      "City": "Tianjin",
+      "Dates": "Jun 3 - Jun 5",
+      "URL": "http://vis.tju.edu.cn/pvis2021/"
+    },
+    {
+      "Year": 2019,
+      "City": "Bangkok",
+      "Dates": "Apr 23 - Apr 26",
+      "URL": "http://pvis2019.cbs.chula.ac.th/home.aspx"
+    },
+    {
+      "Year": 2018,
+      "City": "Kobe",
+      "Dates": "Apr 10 - Apr 13",
+      "URL": "http://itolab.is.ocha.ac.jp/pvis2018/"
+    },
+    {
+      "Year": 2017,
+      "City": "Seoul",
+      "Dates": "Apr 18 - Apr 21",
+      "URL": "http://pacificvis.snu.ac.kr/"
+    },
+    {
+      "Year": 2016,
+      "City": "Taipei",
+      "Dates": "Apr 19 - Apr 22",
+      "URL": "http://graphics.csie.ntust.edu.tw/graphics/Vis_2016/index.html"
+    },
+    {
+      "Year": 2015,
+      "City": "Hangzhou",
+      "Dates": "Apr 14 - Apr 17",
+      "URL": "http://www.cad.zju.edu.cn/home/pvis2015/"
+    },
+    {
+      "Year": 2014,
+      "City": "Yokohama",
+      "Dates": "Mar 04 - Mar 07",
+      "URL": "https://fj.ics.keio.ac.jp/pvis2014/index.html"
+    },
+    {
+      "Year": 2013,
+      "City": "Sydney",
+      "Dates": "Feb 26 - Mar 01",
+      "URL": "http://sydney.edu.au/engineering/it/groups/visual/pvis2013/welcome/index.php"
+    },
+    {
+      "Year": 2012,
+      "City": "Songdo",
+      "Dates": "Feb 28 - Mar 02",
+      "URL": "http://hcil.snu.ac.kr/PacificVis2012"
+    },
+    {
+      "Year": 2011,
+      "City": "Hong Kong",
+      "Dates": "Mar 01 - Mar 04",
+      "URL": "http://i.cs.hku.hk/~pvis2011/"
+    },
+    {
+      "Year": 2010,
+      "City": "Taipei",
+      "Dates": "Mar 02 - Mar 05",
+      "URL": "http://graphics.csie.ntu.edu.tw/pvis2010/"
+    },
+    {
+      "Year": 2009,
+      "City": "Beijing",
+      "Dates": "Apr 20 - Apr 23",
+      "URL": "http://vis.pku.edu.cn/pvs2009/"
+    },
+    {
+      "Year": 2008,
+      "City": "Kyoto",
+      "Dates": "Mar 04 - Mar 07",
+      "URL": "http://www.viz.media.kyoto-u.ac.jp/conf/pvis2008/"
     }
   ],
   "PC": [
@@ -777,92 +863,6 @@
       "twitter": "@PacificVis",
       "facebook": "@PacificVis",
       "show": "yes"
-    }
-  ],
-  "Past Events": [
-    {
-      "Year": 2021,
-      "City": "Tianjin",
-      "Dates": "Apr 19 - Apr 21",
-      "URL": "http://vis.tju.edu.cn/pvis2021/"
-    },
-    {
-      "Year": 2020,
-      "City": "Tianjin",
-      "Dates": "Jun 3 - Jun 5",
-      "URL": "http://vis.tju.edu.cn/pvis2021/"
-    },
-    {
-      "Year": 2019,
-      "City": "Bangkok",
-      "Dates": "Apr 23 - Apr 26",
-      "URL": "http://pvis2019.cbs.chula.ac.th/home.aspx"
-    },
-    {
-      "Year": 2018,
-      "City": "Kobe",
-      "Dates": "Apr 10 - Apr 13",
-      "URL": "http://itolab.is.ocha.ac.jp/pvis2018/"
-    },
-    {
-      "Year": 2017,
-      "City": "Seoul",
-      "Dates": "Apr 18 - Apr 21",
-      "URL": "http://pacificvis.snu.ac.kr/"
-    },
-    {
-      "Year": 2016,
-      "City": "Taipei",
-      "Dates": "Apr 19 - Apr 22",
-      "URL": "http://graphics.csie.ntust.edu.tw/graphics/Vis_2016/index.html"
-    },
-    {
-      "Year": 2015,
-      "City": "Hangzhou",
-      "Dates": "Apr 14 - Apr 17",
-      "URL": "http://www.cad.zju.edu.cn/home/pvis2015/"
-    },
-    {
-      "Year": 2014,
-      "City": "Yokohama",
-      "Dates": "Mar 04 - Mar 07",
-      "URL": "http://www.fj.ics.keio.ac.jp/pvis2014/guideline_v.html"
-    },
-    {
-      "Year": 2013,
-      "City": "Sydney",
-      "Dates": "Feb 26 - Mar 01",
-      "URL": "http://sydney.edu.au/engineering/it/groups/visual/pvis2013/welcome/index.php"
-    },
-    {
-      "Year": 2012,
-      "City": "Songdo",
-      "Dates": "Feb 28 - Mar 02",
-      "URL": "http://hcil.snu.ac.kr/PacificVis2012"
-    },
-    {
-      "Year": 2011,
-      "City": "Hong Kong",
-      "Dates": "Mar 01 - Mar 04",
-      "URL": "http://i.cs.hku.hk/~pvis2011/"
-    },
-    {
-      "Year": 2010,
-      "City": "Taipei",
-      "Dates": "Mar 02 - Mar 05",
-      "URL": "http://graphics.csie.ntu.edu.tw/pvis2010/"
-    },
-    {
-      "Year": 2009,
-      "City": "Beijing",
-      "Dates": "Apr 20 - Apr 23",
-      "URL": "http://vis.pku.edu.cn/pvs2009/"
-    },
-    {
-      "Year": 2008,
-      "City": "Kyoto",
-      "Dates": "Mar 04 - Mar 07",
-      "URL": "http://www.viz.media.kyoto-u.ac.jp/conf/pvis2008/"
     }
   ],
   "Navigation": [
