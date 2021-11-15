@@ -57,7 +57,19 @@ Kobe University
 
 # Sponsors
 
----
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr bordercolor="red">
+        <td width="250">
+           <img src="assets/images/sponser/IEEE-logo.jpg">
+        </td>
+        <td width="250">
+           <img src="assets/images/sponser/IEEE-CS_LogoTM-black.eps">
+        </td>    
+        <td height="250">
+           <img src="assets/images/sponser/vgtclogo-128_128.gif">
+        </td>    
+    </tr>
+</table>
 
 # Academic Sponsors
 
