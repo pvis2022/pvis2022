@@ -63,10 +63,10 @@ Kobe University
            <img src="assets/images/sponser/IEEE-logo.jpg">
         </td>
         <td width="250">
-           <img src="assets/images/sponser/IEEE-CS_LogoTM-black.eps">
+           <img src="assets/images/sponser/IEEE-CS_LogoTM-black.jpg">
         </td>    
         <td height="250">
-           <img src="assets/images/sponser/vgtclogo-128_128.gif">
+           <img src="assets/images/sponser/vgtclogo-128_128.jpg">
         </td>    
     </tr>
 </table>
