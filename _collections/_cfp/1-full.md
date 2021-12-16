@@ -27,7 +27,7 @@ All submitted papers will go through a two-stage review process to guarantee the
 | Abstract due            | Oct. 15, 2021  |
 | Full paper due          | Oct. 22,  2021 |
 | 1st cycle notification  | Dec. 17,  2021 |
-| Revision due            | Jan. 14, 2021  |
+| Revision due            | Jan. 14, 2022  |
 | 2nd cycle notification  | Feb. 11, 2022  |
 | Camera ready paper due  | Feb. 18, 2022  |
 -->
