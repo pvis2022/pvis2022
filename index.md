@@ -5,7 +5,7 @@ title: 'PacificVis 2022'
 
 {% assign data = site.data.publicity %}
 
-Welcome to the 15th IEEE Pacific Visualization Symposium!  PacificVis 2022 <!-- will --> is planned to be held during April 11, 2022 through April 14, 2022 at Tsukuba Center for Institutes, Japan.  We are preparing for a hybrid format, but depending on the situation of COVID-19, we may move to full-online.
+The 15th IEEE Pacific Visualization Symposium will be held from April 11, 2022, through April 14. PacificVis 2022 was planned as a regular conference, then in a hybrid form. The current developments of the global and domestic health crisis made it increasingly unlikely that the physical meeting could take place. PacificVis 2022 moves to a full-online conference. We will welcome the visualization community with excitement and hospitality in a virtual format.
 
 Visualization has become an increasingly important research area due to its wide range of applications in many disciplines. PacificVis is an IEEE sponsored international visualization symposium held in the Asia-Pacific region, with the objective to foster greater exchange between visualization researchers and practitioners, and to draw more researchers in the Asia-Pacific region to enter this rapidly growing area of research.
 
