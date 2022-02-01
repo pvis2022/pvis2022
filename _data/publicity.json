@@ -719,7 +719,7 @@
       "Photo": ""
     },
     {
-      "Role": "",
+      "Role": "Papers PC members",
       "First": "Zichun",
       "Given": "Zhong",
       "Affiliation": "Wayne State University",
@@ -781,6 +781,62 @@
       "Affiliation": "Boston College, USA",
       "Email": "nam.wook.kim@bc.edu",
       "Photo": "yes"
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Oh-Hyun",
+      "Given": "Kwon",
+      "Affiliation": "Apple",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Fritz",
+      "Given": "Lekschas",
+      "Affiliation": "Harvard University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Charles",
+      "Given": "Perin",
+      "Affiliation": "University of Victoria",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Donghao",
+      "Given": "Ren",
+      "Affiliation": "University of California, Santa Barbara",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Hyemi",
+      "Given": "Song",
+      "Affiliation": "University of Maryland",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Alice",
+      "Given": "Thudt",
+      "Affiliation": "University of Calgary",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Krist",
+      "Given": "Wongsuphasawat",
+      "Affiliation": "Airbnb",
+      "Email": "",
+      "Photo": ""
     },
     {
       "Role": "Visualization Meets AI Workshop Chairs",

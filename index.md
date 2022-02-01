@@ -59,18 +59,20 @@ Kobe University
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
     <tr bordercolor="red">
-        <td width="250">
+        <td width="33%">
            <img src="assets/images/sponser/IEEE-logo.jpg">
         </td>
-        <td width="250">
+        <td width="33%">
            <img src="assets/images/sponser/IEEE-CS_LogoTM-black.jpg">
         </td>    
-        <td height="250">
+        <td height="33%">
            <img src="assets/images/sponser/vgtclogo-128_128.jpg">
         </td>    
     </tr>
 </table>
 
 # Academic Sponsors
+
+<p><img src="assets/images/tsukuba/tsukuba-cropped.png"></p>
 
 ---

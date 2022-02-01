@@ -39,4 +39,4 @@ Submissions should be made electronically in the Adobe PDF format by the deadlin
 
 # Contact
 
-Email: `pvis2022_posters@priv.org`
+Email: `pvis_posters@pvis.org`
