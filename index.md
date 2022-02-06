@@ -31,6 +31,11 @@ Kobe University
 </div>
 -->
 
+# Keynotes
+
+- Wei Chen, "[Enhancing the Visual Thinking System: Integrated Innovation of Multiple Thinking Styles]({{ site.baseurl }}/program/keynotes/#weichen)"
+
+
 # Conference Committees
 
 {% assign role = "" %}

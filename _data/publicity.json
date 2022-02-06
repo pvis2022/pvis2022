@@ -935,6 +935,10 @@
       "path": "pages/venue.md"
     },
     {
+      "title": "program",
+      "path": "pages/program.md"
+    },
+    {
       "title": "contact",
       "path": "pages/contact.md"
     }
