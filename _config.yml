@@ -92,6 +92,7 @@ defaults:
 exclude:
   - bin/
   - etc/
+  - pvis2022
   - Readme.md
   - theme/
   - work/
