@@ -13,6 +13,8 @@ An interactive poster session will be held to allow plenty of opportunities for 
 
 # Important Dates
 
+*Deadlines was updated on February 10, 2022.*
+
 {% assign dates = data['Important Dates'] %}
 
 |                         | Dates          |

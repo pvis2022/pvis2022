@@ -6,6 +6,8 @@ collection: cfp
 permalink: '/cfp/'
 ---
 
+- Poster deadline is extended: [CFP - Poster](/pvis2022/cfp/posters) (February 10, 2022)
+
 - [CFP - Poster](/pvis2022/cfp/posters) is out! (October 25, 2021)
 
 - [CFP - Visual Data Storytelling Contest](/pvis2022/cfp/story) is out! (October 20, 2021)
