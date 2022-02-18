@@ -72,7 +72,12 @@ Kobe University
         </td>    
         <td height="33%">
            <img src="assets/images/sponser/vgtclogo-128_128.jpg">
-        </td>    
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <img src="assets/images/sponser/cybernet.jpg">
+        </td>
     </tr>
 </table>
 
