@@ -75,18 +75,23 @@ h1 {
   background: white;
 }
 
+
 // Talks
 
-.paper-title {
+span.paper-title {
   color: #22a;
 }
 
-.paper-type {
+span.paper-type {
   color: #008;
+  background-color: #8e8;
   font-weight: bold;
-  background-color: gold;
   border-radius: .5em;
   padding: .3em .5em .3em .5em;
+}
+
+span.paper-type-tvcg {
+  background-color: gold;
 }
 
 .paper-author {

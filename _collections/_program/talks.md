@@ -13,7 +13,8 @@ permalink: '/program/talks/'
 
 {% for paper in talks["Full Papers"] %}
 - <span class="paper-title">{{ paper["Title"] }}</span>
-  <span class="paper-type">{{ paper["type"] }}</span>
+  {% if paper["type"] == "TVCG" %}<span class="paper-type paper-type-tvcg">tvcg</span> {% endif -%}
+  <span class="paper-type">paper</span>
   <br/>
     {% for author in paper["authors"] -%}
     <span class="paper-author">{{ author }}</span><br/>
@@ -24,7 +25,7 @@ permalink: '/program/talks/'
 
 {% for paper in talks["Visualization Notes"] %}
 - <span class="paper-title">{{ paper["Title"] }}</span>
-  (<span class="paper-type">{{ paper["type"] }}</span>)
+  <span class="paper-type">note</span>
   <br/>
     {% for author in paper["authors"] -%}
     <span class="paper-author">{{ author }}</span><br/>
