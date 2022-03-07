@@ -13,8 +13,8 @@ permalink: '/program/accepted/'
 
 {% for paper in accepted["Full Papers"] %}
 - <span class="paper-title">{{ paper["Title"] }}</span>
-  {%- comment %} {% if paper["type"] == "TVCG" %}<span class="paper-type paper-type-tvcg">tvcg</span> {% endif -%} {% endcomment %}
-  <span class="paper-type">paper</span>
+  {% if paper["type"] == "PPaper" %}<span class="paper-type paper-type-premium">paper</span>
+  {%- elsif paper["type"] == "Paper" %} <span class="paper-type">paper</span> {% endif -%}
   <br/>
     {% for author in paper["authors"] -%}
     <span class="paper-author">{{ author }}</span><br/>
