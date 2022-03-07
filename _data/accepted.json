@@ -8,7 +8,7 @@
       ],
       "Paper ID": 1158,
       "Title": "Image-based Visualization of Large Volumetric Data Using Moments",
-      "type": "TVCG",
+      "type": "PPaper",
       "Abstract": "We present a novel image-based representation to interactively visualize large and arbitrarily structured volumetric data. This image-based representation is created from a fixed view and models the scalar densities along each viewing ray. Then, any transfer\nfunction can be applied and changed interactively to visualize the data. In detail, we transform the density in each pixel to the Fourier basis and store Fourier coefficients of a bounded signal, i.e. bounded trigonometric moments. To keep this image-based representation compact, we adaptively determine the number of moments in each pixel and present a novel coding and quantization strategy. Additionally, we perform spatial and temporal interpolation of our image representation and discuss the visualization of introduced uncertainties. Moreover, we use our representation to add single scattering illumination. Lastly, we achieve accurate results even with changes in the view configuration. We evaluate our approach on two large volume datasets and a time-dependent SPH dataset.",
       "show_abstract": false
     },
@@ -62,7 +62,7 @@
       ],
       "Paper ID": 5060,
       "Title": "AMM: Adaptive Multilinear Meshes",
-      "type": "TVCG",
+      "type": "PPaper",
       "Abstract": "Adaptive representations are increasingly indispensable for reducing the in-memory and on-disk footprints of large-scale data. Usual solutions are designed broadly along two themes: reducing data precision, e.g., through compression, or adapting data resolution, e.g., using spatial hierarchies. Recent research suggests that combining the two approaches, i.e., adapting both resolution and precision simultaneously, can offer significant gains over using them individually. However, there currently exist no practical solutions to creating and evaluating such representations at scale. In this work, we present a new resolution-precision-adaptive representation to support hybrid data reduction schemes and offer an interface to existing tools and algorithms. Through novelties in spatial hierarchy, our representation, Adaptive Multilinear Meshes (AMM), provides considerable reduction in the mesh size. AMM creates a piecewise multilinear representation of uniformly sampled scalar data and can selectively relax or enforce constraints on conformity, continuity, and coverage, delivering a flexible adaptive representation. AMM also supports representing the function using mixed-precision values to further the achievable gains in data reduction. We describe a practical approach to creating AMM incrementally using arbitrary orderings of data and demonstrate AMM on six types of resolution and precision datastreams. By interfacing with state-of-the-art rendering tools through VTK, we demonstrate the practical and computational advantages of our representation for visualization techniques. With an open-source release of our tool to create AMM, we make such evaluation of data reduction accessible to the community, which we hope will foster new opportunities and future data reduction schemes",
       "show_abstract": false
     },
@@ -78,7 +78,7 @@
       ],
       "Paper ID": 5304,
       "Title": "GNN-Surrogate: A Hierarchical and Adaptive Graph Neural Network for Parameter Space Exploration of Unstructured-Mesh Ocean Simulations",
-      "type": "TVCG",
+      "type": "PPaper",
       "Abstract": "We propose GNN-Surrogate, a graph neural network-based surrogate model to explore the parameter space of ocean climate simulations. Parameter space exploration is important for domain scientists to understand the influence of input parameters (e.g., wind stress) on the simulation output (e.g., temperature). The exploration requires scientists to exhaust the complicated parameter space by running a batch of computationally expensive simulations. Our approach improves the efficiency of parameter space exploration with a surrogate model that predicts the simulation outputs accurately and efficiently. Specifically, GNN-Surrogate predicts the output field with given simulation parameters so scientists can explore the simulation parameter space with visualizations from user-specified visual mappings. Moreover, our graph-based techniques are designed for unstructured meshes, making the exploration of simulation outputs on irregular grids efficient. For efficient training, we generate hierarchical graphs and use adaptive resolutions. We give quantitative and qualitative evaluations on the MPAS-Ocean simulation to demonstrate the effectiveness and efficiency of GNN-Surrogate. Source code is publicly available at \\url{https://github.com/trainsn/GNN-Surrogate}.",
       "show_abstract": false
     },
@@ -136,7 +136,7 @@
       ],
       "Paper ID": 6250,
       "Title": "A Visual Analytics Approach for Hardware System Monitoring with Streaming Functional Data Analysis",
-      "type": "TVCG",
+      "type": "PPaper",
       "Abstract": "Many real-world applications involve analyzing time-dependent phenomena, which are intrinsically functional, consisting of curves varying over a continuum (e.g., time). When analyzing continuous data, functional data analysis (FDA) provides substantial\nbenefits, such as the ability to study the derivatives and to restrict the ordering of data. However, continuous data inherently has infinite dimensions, and for a long time series, FDA methods often suffer from high computational costs. The analysis problem becomes even more challenging when we must update the FDA results for continuously arriving data. In this paper, we present a visual analytics approach for monitoring and reviewing time series data streamed from a hardware system with a focus on identifying outliers by using FDA. To perform FDA while addressing the computational problem, we introduce new incremental and progressive algorithms that promptly generate the magnitude-shape (MS) plot, which conveys both the functional magnitude and shape outlyingness of time series data. In addition, by using an MS plot in conjunction with an FDA version of principal component analysis, we enhance the analyst\u2019s ability to investigate the visually-identified outliers. We illustrate the effectiveness of our approach with two use scenarios using real-world datasets. The resulting tool is evaluated by industry experts using real-world streaming datasets.",
       "show_abstract": false
     },
@@ -268,7 +268,7 @@
       ],
       "Paper ID": 8907,
       "Title": "VAC-CNN: A Visual Analytics System for Comparative Studies of Deep Convolutional Neural Networks",
-      "type": "TVCG",
+      "type": "PPaper",
       "Abstract": "The rapid development of Convolutional Neural Networks (CNNs) in recent years has triggered significant breakthroughs in many machine learning (ML) applications. The ability to understand and compare various CNN models available is thus essential. The conventional approach with visualizing each model's quantitative features, such as classification accuracy and computational complexity, is not sufficient for a deeper understanding and comparison of the behaviors of different models. Moreover, most of the existing tools for assessing CNN behaviors only support comparison between two models and lack the flexibility of customizing the analysis tasks according to user needs. This paper presents a visual analytics system, VAC-CNN (Visual Analytics for Comparing CNNs), that supports the in-depth inspection of a single CNN model as well as comparative studies of two or more models. The ability to compare a larger number of (e.g., tens of) models especially distinguishes our system from previous ones. With a carefully designed model visualization and explaining support, VAC-CNN facilitates a highly interactive workflow that promptly presents both quantitative and qualitative information at each analysis stage. We demonstrate VAC-CNN's effectiveness for assisting novice ML practitioners in evaluating and comparing multiple CNN models through two use cases and one preliminary evaluation study using the image classification tasks on the ImageNet dataset.",
       "show_abstract": false
     },
