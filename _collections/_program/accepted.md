@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'List of Papers / Notes / Posters'
-permalink: '/program/talks/'
+title: 'Accepted Papers / Notes / Posters'
+permalink: '/program/accepted/'
 ---
 
 <script src="https://unpkg.com/vue@3"></script>
@@ -13,7 +13,7 @@ permalink: '/program/talks/'
 
 {% for paper in talks["Full Papers"] %}
 - <span class="paper-title">{{ paper["Title"] }}</span>
-  {% if paper["type"] == "TVCG" %}<span class="paper-type paper-type-tvcg">tvcg</span> {% endif -%}
+  {%- comment %} {% if paper["type"] == "TVCG" %}<span class="paper-type paper-type-tvcg">tvcg</span> {% endif -%} {% endcomment %}
   <span class="paper-type">paper</span>
   <br/>
     {% for author in paper["authors"] -%}
