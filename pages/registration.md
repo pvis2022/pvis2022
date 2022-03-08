@@ -5,7 +5,7 @@ permalink: '/registration/'
 
 [Registration starts soon on Peatix](https://some.where/some.place/) momentarily.
 
-We were looking forward to welcoming the participants to Tsukuba City, Japan, but the new coronavirus infection COVID-19 is still preventing our physical travel and interaction. For this reason, we, the PacificVis 2022 Organizing Committee, have decided to hold the symposium fully online. We will use Discord, Zoom, YouTube, and Gather.town as our symposium platforms. We encourage you to register on Discord as soon as possible, as we will be announcing information on Discord that will be available only to participants.
+We were looking forward to welcoming the participants to Tsukuba City, Japan, but COVID-19 is still preventing our physical travel and interaction. For this reason, we, the PacificVis 2022 Organizing Committee, have decided to hold the symposium fully online. We will use Discord, Zoom, YouTube, and Gather.town as our symposium platforms. We encourage you to register on Discord as soon as possible, as we will be announcing information on Discord that will be available only to participants.
 
 We will stream pre-recorded videos for paper presentations, but will do live QA to make the symposium a forum for meaningful discussion. We also use Gather.town for the Poster session and a virtual banquet to stimulate informal communication. Videos of the keynote talks will be available a few days before the event. Please watch the videos and post your questions on Discord in advance. Short talks and QA by the speakers will be live.
 
