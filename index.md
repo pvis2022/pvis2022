@@ -33,7 +33,7 @@ Kobe University
 
 # Keynotes
 
-- Wei Chen, "[Enhancing the Visual Thinking System: Integrated Innovation of Multiple Thinking Styles]({{ site.baseurl }}/program/keynotes/#weichen)"
+- Wei Chen, "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
 
 # Conference Committees
