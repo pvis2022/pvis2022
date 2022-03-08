@@ -13,15 +13,15 @@ We will stream pre-recorded videos for paper presentations, but will do live QA 
 
 <span class="notice">At least one author of a full paper/a Visualization Notes paper/a workshop paper</span> will be required to register for the conference at a reduced rate. The registration fees can also be considered as the necessary support for the financial health of the conference series.
 
-| Types of participation                                                   | Fee |
-| ------------------------------------------------------------------------ | --- |
-| Full paper / Notes authors: Members/Students                             | $300 |
-| Full paper / Notes authors: Non-members                                  | $360 |
-| Workshop / Posters / Storytelling / TVCG paper authors: Members/Students | $100 |
-| Workshop / Posters / Storytelling / TVCG paper authors: Non-members      | $100 | 
-| Attendees: Members                                                       |  $25 |
-| Attendees: Non-members                                                   |  $30 |
-| Attendees: Students                                                      |  $15 |
+| Types of participation                                                   |        Fee |
+| ------------------------------------------------------------------------ | ---------: |
+| Full paper / Notes authors: Members/Students                             | 35,000 JPY |
+| Full paper / Notes authors: Non-members                                  | 42,000 JPY |
+| Workshop / Posters / Storytelling / TVCG paper authors: Members/Students | 12,000 JPY |
+| Workshop / Posters / Storytelling / TVCG paper authors: Non-members      | 14,500 JPY | 
+| Attendees: Members                                                       |  3,000 JPY |
+| Attendees: Non-members                                                   |  3,600 JPY |
+| Attendees: Students                                                      |  1,800 JPY |
 
 <!--
 # Venue Information
