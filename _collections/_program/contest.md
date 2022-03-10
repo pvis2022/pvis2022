@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '2022 IEEE Pacific Visual Data Storytelling Contest Shortlist'
+title: 'Visual Data Storytelling Contest Shortlist'
 permalink: '/program/contest/'
 ---
 
