@@ -1,6 +1,6 @@
 {% assign tech_session = site.data.sessions[session_id] %}
 
-## Session {{session_id | plus: 1}}: {{tech_session["session"]}}
+## Session {{session_id | plus: 1}}: {{tech_session["session"]}} {#session{{session_id | plus: 1}}}
 
 Chair: {{tech_session["chair"]}}
 
