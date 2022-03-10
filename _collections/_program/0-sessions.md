@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Technical Program - PacificVis'
+title: 'Program'
 permalink: '/program/sessions/'
 collection: program
 ---
