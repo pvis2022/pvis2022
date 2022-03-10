@@ -400,31 +400,72 @@
       "show_abstract": false
     },
     "1016": {
-      "authors": [],
+      "authors": [
+        "Shiman Zhang (Tongji University)",
+        "Haotian Wu (Zhejiang University)",
+        "YuXuan Li (Tongji University)",
+        "Yancheng Cao (Tongji University)",
+        "Yang Shi (Tongji University)",
+        "Siming Chen (Fudan University)",
+        "Nan Cao (Tongji College of Design and Innovation)"
+      ],
       "Paper ID": 1016,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Understanding Cultural Communication through the Visual Portraits of Youtube Channels]",
+      "Title": "Understanding Cultural Communication through the Visual Portraits of Youtube Channels",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1016-cam-i6.pdf?temp_url_sig=ca66181ff0e8307a0f0fe37106c333da69a9e76d&temp_url_expires=1646879100",
+      "Abstract pages": 1,
+      "Abstract paper size": "letter",
+      "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
       "show_abstract": false
     },
     "1019": {
-      "authors": [],
+      "authors": [
+        "Linqi Wang (Hunan University)",
+        "Fengzhou Liang (Sun Yat-sen University)",
+        "ning bin (Hunan University)",
+        "Junyan Lv (Hunan University)",
+        "Fang Liu (Hunan University)"
+      ],
       "Paper ID": 1019,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan]",
+      "Title": "Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1019-cam-i6.pdf?temp_url_sig=521aee89ead106b7fd9341e6ab31abbc35d53cf0&temp_url_expires=1646879100",
+      "Abstract pages": 2,
+      "Abstract paper size": "letter",
+      "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
       "show_abstract": false
     },
     "1021": {
-      "authors": [],
+      "authors": [
+        "William Harvey (Polytechnique Montreal)",
+        "Claudia Onorato (Polytechnique Montreal)",
+        "Thomas Hurtut (Polytechnique Montreal)"
+      ],
       "Paper ID": 1021,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Polydodo: a Tool for Personal Sleep Stage Analysis and Narrative Visualization]",
+      "Title": "Polydodo: a Tool for Personal Sleep Stage Analysis and Narrative Visualization",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1021-cam-i6.pdf?temp_url_sig=fa477f868ed4b310b34b09dda38f68de0834c0a2&temp_url_expires=1646879100",
+      "Abstract pages": 1,
+      "Abstract paper size": "letter",
+      "Abstract.1": "The submitted story is part of an open source project called Polydodo. This project proposes a user-friendly tool and interface to classify sleep stages. The user can upload sleep records, and then visualize them through a data story-telling format. The story and visualizations adapt to the user's data. For the sake of submission to PacificVis, we show the \"preview\" mode, using already loaded data. EEG data is analyzed by a Random forest classifier followed by a Hidden Markov Model post-processing. The design process of this project started as a team project during the 2020 winter semester of \"Data Visualization Design\" course at Polytechnique Montreal. It followed a classical iterative user-centred design process, targeting non expert user regarding sleep cycles data, therefore also the choice of using a story-telling based format to communicate them. The fact that the user can upload personal sleep data also reinforces the user engagement.",
       "show_abstract": false
     },
     "1024": {
-      "authors": [],
+      "authors": [
+        "Juanjuan Long (Jiangnan University)",
+        "Wei Zhou (Jiangnan University)",
+        "YongJie Xing (Jiangnan University)",
+        "yang kang (Jiangnan University)",
+        "Siyuan He (Cognizant)",
+        "Yimin Mao (Cognizant)"
+      ],
       "Paper ID": 1024,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: The Story of Slow Train in China]",
+      "Title": "The Story of Slow Train in China",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1024-cam-i6.pdf?temp_url_sig=15a16be1f7175436544e8858b5730b576eb2467c&temp_url_expires=1646879100",
+      "Abstract pages": 8,
+      "Abstract paper size": "A4",
+      "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
       "show_abstract": false
     }
   },
@@ -822,31 +863,72 @@
   ],
   "Visual Data Storytelling Contest": [
     {
-      "authors": [],
+      "authors": [
+        "Shiman Zhang (Tongji University)",
+        "Haotian Wu (Zhejiang University)",
+        "YuXuan Li (Tongji University)",
+        "Yancheng Cao (Tongji University)",
+        "Yang Shi (Tongji University)",
+        "Siming Chen (Fudan University)",
+        "Nan Cao (Tongji College of Design and Innovation)"
+      ],
       "Paper ID": 1016,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Understanding Cultural Communication through the Visual Portraits of Youtube Channels]",
+      "Title": "Understanding Cultural Communication through the Visual Portraits of Youtube Channels",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1016-cam-i6.pdf?temp_url_sig=ca66181ff0e8307a0f0fe37106c333da69a9e76d&temp_url_expires=1646879100",
+      "Abstract pages": 1,
+      "Abstract paper size": "letter",
+      "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
       "show_abstract": false
     },
     {
-      "authors": [],
+      "authors": [
+        "Linqi Wang (Hunan University)",
+        "Fengzhou Liang (Sun Yat-sen University)",
+        "ning bin (Hunan University)",
+        "Junyan Lv (Hunan University)",
+        "Fang Liu (Hunan University)"
+      ],
       "Paper ID": 1019,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan]",
+      "Title": "Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1019-cam-i6.pdf?temp_url_sig=521aee89ead106b7fd9341e6ab31abbc35d53cf0&temp_url_expires=1646879100",
+      "Abstract pages": 2,
+      "Abstract paper size": "letter",
+      "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
       "show_abstract": false
     },
     {
-      "authors": [],
+      "authors": [
+        "William Harvey (Polytechnique Montreal)",
+        "Claudia Onorato (Polytechnique Montreal)",
+        "Thomas Hurtut (Polytechnique Montreal)"
+      ],
       "Paper ID": 1021,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Polydodo: a Tool for Personal Sleep Stage Analysis and Narrative Visualization]",
+      "Title": "Polydodo: a Tool for Personal Sleep Stage Analysis and Narrative Visualization",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1021-cam-i6.pdf?temp_url_sig=fa477f868ed4b310b34b09dda38f68de0834c0a2&temp_url_expires=1646879100",
+      "Abstract pages": 1,
+      "Abstract paper size": "letter",
+      "Abstract.1": "The submitted story is part of an open source project called Polydodo. This project proposes a user-friendly tool and interface to classify sleep stages. The user can upload sleep records, and then visualize them through a data story-telling format. The story and visualizations adapt to the user's data. For the sake of submission to PacificVis, we show the \"preview\" mode, using already loaded data. EEG data is analyzed by a Random forest classifier followed by a Hidden Markov Model post-processing. The design process of this project started as a team project during the 2020 winter semester of \"Data Visualization Design\" course at Polytechnique Montreal. It followed a classical iterative user-centred design process, targeting non expert user regarding sleep cycles data, therefore also the choice of using a story-telling based format to communicate them. The fact that the user can upload personal sleep data also reinforces the user engagement.",
       "show_abstract": false
     },
     {
-      "authors": [],
+      "authors": [
+        "Juanjuan Long (Jiangnan University)",
+        "Wei Zhou (Jiangnan University)",
+        "YongJie Xing (Jiangnan University)",
+        "yang kang (Jiangnan University)",
+        "Siyuan He (Cognizant)",
+        "Yimin Mao (Cognizant)"
+      ],
       "Paper ID": 1024,
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: The Story of Slow Train in China]",
+      "Title": "The Story of Slow Train in China",
       "type": "Storytelling",
+      "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1024-cam-i6.pdf?temp_url_sig=15a16be1f7175436544e8858b5730b576eb2467c&temp_url_expires=1646879100",
+      "Abstract pages": 8,
+      "Abstract paper size": "A4",
+      "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
       "show_abstract": false
     }
   ]
