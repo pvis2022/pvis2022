@@ -5,6 +5,10 @@ permalink: '/program/sessions/'
 collection: program
 ---
 
+(TBA)
+
+<!--
+
 (Tentative Program)
 
 <span class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9).</span>
@@ -83,3 +87,4 @@ Virtual banquet will take place on a Gather.Town room.
 {% include tech_session.md %}
 
 # 12:30-13:00 Closing {#closing}
+-->
