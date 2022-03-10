@@ -7,7 +7,7 @@ collection: program
 
 (TBA)
 
-<!--
+{% comment %}
 
 (Tentative Program)
 
@@ -88,4 +88,5 @@ Virtual banquet will take place on a Gather.Town room.
 {% include tech_session.md %}
 
 # 12:30-13:00 Closing {#closing}
--->
+
+{% endcomment %}
