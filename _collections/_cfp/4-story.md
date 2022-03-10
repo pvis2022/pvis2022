@@ -118,7 +118,7 @@ A jury of visualization and data storytelling experts will carefully judge each 
 
 Accepted submission will be published on the PacificVis Storytelling Contest channel on Vimeo. A selected set of accepted entries will receive awards (Honorable Mention and Best Storytelling  Awards). Awards will be presented to the winners during the conference.
 
-## Jury
+## Jury {#jury}
 
 {% assign jury = data.PC | where: "Role", "Storytelling Jury" %}
 
