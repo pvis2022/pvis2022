@@ -7,7 +7,10 @@ collection: program
 
 (TBA)
 
-{% comment %}
+{% assign host = site.url | split: "://" %}
+{% assign host = host[1] | split: ":" %}
+
+{% if host[0] == "localhost" %}
 
 (Tentative Program)
 
@@ -89,4 +92,4 @@ Virtual banquet will take place on a Gather.Town room.
 
 # 12:30-13:00 Closing {#closing}
 
-{% endcomment %}
+{% endif %}
