@@ -7,7 +7,9 @@ collection: program
 
 <!-- Format: pre-recorded video and live QA -->
 
-# Keynote 1: [Professor Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) (Colleage of Computer Science, Zhejiang University) {#weichen}
+# Keynote 1: (TBA)
+
+# Keynote 2: [Professor Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) (Colleage of Computer Science, Zhejiang University) {#weichen}
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/keynotes/WeiChen.png" width="500" height="500" />
 
