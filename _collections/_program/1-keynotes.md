@@ -7,7 +7,9 @@ collection: program
 
 <!-- Format: pre-recorded video and live QA -->
 
-# Keynote 1: (TBA)
+# Keynote 1: Professor Daniel Weiskopf (University of Stuttgart) {#danielweiskopf}
+
+(TBA)
 
 # Keynote 2: [Professor Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) (Colleage of Computer Science, Zhejiang University) {#weichen}
 

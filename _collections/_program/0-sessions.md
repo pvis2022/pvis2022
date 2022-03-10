@@ -35,6 +35,7 @@ collection: program
 
 ## 15:00-15:30 Keynote 1 Q/A session {#keynote1}
 
+Daniel Weiskopf on "[(TBA)]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
 
 {% assign accepted = site.data.accepted %}
 {% assign index = accepted.index %}
