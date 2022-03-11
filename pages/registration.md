@@ -3,9 +3,8 @@ title: 'Registration'
 permalink: '/registration/'
 ---
 
-{% include hide.md %}
+{% comment %} {% include hide.md %} {% endcomment %}
 
-{% if hide %} {% else %}
 [Registration starts soon on Peatix](https://pacificvis2022.peatix.com/) momentarily.
 
 We were looking forward to welcoming the participants to Tsukuba City, Japan, but COVID-19 is still preventing our physical travel and interaction. For this reason, we, the PacificVis 2022 Organizing Committee, have decided to hold the symposium fully online. We will use Discord, Zoom, YouTube, and Gather.town as our symposium platforms. We encourage you to register on Discord as soon as possible, as we will be announcing information on Discord that will be available only to participants.
@@ -25,9 +24,9 @@ We will stream pre-recorded videos for paper presentations, but will do live QA 
 | Attendees: Members                                                       |  3,000 JPY |
 | Attendees: Non-members                                                   |  3,600 JPY |
 | Attendees: Students                                                      |  1,800 JPY |
-{% endif %}
 
-<!--
+
+{% comment %}
 # Venue Information
 
 The Tsukuba Center for Institutes was established in 1978 as a facility for common uses in the heart of Tsukuba Science City. Its purpose is to provide place where researchers and other personnel meet together and exchange information and opinions, and to provide information on science and technology from all over the world to researchers in the city, thus promoting research exchange and enabling the best use of the opportunities offered by the concentration of research institutes and universities at Tsukuba. The facilities of the Center include an international conference hall, other conference rooms, and exhibition rooms.
@@ -37,4 +36,4 @@ Currently, the activities of the Center include, in addition to providing confer
 # Travel Information
 
 # Accomodation Service
--->
+{% endcomment %}
