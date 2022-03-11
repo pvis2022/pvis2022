@@ -77,9 +77,18 @@ h1 {
 
 // General
 
-span.notice {
+.attention {
   color: #a44;
   font-weight: bold;
+}
+
+.notice {
+  color: #066;
+  font-style: italic;
+}
+
+.tba {
+  color: #888;
 }
 
 // Talks
@@ -102,9 +111,4 @@ span.paper-type-premium {
 
 .paper-author {
   color: #888;
-}
-
-span.notice {
-  color: #00a;
-  font-weight: bold;
 }

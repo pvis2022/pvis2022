@@ -5,40 +5,44 @@ permalink: '/program/sessions/'
 collection: program
 ---
 
-(TBA)
-
 {% assign host = site.url | split: "://" %}
 {% assign host = host[1] | split: ":" %}
+{% if host[0] == "localhost" %} {% assign hide = false %}
+{% else %} {% assign hide = true %}
+{% endif %}
 
-{% if host[0] == "localhost" %}
+| Day | Date | M/A | Sessions |
+| ----- | -------------- | --------- | -------------------- |
+| **Day 1** | April 11 (Mon) | Morning   | 9:00 [VISxAI 1](#visxai1), 11:10 [VISxAI 2](#visxai2)
+|       |                | Afternoon | 14:30 [PVIS Opening](#opening), 15:00 [Keynote 1](#keynote1), 16:00 [Session 1](#session1)
+| **Day 2** | April 12 (Tue) | Morning | 10:00 [Sessions 2](#session2), 11:30 [Session 3](#session3)
+|       |                | Afternoon |  14:00 [Session 4](#session4), 16:00 [Session 5](#session5)
+| **Day 3** | April 13 (Wed) | Morning   | 10:00 [Storytelling Contest](#contest), 11:30 [Session 6](#session6)
+|       |                | Afternoon | 14:00 [Keynote 2](#keynote2), 14:50 [Posters](#posters), 16:30 [Banquet](#banquet)
+| **Day 4** | April 14 (Thu) | Morning   | 10:00 [Sessions 7](#session7), 11:30 [Session 8](#session8), 12:30 [Closing](#closing)
 
-(Tentative Program)
+{% assign session_period = "16:00-17:00, 10:00-11:00, 11:30-13:00, 14:00-15:30, 16:00-17:00, 11:30-13:00, 10:00-11:00, 11:30-12:30" | split: ", " %}
 
-<span class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9).</span>
-
-| Day | Date | Morning sessions | Afternoon sessions |
------ | -------------- | -------------------- | -------------------- |
-| **Day 1** | April 11 (Mon) | [VISxAI](#visxai) | [PacificVis Opening](#opening), [Keynote 1](#keynote1), [Session 1](#session1)
-| **Day 2** | April 12 (Tue) | Sessions [2](#session2) and Sessions [3](#session3) | Sessions [4](#session4) and [5](#session5)
-| **Day 3** | April 13 (Wed) | [Contest](#contest), [Session 6](#session6) | [Keynote 2](#keynote2), [Posters](#posters), [Banquet](#banquet)
-| **Day 4** | April 14 (Thu) | Sessions [7](#session7) and [8](#session8), [Closing](#closing)
+<p class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9). More detail will be announced shortly.</p>
 
 ---
 
 # Day 1 - April 11
 
-## [VISxAI Workshop 2022]({{ site.baseurl}}/program/visxai/) {#visxai}
+## 9:00-10:40 - VISxAI Workshop 2022: Session 1 {#visxai1}
 
-- 9:00-10:40 - Session 1
+Chair: (TBA)
 
-- 11:10-12:50 Session 2
+## 11:10-12:50 VISxAI Workshop 2022: Session 2 {#visxai2}
+
+Chair: (TBA)
 
 ---
 ## 14:30-15:00 PacificVIS Opening {#opening}
 
 ## 15:00-15:30 Keynote 1 Q/A session {#keynote1}
 
-Daniel Weiskopf on "[(TBA)]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
+Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
 
 <span class="notice">The keynote q/a starts with a brief explanation by Dr. Weiskopf followed by questions/answers.   Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Weiskopf realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</span>
 
@@ -93,5 +97,3 @@ Virtual banquet will take place on a Gather.Town room.
 {% include tech_session.md %}
 
 # 12:30-13:00 Closing {#closing}
-
-{% endif %}
