@@ -37,6 +37,8 @@ Kobe University
 
 # Keynotes
 
+- Daniel Weiskopf, "[Multidimensional Visualization]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
+
 - Wei Chen, "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
 
