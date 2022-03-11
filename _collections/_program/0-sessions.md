@@ -40,6 +40,8 @@ collection: program
 
 Daniel Weiskopf on "[(TBA)]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
 
+<span class="notice">The keynote q/a starts with a brief explanation by Dr. Weiskopf followed by questions/answers.   Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Weiskopf realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</span>
+
 {% assign accepted = site.data.accepted %}
 {% assign index = accepted.index %}
 
@@ -73,7 +75,7 @@ Daniel Weiskopf on "[(TBA)]({{ site.baseurl }}/program/keynotes/#danielweiskopf)
 
 Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
-<span class="notice">The keynote q/a starts with a brief explanation by Dr. Chen followed by questions/answers.  Dr. Chen's keynote talk will appear a few days before the opening on the conference YouTube channel.  You can send Dr. Chen your message realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.
+<span class="notice">The keynote q/a starts with a brief explanation by Dr. Chen followed by questions/answers.  Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Chen realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</span>
 
 # 14:50-16:20 Posters {#posters}
 
