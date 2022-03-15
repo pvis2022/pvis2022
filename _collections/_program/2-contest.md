@@ -9,7 +9,6 @@ permalink: '/program/contest/'
 <!-- To view all shortlisted entries, please visit the Storytelling Contest Showcase on Vimeo. -->
 
 <script src="https://unpkg.com/vue@3"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/javascripts/accepted.js"></script>
 
 {% assign accepted = site.data.accepted %}
 {% assign video_embedding = site.data.storytelling %}
