@@ -71,21 +71,21 @@ Kobe University
 <table align="center" border="0" cellpadding="0" cellspacing="0">
     <tr bordercolor="red">
         <td width="33%">
-           <img src="assets/images/sponser/IEEE-logo.jpg">
+           <a href="https://www.ieee.org/"><img src="assets/images/sponser/IEEE-logo.jpg"></a>
         </td>
         <td width="33%">
-           <img src="assets/images/sponser/IEEE-CS_LogoTM-black.jpg">
+           <a href="https://www.computer.org/"><img src="assets/images/sponser/IEEE-CS_LogoTM-black.jpg"></a>
         </td>    
         <td height="33%">
-           <img src="assets/images/sponser/vgtclogo-128_128.jpg">
+           <a href="https://tc.computer.org/vgtc/"><img src="assets/images/sponser/vgtclogo-128_128.jpg"></a>
         </td>
     </tr>
     <tr>
         <td>
-           <img src="assets/images/sponser/cybernet.jpg">
+           <a href="https://www.cybernet.co.jp/"><img src="assets/images/sponser/cybernet.jpg"></a>
         </td>
         <td>
-           <img src="assets/images/sponser/hpctech.png">
+           <a href="https://www.hpctech.co.jp/"><img src="assets/images/sponser/hpctech.png"></a>
         </td>
     </tr>
 </table>
