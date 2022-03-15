@@ -84,6 +84,9 @@ Kobe University
         <td>
            <img src="assets/images/sponser/cybernet.jpg">
         </td>
+        <td>
+           <img src="assets/images/sponser/hpctech.png">
+        </td>
     </tr>
 </table>
 
