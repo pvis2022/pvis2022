@@ -99,6 +99,48 @@
       "Photo": "yes"
     },
     {
+      "Role": "Steering Committee",
+      "First": "Wei",
+      "Given": "Chen",
+      "Affiliation": "Zhejiang University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Issei",
+      "Given": "Fujishiro",
+      "Affiliation": "Keio University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Seokhee",
+      "Given": "Hong",
+      "Affiliation": "University of Sydney, Australia",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Koji",
+      "Given": "Koyamada",
+      "Affiliation": "Kyoto University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Kwan-Liu",
+      "Given": "Ma",
+      "Affiliation": "University of California, Davis, USA",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Jinwook",
+      "Given": "Seo",
+      "Affiliation": "Seoul National University, South Korea",
+      "Photo": "yes"
+    },
+    {
       "Role": "Registration Chair",
       "First": "Yuki",
       "Given": "Igarashi",
@@ -937,6 +979,10 @@
     {
       "title": "program",
       "path": "pages/program.md"
+    },
+    {
+      "title": "committees",
+      "path": "pages/committees.md"
     },
     {
       "title": "contact",
