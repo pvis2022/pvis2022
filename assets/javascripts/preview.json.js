@@ -1,0 +1,23 @@
+const preview = {
+  "1158": "https://youtu.be/VhPy5TExRfw",
+  "2382": "https://youtu.be/VP5CWzVNYqU",
+  "4701": "https://youtu.be/Ki8HUbiyALM",
+  "4981": "https://youtu.be/J_96JZXup7o",
+  "5060": "https://youtu.be/wNpliWfff60",
+  "5304": "https://youtu.be/cqFAExLRfvw",
+  "5686": "https://youtu.be/UHi0T-JhrW0",
+  "5799": "https://youtu.be/5eyyQCl5HEs",
+  "6148": "https://youtu.be/1JpgiyQw1dY",
+  "6250": "https://youtu.be/oDBlWpe9giA",
+  "6863": "https://youtu.be/_hsrkWBhMU0",
+  "7044": "https://youtu.be/2pgu_RT6eaw",
+  "7244": "https://youtu.be/loFJ8Olw-J4",
+  "7366": "https://youtu.be/Dg8Xmvupq8k",
+  "7610": "https://youtu.be/qRI8t73x-o0",
+  "8231": "https://youtu.be/BvNHTZz7vLM",
+  "8250": "https://youtu.be/VbAWVMxwQvw",
+  "8469": "https://youtu.be/50K5p7vFP1I",
+  "8813": "https://youtu.be/hutiNbibNJQ",
+  "8907": "https://youtu.be/d6Co7Fde4WY",
+  "9879": "https://youtu.be/6IVz_6mhHHM"
+};

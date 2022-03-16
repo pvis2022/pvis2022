@@ -96,4 +96,5 @@ Virtual banquet will take place on a Gather.Town room.
 
 <script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
+<script type="text/javascript" src="/pvis2022/assets/javascripts/preview.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.js"></script>

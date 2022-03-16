@@ -17,7 +17,6 @@ const createPaperApp = (paper) => {
     props: [ 'paper_id' ],
     methods: {
       toggleAbstract(ev) {
-        console.log(paper);
         this.show_abstract = !this.show_abstract;
       }
     },
@@ -38,6 +37,17 @@ const createPaperApp = (paper) => {
       }
     },
     template: AbstractTemplate
+  })
+
+  app.component('preview', {
+    props: [ 'paper_id' ],
+    data() {
+      return { 'preview': preview };
+    },
+    computed: {
+      url: function (ev) { return this.preview[this.paper_id]; }
+    },
+    template: `<a :href="this.url">Open preview video</a>`,
   })
 
   app.mount(paper);

@@ -7,20 +7,11 @@ permalink: '/program/accepted/'
 {% include hide.md %}
 
 {% assign accepted = site.data.accepted %}
+{% assign youtube = site.data.youtube.index %}
+
+{{ youtube }}
 
 # Full Papers
-
-{% comment %}
-{% for paper in accepted["Full Papers"] %}
-- <span class="title">{{ paper["Title"] }}</span>
-  {% if paper["type"] == "PPaper" %}<span class="type type-premium">paper</span>
-  {%- elsif paper["type"] == "Paper" %} <span class="type">paper</span> {% endif -%}
-  <br/>
-    {% for author in paper["authors"] -%}
-    <span class="author">{{ author }}</span><br/>
-    {% endfor %}
-{% endfor %}
-{% endcomment %}
 
 {% for paper in accepted["Full Papers"] %}
 {% assign id = paper["Paper ID"] %}
@@ -34,7 +25,8 @@ permalink: '/program/accepted/'
     <li class="author">{{ author }}</li>
     {% endfor %}
   </ul>
-  <abstract paper_id="{{id}}" />
+  <abstract paper_id="{{id}}"></abstract>
+  <preview  paper_id="{{id}}"></preview>
 </div>
 
 {% endfor %}
@@ -54,4 +46,5 @@ permalink: '/program/accepted/'
 
 <script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
+<script type="text/javascript" src="/pvis2022/assets/javascripts/preview.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.js"></script>
