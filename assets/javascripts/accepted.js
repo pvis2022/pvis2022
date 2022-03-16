@@ -47,7 +47,7 @@ const createPaperApp = (paper) => {
     computed: {
       url: function (ev) { return this.preview[this.paper_id]; }
     },
-    template: `<a :href="this.url">Open preview video</a>`,
+    template: `<a :href="this.url" target="_blank">Open preview video</a>`,
   })
 
   app.mount(paper);
