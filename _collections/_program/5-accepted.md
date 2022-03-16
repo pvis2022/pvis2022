@@ -34,12 +34,26 @@ permalink: '/program/accepted/'
 # Visualization Notes
 
 {% for paper in accepted["Visualization Notes"] %}
+<div class="paper"><span class="title">{{ paper["Title"] }}</span>&nbsp; 
+  <span class="type">note</span>
+  <ul>
+    {% for author in paper["authors"] -%}
+    <li class="author">{{ author }}</li>
+    {% endfor %}
+  </ul>
+  <abstract paper_id="{{id}}"></abstract>
+  <!-- preview  paper_id="{{id}}"></preview -->
+</div>
+
+{% comment %}
 - <span class="title">{{ paper["Title"] }}</span>
   <span class="type">note</span>
   <br/>
     {% for author in paper["authors"] -%}
     <span class="author">{{ author }}</span><br/>
     {% endfor %}
+{% endcomment %}
+
 {% endfor %}
 
 <div id="posters"></div>
