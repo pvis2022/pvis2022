@@ -1,7 +1,12 @@
 const AbstractTemplate = `
 <span class="abstract-heading">Abstract</span>&nbsp;
-<button class="abstract-button" v-on:click="toggleAbstract">Click to {{this.message}}</button><br/>
-<div class="abstract">{{this.abstract}}</div>
+<!-- button class="abstract-button" v-on:click="toggleAbstract">{{this.message}}</button><br/ -->
+<div class="abstract">
+<img v-if="this.show_abstract" v-on:click="toggleAbstract"
+     src="/pvis2022/assets/images/icons/expanded.png" width="18" height="18" />
+<img v-else v-on:click="toggleAbstract"
+     src="/pvis2022/assets/images/icons/collapsed.png" width="12" height="12" />&nbsp;
+{{this.abstract}}</div>
 `;
 
 const createPaperApp = (paper) => {
@@ -29,7 +34,7 @@ const createPaperApp = (paper) => {
         return this.show_abstract ? content : content.slice(0, p) + ' ...';
       },
       message: function(ev) {
-        return (this.show_abstract ? 'close' : 'open');
+        return (this.show_abstract ? 'expand' : 'collapse');
       }
     },
     template: AbstractTemplate
