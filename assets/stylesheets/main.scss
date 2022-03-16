@@ -93,22 +93,39 @@ h1 {
 
 // Talks
 
-span.paper-title {
-  color: #22a;
+div.paper {
+  margin-bottom: 2ex;
 }
 
-span.paper-type {
-  color: #008;
-  background-color: #8e8;
+.paper .title {
+  //color: #22a;
+  font-weight: bold;
+}
+
+.paper .type {
+  color: rgb(241, 203, 255);
+  background-color: rgb(71, 33, 109);
   font-weight: bold;
   border-radius: .5em;
   padding: .3em .5em .3em .5em;
 }
 
-span.paper-type-premium {
+.paper .type-premium {
   background-color: gold;
+  color: rgb(71, 33, 109);
 }
 
-.paper-author {
-  color: #888;
+.paper .author {
+  color: #333;
+}
+
+.paper .abstract {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2ex;
+}
+
+.paper .abstract-heading {
+  color: #666;
+  font-weight: bold;
 }

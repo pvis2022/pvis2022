@@ -93,3 +93,7 @@ Virtual banquet will take place on a Gather.Town room.
 {% include tech_session.md %}
 
 # 12:30-13:00 Closing {#closing}
+
+<script src="https://unpkg.com/vue@3"></script>
+<script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
+<script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.js"></script>

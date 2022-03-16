@@ -1,9 +1,9 @@
 {% assign tech_session = site.data.sessions[session_id] %}
 
 {% if hide %}
-## {{session_period[session_id]}} - Session {{session_id | plus: 1}}
+<h2 id="session{{session_id | plus: 1}}">{{session_period[session_id]}} - Session {{session_id | plus: 1}}</h2>
 {% else %}
-## {{session_period[session_id]}} - Session {{session_id | plus: 1}}: {{tech_session["session"]}} {#session{{session_id | plus: 1}}}
+<h2 id="session{{session_id | plus: 1}}">{{session_period[session_id]}} - Session {{session_id | plus: 1}}: {{tech_session["session"]}}</h2>
 {% endif %}
 
 Chair: {{tech_session["chair"]}}
@@ -15,12 +15,17 @@ Chair: {{tech_session["chair"]}}
 {% for id in tech_session["talks"] %}
 {% assign paper = index[id] %}
 {% if hide %} {% else %}
-- <span class="paper-title">{{ paper["Title"] }}</span>
+<div class="paper"><span class="paper-title">{{ paper["Title"] }}</span>&nbsp; 
   {% if paper["type"] == "TVCG talk" %}<span class="paper-type paper-type-tvcg">tvcg</span>
+  {% elsif paper["type"] == "Note" %}<span class="paper-type">note</span>
+  {% elsif paper["type"] == "PPaper" %}<span class="paper-type paper-type-premium">paper</span>
   {% else %}<span class="paper-type">paper</span>{% endif -%}
   <br/>
     {% for author in paper["authors"] -%}
     <span class="paper-author">{{ author }}</span><br/>
     {% endfor %}
+  <abstract paper_id="{{id}}" />
+</div>
+
 {% endif %}
 {% endfor %}
