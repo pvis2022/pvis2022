@@ -1,5 +1,3 @@
-console.log(talks);
-
 const PreviewTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/{preview_id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 const PaperTemplate = `
@@ -37,18 +35,22 @@ const CreateApp = (paper) => {
       preview_url: function (ev) { return this.preview[this.paper_id]; },
       preview_embed: function (ev) {
         const url = this.preview_url;  // https://youtu.be/Ki8HUbiyALM
+        if (!url) return '';
         const preview_id = url.slice(url.lastIndexOf('/') + 1);
         return PreviewTemplate.replace('{preview_id}', preview_id);
       },
 
       paper_type: function (ev) {
-        if (this.paper.type == 'PPaper') return 'paper';
-        return this.paper.type.toLowerCase();
+        const t = this.paper.type.toLowerCase();
+        if (t == 'ppaper') return 'paper';
+        return t;
       },
       paper_type_class: function (ev) {
         const t = this.paper.type;
-        if (t == 'PPaper') return 'type type-premium';
         if (t == 'TVCG talk') return 'type type-tvcg';
+        if (t == 'PPaper') return 'type type-paper type-premium';
+        if (t == 'Paper') return 'type type-paper';
+        if (t == 'Note') return 'type type-note';
         return 'type';
       },
 
