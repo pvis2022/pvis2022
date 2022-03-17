@@ -13,6 +13,7 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 # News
 
+- [List of papers and notes are available]({{site.baseurl}}/program/accepted).  Don't miss the paper previews! (2022-03-17)
 - [Registration site]({{site.baseurl}}/registration/) is open (2022-03-11)
 
 <!--
