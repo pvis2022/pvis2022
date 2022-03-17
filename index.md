@@ -43,7 +43,9 @@ Kobe University
 
 - Wei Chen, "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
-# Papers playlist
+# Presentation Previews
+
+## Full Papers
 
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/videoseries?list=PLXEbtjyc9YS63eAsnJ0_3AWjC7lVFOFHh"
