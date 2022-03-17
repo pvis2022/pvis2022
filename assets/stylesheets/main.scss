@@ -97,35 +97,36 @@ div.paper {
   margin-bottom: 2ex;
 }
 
-.paper .title {
+paper .title {
   //color: #22a;
   font-weight: bold;
 }
 
-.paper .type {
+paper .type {
   color: rgb(241, 203, 255);
   background-color: rgb(71, 33, 109);
   font-weight: bold;
   border-radius: .5em;
   padding: .3em .5em .3em .5em;
+  margin: 0 .5em 0 .5em;
 }
 
-.paper .type-premium {
+paper .type-premium {
   background-color: gold;
   color: rgb(71, 33, 109);
 }
 
-.paper .author {
+paper .author {
   color: #333;
 }
 
-.paper .abstract {
+paper .abstract {
   color: #666;
   font-style: italic;
   margin-bottom: 3ex;
 }
 
-.paper .abstract-heading {
+paper .abstract-heading {
   color: #666;
   font-weight: bold;
 }

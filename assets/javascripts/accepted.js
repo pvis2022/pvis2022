@@ -1,58 +1,70 @@
-const AbstractTemplate = `
-<span class="abstract-heading">Abstract</span>&nbsp;
-<!-- button class="abstract-button" v-on:click="toggleAbstract">{{this.message}}</button><br/ -->
-<div class="abstract">
-<img v-if="this.show_abstract" v-on:click="toggleAbstract"
-     src="/pvis2022/assets/images/icons/expanded.png" width="18" height="18" />
-<img v-else v-on:click="toggleAbstract"
-     src="/pvis2022/assets/images/icons/collapsed.png" width="12" height="12" />&nbsp;
-{{this.abstract}}</div>
+console.log(talks);
+
+const PreviewTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/{preview_id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+const PaperTemplate = `
+<div @click="toggle_show_detail">
+<span class="title">{{this.paper.Title}}
+<span :class="this.paper_type_class">{{this.paper_type}}</span></span>
+<ul><li v-for="author in this.paper.authors" class="author">{{author}}</li></ul>
+<p class="abstract"><span class="abstract-heading">Abstract:</span> {{this.abstract_content}}</p>
+<div v-if="this.show_detail" v-html="this.preview_embed"></div>
+<!-- p><a :href="this.preview_url" target="_blank">Open preview video</a></p -->
+</div>
 `;
 
-const createPaperApp = (paper) => {
-  let app = Vue.createApp({
-  });
+const CreateApp = (paper) => {
+  let app_data = {
+    props: ['paper_id'],
+    template: PaperTemplate,
 
-  app.component('abstract', {
-    props: [ 'paper_id' ],
-    methods: {
-      toggleAbstract(ev) {
-        this.show_abstract = !this.show_abstract;
-      }
-    },
     data() {
       return {
-        show_abstract: false,
+        index: talks.index,
+        preview: preview,
+        show_detail: false,
       }
     },
+
+    methods: {
+      toggle_show_detail(ev) {
+        this.show_detail = !this.show_detail;
+      }
+    },
+
     computed: {
-      abstract: function(ev) {
-        let content = talks.index[this.paper_id].Abstract;
-        let p = 0;
-        for (i = 0; i < 25; i++) p = content.indexOf(' ', p+1);
-        return this.show_abstract ? content : content.slice(0, p) + ' ...';
+      paper: function (ev) { return this.index[this.paper_id]; },
+      preview_url: function (ev) { return this.preview[this.paper_id]; },
+      preview_embed: function (ev) {
+        const url = this.preview_url;  // https://youtu.be/Ki8HUbiyALM
+        const preview_id = url.slice(url.lastIndexOf('/') + 1);
+        return PreviewTemplate.replace('{preview_id}', preview_id);
       },
-      message: function(ev) {
-        return (this.show_abstract ? 'expand' : 'collapse');
-      }
-    },
-    template: AbstractTemplate
-  })
 
-  app.component('preview', {
-    props: [ 'paper_id' ],
-    data() {
-      return { 'preview': preview };
-    },
-    computed: {
-      url: function (ev) { return this.preview[this.paper_id]; }
-    },
-    template: `<a :href="this.url" target="_blank">Open preview video</a>`,
-  })
+      paper_type: function (ev) {
+        if (this.paper.type == 'PPaper') return 'paper';
+        return this.paper.type.toLowerCase();
+      },
+      paper_type_class: function (ev) {
+        const t = this.paper.type;
+        if (t == 'PPaper') return 'type type-premium';
+        if (t == 'TVCG talk') return 'type type-tvcg';
+        return 'type';
+      },
 
-  app.mount(paper);
-}
+      abstract_content: function (ev) {
+        let content = this.paper.Abstract;
+        if (this.show_detail) return content;
+        for (i = 0, p = 0; i < 25; i++) p = content.indexOf(' ', p+1);
+        return content.slice(0, p) + ' ...';
+      },
+    }
+  };
+
+  Vue.createApp(app_data, { ...paper.dataset }).mount(paper);
+};
 
 // Loop through array and mount all elements
-let papers = Array.prototype.slice.call(document.getElementsByClassName('paper'));
-papers.forEach(createPaperApp)
+let papers = Array.prototype.slice.call(document.getElementsByTagName('paper'));
+papers.forEach(CreateApp);
+console.log(papers);
