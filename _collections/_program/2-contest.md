@@ -2,6 +2,7 @@
 layout: page
 title: 'Visual Data Storytelling Contest Shortlist'
 permalink: '/program/contest/'
+date: 2022-03-15
 ---
 
 2022 IEEE PacificVis Visual Data Storytelling Contest accepts video, data comic or infographic that uses visualization to communicate a narrative, a message or a series of insights. This year we received 10 submissions, which were reviewed by [7 judges]({{ site.baseurl }}/cfp/story/#jury), and ultimately 4 works were shortlisted. The winners will be announced during PacificVis 2022.

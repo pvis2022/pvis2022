@@ -4,6 +4,7 @@ entries_layout: grid
 title: 'Call for Papers'
 collection: cfp
 permalink: '/cfp/'
+date: 2022-02-10
 ---
 
 - Poster deadline is extended: [CFP - Poster](/pvis2022/cfp/posters) (February 10, 2022)

@@ -1,6 +1,7 @@
 ---
 title: 'Contact'
 permalink: '/contact/'
+date: 2021-10-27
 ---
 
 {% assign contacts = site.data.publicity['Contacts'] %}

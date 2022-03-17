@@ -1,6 +1,7 @@
 ---
 title: 'CFP - Full Papers'
 permalink: '/cfp/full/'
+date: 2021-12-16
 ---
 
 {% assign data = site.data.publicity %}

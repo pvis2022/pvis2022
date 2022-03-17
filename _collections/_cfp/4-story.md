@@ -1,6 +1,7 @@
 ---
 title: 'CFP - Visual Data Storytelling Contest'
 permalink: '/cfp/story/'
+date: 2022-03-10
 ---
 
 {% assign data = site.data.publicity %}

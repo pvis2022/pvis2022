@@ -1,6 +1,7 @@
 ---
 title: 'CFP - Posters'
 permalink: 'cfp/posters/'
+date: 2022-02-10
 ---
 
 {% assign data = site.data.publicity %}

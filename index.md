@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 'PacificVis 2022'
+date: 2022-03-17
 ---
 
 {% assign data = site.data.publicity %}

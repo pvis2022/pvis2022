@@ -1,6 +1,7 @@
 ---
 title: 'Conference Committees'
 permalink: '/committees/'
+date: 2022-03-15
 ---
 
 {% assign data = site.data.publicity %}

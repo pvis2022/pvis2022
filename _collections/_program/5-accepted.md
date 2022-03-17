@@ -2,7 +2,10 @@
 layout: page
 title: 'Accepted Papers / Notes / Posters'
 permalink: '/program/accepted/'
+date: 2022-03-17
 ---
+
+Please look at the lists of full papers and visualization notes.  Posters show up soon.
 
 <script src="https://unpkg.com/vue@3"></script>
 

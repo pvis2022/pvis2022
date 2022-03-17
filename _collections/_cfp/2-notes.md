@@ -1,6 +1,7 @@
 ---
 title: 'CFP - Visualization Notes'
 permalink: 'cfp/notes/'
+date: 2021-10-27
 ---
 
 {% assign data = site.data.publicity %}

@@ -62,7 +62,9 @@ tech_sessions = [
   { 'session': 'Text and Mixed Data',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '7244,8813,7610,1020'.split(',')} ]
+    'talks': '7244,8813,7610,1020'.split(',')}
+
+]
 
 # Integrity check
 # 1. All accepted papers should be presented in a session
