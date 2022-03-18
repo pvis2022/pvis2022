@@ -1,6 +1,7 @@
 {% assign tech_session = site.data.sessions[session_id] %}
 
-<h2 id="session{{session_id | plus: 1}}">{{session_period[session_id]}} - Session {{session_id | plus: 1}}: {{tech_session["session"]}}</h2>
+<h2 id="session{{session_id | plus: 1}}">{{session_period[session_id]}} - Session {{session_id | plus: 1}}:<br/>
+{{tech_session["session"]}}</h2>
 
 Chair: {{tech_session["chair"]}}
 

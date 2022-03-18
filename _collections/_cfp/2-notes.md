@@ -36,9 +36,10 @@ formatting guidelines: http://junctionpublishing.org/vgtc/Track/pacvis.html
 {% assign role = "VisNotes Chairs" %}
 {% include chairs.md %}
 
-# Committes
+# PC Members
 
-TBA
+{% assign role = "Notes PC members" %}
+{% include pc_members.md %}
 
 # Contact
 
