@@ -4,11 +4,9 @@ permalink: 'cfp/notes/'
 date: 2021-10-27
 ---
 
-{% assign data = site.data.publicity %}
-
-# PacificVis 2022 - Visualization Notes
-
 PacificVis 2022 features a short paper track, called "Visualization Notes". The purpose of this track is to encourage young researchers to present their work and discuss with participants including senior researchers there. The submissions can be late-breaking results or work in progress, while they should be novel enough to attract interest from the visualization community.
+
+{% assign data = site.data.publicity %}
 
 # Important Dates
 

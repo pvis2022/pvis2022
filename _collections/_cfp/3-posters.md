@@ -4,13 +4,11 @@ permalink: 'cfp/posters/'
 date: 2022-02-10
 ---
 
-{% assign data = site.data.publicity %}
-
-# PacificVis2022 CFP for posters
-
 PacificVis 2022 is soliciting high quality poster proposals. The PacificVis 2022 poster program is welcoming all areas of visualization research such as information visualization, scientific visualization, and visual analytics science and technology. As we would like the authors to demonstrate novel and applicable ideas in all aspects of visualization, posters on work in progress and on practical applications are welcome.
 
 An interactive poster session will be held to allow plenty of opportunities for one-on-one dialogue and small group discussion in a casual setting. Extended abstracts of the accepted posters will be included in the electronic conference proceedings, which will be available as a USB memory stick distributed to conference attendants.
+
+{% assign data = site.data.publicity %}
 
 # Important Dates
 

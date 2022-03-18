@@ -1,14 +1,12 @@
 ---
-title: 'CFP - Visual Data Storytelling Contest'
+title: 'Call for Visual Data Storytelling Contest Entries'
 permalink: '/cfp/story/'
 date: 2022-03-10
 ---
 
-{% assign data = site.data.publicity %}
-
-# Call for Visual Data Storytelling Contest Entries
-
 The PacificVis Storytelling Contest celebrates its sixth year in 2022. The purpose of this contest is to encourage students, researchers, and visualization practitioners to demonstrate the value of visualization through effective visual data storytelling, as a way to promote innovative and effective use of visualization for communicating and explaining ideas.
+
+{% assign data = site.data.publicity %}
 
 This contest is inspired by trends in data storytelling, narrative visualizations, explanatory visualizations, and visual essays. Potential contest entrants are encouraged to review the following events and venues for inspiration.
 
