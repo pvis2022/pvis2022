@@ -427,7 +427,7 @@ const talks = {
         "Fang Liu (Hunan University)"
       ],
       "Paper ID": 1019,
-      "Title": "Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
+      "Title": "Emergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
       "type": "Storytelling",
       "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1019-cam-i6.pdf?temp_url_sig=521aee89ead106b7fd9341e6ab31abbc35d53cf0&temp_url_expires=1646879100",
       "Abstract pages": 2,
@@ -890,7 +890,7 @@ const talks = {
         "Fang Liu (Hunan University)"
       ],
       "Paper ID": 1019,
-      "Title": "Qu Xing\uff1aEmergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
+      "Title": "Emergency Logistics Constructing a Lifeline in Wuhan for Fighting COVID-19",
       "type": "Storytelling",
       "Abstract": "https://storage.bhs.cloud.ovh.net/v1/AUTH_26879f98162b4e0092dbf77201f410cb/pacificvis22d/pacificvis22d-sub1019-cam-i6.pdf?temp_url_sig=521aee89ead106b7fd9341e6ab31abbc35d53cf0&temp_url_expires=1646879100",
       "Abstract pages": 2,

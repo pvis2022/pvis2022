@@ -30,13 +30,36 @@ PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storyt
 
 # Day 1 - April 11
 
-## 9:00-10:40 - VISxAI Workshop 2022: Session 1 {#visxai1}
+## 9:00-10:40 - VISxAI: Session 1<br/>Chair: Junpeng Wang {#visxai1}
 
-Chair: (TBA)
+1. Opening and Invited Talk by Hanqi Guo on "Intelligent Visualization for Science"
 
-## 11:10-12:50 VISxAI Workshop 2022: Session 2 {#visxai2}
+1. A Machine Learning Approach for Predicting Human Shortest Path Task Performance
+    - Shijun Cai (The University of Sydney)
+    - Seok-Hee Hong (The University of Sydney)
+    - Xiaobo Xia (The University of Sydney)
+    - Tongliang Liu (The University of Sydney)
+    - Weidong Huang (The University of Sydney)
 
-Chair: (TBA)
+1. VCNet: A Generative Model for Volume Completion
+    - Jun Han (University of Notre Dame)
+    - Chaoli Wang (University of Notre Dame)
+
+## 11:10-12:50 VISxAI: Session 2<br/>Chair: Takanori Fujiwara {#visxai2}
+
+1. Invited Talk by Yong Wang on "Visualization Meets AI: Automated Visualization Design and Evaluation"
+
+1. Trinary tools for Continuously Valued Binary Classifiers
+    - Michael Gleicher (University of Wisconsin–Madison)
+    - Xinyi Yu (University of Wisconsin–Madison)
+    - Yuheng Chen (University of Wisconsin–Madison)
+
+1. New Guidance for Using t-SNE: Alternative Defaults, Hyperparameter Selection Automation, and Comparative Evaluation
+    - Robert Gove (Two Six Technologies)
+    - Lucas Cadalzo (Two Six Technologies)
+    - Nicholas Leiby (Two Six Technologies)
+    - Jedediah M. Singer (Two Six Technologies)
+    - Alexander Zaitzeff (Two Six Technologies)
 
 ---
 ## 14:30-15:00 PacificVIS Opening {#opening}
