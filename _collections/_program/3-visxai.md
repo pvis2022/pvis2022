@@ -6,8 +6,6 @@ collection: program
 date: 2022-03-10
 ---
 
-[session1](#session1)
-
 # Session 1: AI for VIS Representation and Prediction (Chair: Junpeng Wang) {#session1}
 
 ## 9:00-10:00: Opening and Invited Talk: Hanqi Guo
