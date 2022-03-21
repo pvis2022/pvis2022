@@ -3,7 +3,7 @@ layout: page
 title: 'Program'
 permalink: '/program/sessions/'
 collection: program
-date: 2022-03-16
+date: 2022-03-21
 ---
 
 PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storytelling contest, and social events.
