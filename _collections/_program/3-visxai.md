@@ -27,7 +27,7 @@ Bio
 
 
 
-## 10:00-10:20: Technical Talks
+## 10:00-10:40: Paper Presentations
 
 <paper data-paper_id="4033"></paper>
 
@@ -41,7 +41,8 @@ Bio
 
 <img src="{{ site.baseurl }}/assets/images/visxai/Yong_Wang.jpg" width="300" height="300" />
 
-Visualization Meets AI: Automated Visualization Design and Evaluation
+Title
+: Visualization Meets AI: Automated Visualization Design and Evaluation
 
 Abstract
 : Data visualization has been applied to facilitate data exploration in various applications. However, the design and evaluation of visualizations still require lots of manual effort. Existing visualization creation tools and packages (e.g., Tableau and D3) often require tedious manual specifications or programming, and the evaluation of visualizations often relies on subjective evaluations like user studies. It is still not an easy task to quickly create and evaluate visualizations, especially for non-expert users. The rapid development of artificial intelligence (AI) and the accumulation of visualization datasets have made it possible to address these issues by leveraging AI techniques. In this talk, I will briefly introduce our recent work on AI-powered data visualization:
@@ -53,7 +54,7 @@ Bio
 : Dr. Yong Wang is a tenure-track assistant professor at the School of Computing and Information Systems, Singapore Management University (SMU). His research interests include information visualization, visual analytics and machine learning. His work has been published at premier venues in visualization and human-computer interaction, such as IEEE VIS, IEEE TVCG, and ACM SIGCHI. He received multiple paper awards, including the Best Paper Honorable Mention Award at IEEE VIS 2021, Best Poster Award at IEEE VIS 2019 and Best Paper Award at ACM IUI 2017. He also has served as a program committee for PacificVis, IEEE VIS, CIKM, and a session chair and program committee for IUI. Prior to joining SMU, he obtained his Ph.D degree from The Hong Kong University of Science and Technology. For more details, please refer to http://yong-wang.org/ .
 
 
-## 12:10-12:50: Technical Talks
+## 12:10-12:50: Paper Presentations
 
 <paper data-paper_id="9591"></paper>
 
