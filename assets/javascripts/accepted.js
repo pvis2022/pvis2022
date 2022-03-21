@@ -3,7 +3,7 @@ const PreviewTemplate = '<iframe width="560" height="315" src="https://www.youtu
 const PaperTemplate = `
 <div @click="toggle_show_detail">
 <span class="title">{{this.paper.Title}}
-<span :class="this.paper_type_class">{{this.paper_type}}</span></span>
+<span v-if="this.paper_type!='?'" :class="this.paper_type_class">{{this.paper_type}}</span></span>
 <ul><li v-for="author in this.paper.authors" class="author">{{author}}</li></ul>
 <p class="abstract"><span class="abstract-heading">Abstract:</span> {{this.abstract_content}}</p>
 <div v-if="this.show_detail" v-html="this.preview_embed"></div>

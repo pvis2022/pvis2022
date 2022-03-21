@@ -467,6 +467,57 @@ const talks = {
       "Abstract paper size": "A4",
       "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
       "show_abstract": false
+    },
+    "6403": {
+      "authors": [
+        "Jun Han (University of Notre Dame)",
+        "Chaoli Wang (University of Notre Dame)"
+      ],
+      "Paper ID": 6403,
+      "Title": "VCNet: A Generative Model for Volume Completion",
+      "type": "?",
+      "Abstract": "We present VCNet, a new deep learning approach for volume completion by synthesizing missing subvolumes. Our solution leverages a generative adversarial network (GAN) that learns to complete volumes using the adversarial and volumetric losses. The core design of VCNet features dilated residual block and long-term connection. During training, VCNet first randomly masks basic subvolumes (e.g., cuboids, slices) from complete volumes and learns to recover them. Moreover, we design a two-stage algorithm for stabilizing and accelerating network optimization. Once trained, VCNet takes an incomplete volume as input and automatically identifies and fills in the missing subvolumes with high quality. We quantitatively and qualitatively test VCNet with volumetric data sets of various characteristics to demonstrate its effectiveness. We also compare VCNet against a diffusion-based solution and two GAN-based solutions.",
+      "show_abstract": false
+    },
+    "5160": {
+      "authors": [
+        "Robert Gove (Two Six Technologies)",
+        "Lucas Cadalzo (Two Six Technologies)",
+        "Nicholas Leiby (Two Six Technologies)",
+        "Jedediah Singer (Two Six Technologies)",
+        "Alexander Zaitzeff (Two Six Technologies)"
+      ],
+      "Paper ID": 5160,
+      "Title": "New Guidance for Using t-SNE: Alternative Defaults, Hyperparameter Selection Automation, and Comparative Evaluation",
+      "type": "?",
+      "Abstract": "We present new guidelines for choosing hyperparameters for t-SNE and an evaluation comparing these guidelines to current ones. These guidelines include a proposed empirically optimum guideline derived from a t-SNE hyperparameter grid search over a large collection of data sets. We also introduce a new method to featurize data sets using graph-based metrics called scagnostics; we use these features to train a neural network that predicts optimal t-SNE hyperparameters for the respective data set. This neural network has the potential to simplify the use of t-SNE by removing guesswork about which hyperparameters will produce the best embedding. We evaluate and compare our neural network-derived and empirically optimum hyperparameters to several other t-SNE hyperparameter guidelines from the literature on 68 data sets. The hyperparameters predicted by our neural network yield embeddings with similar accuracy as the best current t-SNE guidelines. Using our empirically optimum hyperparameters is simpler than following previously published guidelines but yields more accurate embeddings, in some cases by a statistically significant margin. We find that the useful ranges for t-SNE hyperparameters are narrower and include smaller values than previously reported in the literature. Importantly, we also quantify the potential for future improvements in this area: using data from a grid search of t-SNE hyperparameters we find that an optimal selection method could improve embedding accuracy by up to two percentage points over the methods examined in this paper.",
+      "show_abstract": false
+    },
+    "4033": {
+      "authors": [
+        "Shijun Cai (The University of Sydney)",
+        "Seok-Hee Hong (The University of Sydney)",
+        "Xiaobo Xia (The University of Sydney)",
+        "Tongliang Liu (The University of Sydney)",
+        "Weidong Huang (University of Technology Sydney)"
+      ],
+      "Paper ID": 4033,
+      "Title": "A Machine Learning Approach for Predicting Human Shortest Path Task Performance",
+      "type": "?",
+      "Abstract": "Finding a shortest path for a given pair of vertices in a graph drawing is one of the fundamental tasks for qualitative evaluation of graph drawings. In this paper, we present the first machine learning approach to predict human shortest path task performance, including accuracy, response time, and mental effort.\n\nTo predict the shortest path task performance, we utilize correlated quality metrics and the ground truth data from the shortest path experiments. Specifically, we introduce path faithfulness metrics and show strong correlations with the shortest path task performance. Moreover, to mitigate the problem of insufficient ground truth training data, we use the transfer learning method to pre-train our deep model, exploiting the correlated quality metrics.\n\nExperimental results using the ground truth human shortest path experiment data show that our models can successfully predict the shortest path task performance. In particular, model MSP achieves the MSE (i.e., test mean square error) of 0.7243 (i.e., data range from \u221217.27 to 1.81) for prediction.",
+      "show_abstract": false
+    },
+    "9591": {
+      "authors": [
+        "Michael Gleicher (University of Wisconsin - Madison)",
+        "Xinyi Yu (University of Wisconsin - Madison)",
+        "Yuheng Chen (University of Wisconsin - Madison)"
+      ],
+      "Paper ID": 9591,
+      "Title": "Trinary tools for Continuously Valued Binary Classifiers",
+      "type": "?",
+      "Abstract": "Classification methods for binary (yes/no) tasks often produce a continuously valued score.\nMachine learning practitioners must perform model selection, calibration, discretization, performance assessment, tuning, and fairness assessment.\nSuch tasks involve examining classifier results, typically using summary statistics and manual examination of details.\nIn this paper, we provide an interactive visualization approach to support such continuously-valued classifier examination tasks.\n\\added{Our approach addresses the three phases of these tasks: calibration, operating point selection, and examination.}\nWe enhance standard views and introduce task-specific views so that they can be integrated into a multi-view coordination (MVC) system.\nWe build on an existing comparison-based approach, extending it to continuous classifiers by treating the continuous values as trinary (positive, unsure, negative) even if the classifier will not ultimately use the 3-way classification. We provide use cases that demonstrate how our approach enables machine learning practitioners to accomplish key tasks.",
+      "show_abstract": false
     }
   },
   "Full Papers": [
@@ -929,6 +980,59 @@ const talks = {
       "Abstract pages": 8,
       "Abstract paper size": "A4",
       "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
+      "show_abstract": false
+    }
+  ],
+  "Visualization Meets AI Papers": [
+    {
+      "authors": [
+        "Jun Han (University of Notre Dame)",
+        "Chaoli Wang (University of Notre Dame)"
+      ],
+      "Paper ID": 6403,
+      "Title": "VCNet: A Generative Model for Volume Completion",
+      "type": "?",
+      "Abstract": "We present VCNet, a new deep learning approach for volume completion by synthesizing missing subvolumes. Our solution leverages a generative adversarial network (GAN) that learns to complete volumes using the adversarial and volumetric losses. The core design of VCNet features dilated residual block and long-term connection. During training, VCNet first randomly masks basic subvolumes (e.g., cuboids, slices) from complete volumes and learns to recover them. Moreover, we design a two-stage algorithm for stabilizing and accelerating network optimization. Once trained, VCNet takes an incomplete volume as input and automatically identifies and fills in the missing subvolumes with high quality. We quantitatively and qualitatively test VCNet with volumetric data sets of various characteristics to demonstrate its effectiveness. We also compare VCNet against a diffusion-based solution and two GAN-based solutions.",
+      "show_abstract": false
+    },
+    {
+      "authors": [
+        "Robert Gove (Two Six Technologies)",
+        "Lucas Cadalzo (Two Six Technologies)",
+        "Nicholas Leiby (Two Six Technologies)",
+        "Jedediah Singer (Two Six Technologies)",
+        "Alexander Zaitzeff (Two Six Technologies)"
+      ],
+      "Paper ID": 5160,
+      "Title": "New Guidance for Using t-SNE: Alternative Defaults, Hyperparameter Selection Automation, and Comparative Evaluation",
+      "type": "?",
+      "Abstract": "We present new guidelines for choosing hyperparameters for t-SNE and an evaluation comparing these guidelines to current ones. These guidelines include a proposed empirically optimum guideline derived from a t-SNE hyperparameter grid search over a large collection of data sets. We also introduce a new method to featurize data sets using graph-based metrics called scagnostics; we use these features to train a neural network that predicts optimal t-SNE hyperparameters for the respective data set. This neural network has the potential to simplify the use of t-SNE by removing guesswork about which hyperparameters will produce the best embedding. We evaluate and compare our neural network-derived and empirically optimum hyperparameters to several other t-SNE hyperparameter guidelines from the literature on 68 data sets. The hyperparameters predicted by our neural network yield embeddings with similar accuracy as the best current t-SNE guidelines. Using our empirically optimum hyperparameters is simpler than following previously published guidelines but yields more accurate embeddings, in some cases by a statistically significant margin. We find that the useful ranges for t-SNE hyperparameters are narrower and include smaller values than previously reported in the literature. Importantly, we also quantify the potential for future improvements in this area: using data from a grid search of t-SNE hyperparameters we find that an optimal selection method could improve embedding accuracy by up to two percentage points over the methods examined in this paper.",
+      "show_abstract": false
+    },
+    {
+      "authors": [
+        "Shijun Cai (The University of Sydney)",
+        "Seok-Hee Hong (The University of Sydney)",
+        "Xiaobo Xia (The University of Sydney)",
+        "Tongliang Liu (The University of Sydney)",
+        "Weidong Huang (University of Technology Sydney)"
+      ],
+      "Paper ID": 4033,
+      "Title": "A Machine Learning Approach for Predicting Human Shortest Path Task Performance",
+      "type": "?",
+      "Abstract": "Finding a shortest path for a given pair of vertices in a graph drawing is one of the fundamental tasks for qualitative evaluation of graph drawings. In this paper, we present the first machine learning approach to predict human shortest path task performance, including accuracy, response time, and mental effort.\n\nTo predict the shortest path task performance, we utilize correlated quality metrics and the ground truth data from the shortest path experiments. Specifically, we introduce path faithfulness metrics and show strong correlations with the shortest path task performance. Moreover, to mitigate the problem of insufficient ground truth training data, we use the transfer learning method to pre-train our deep model, exploiting the correlated quality metrics.\n\nExperimental results using the ground truth human shortest path experiment data show that our models can successfully predict the shortest path task performance. In particular, model MSP achieves the MSE (i.e., test mean square error) of 0.7243 (i.e., data range from \u221217.27 to 1.81) for prediction.",
+      "show_abstract": false
+    },
+    {
+      "authors": [
+        "Michael Gleicher (University of Wisconsin - Madison)",
+        "Xinyi Yu (University of Wisconsin - Madison)",
+        "Yuheng Chen (University of Wisconsin - Madison)"
+      ],
+      "Paper ID": 9591,
+      "Title": "Trinary tools for Continuously Valued Binary Classifiers",
+      "type": "?",
+      "Abstract": "Classification methods for binary (yes/no) tasks often produce a continuously valued score.\nMachine learning practitioners must perform model selection, calibration, discretization, performance assessment, tuning, and fairness assessment.\nSuch tasks involve examining classifier results, typically using summary statistics and manual examination of details.\nIn this paper, we provide an interactive visualization approach to support such continuously-valued classifier examination tasks.\n\\added{Our approach addresses the three phases of these tasks: calibration, operating point selection, and examination.}\nWe enhance standard views and introduce task-specific views so that they can be integrated into a multi-view coordination (MVC) system.\nWe build on an existing comparison-based approach, extending it to continuous classifiers by treating the continuous values as trinary (positive, unsure, negative) even if the classifier will not ultimately use the 3-way classification. We provide use cases that demonstrate how our approach enables machine learning practitioners to accomplish key tasks.",
       "show_abstract": false
     }
   ]
