@@ -51,6 +51,7 @@ const CreateApp = (paper) => {
         if (t == 'PPaper') return 'type type-paper type-premium';
         if (t == 'Paper') return 'type type-paper';
         if (t == 'Note') return 'type type-note';
+        if (t == 'Poster') return 'type type-poster';
         return 'type';
       },
 
