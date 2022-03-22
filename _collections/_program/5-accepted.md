@@ -5,13 +5,13 @@ permalink: '/program/accepted/'
 date: 2022-03-17
 ---
 
-Please look at the lists of full papers and visualization notes.  Posters show up soon.
+[Full Papers](#papers) / [Visualization Notes](#notes) / [Posters](#posters)
 
-<script src="https://unpkg.com/vue@3"></script>
+---
 
 {% assign accepted = site.data.accepted %}
 
-# Full Papers
+# Full Papers {#papers}
 
 <!-- https://stackoverflow.com/questions/64010560/passing-props-to-vue-root-instance-via-attributes-on-element-the-app-is-mounted -->
 
@@ -20,14 +20,18 @@ Please look at the lists of full papers and visualization notes.  Posters show u
 <paper data-paper_id="{{id}}"></paper>
 {% endfor %}
 
-# Visualization Notes
+---
+
+# Visualization Notes {#notes}
 
 {% for paper in accepted["Visualization Notes"] %}
 {% assign id = paper["Paper ID"] %}
 <paper data-paper_id="{{id}}"></paper>
 {% endfor %}
 
-# Posters
+---
+
+# Posters {#posters}
 
 {% for paper in accepted["Posters"] %}
 {% assign id = paper["Paper ID"] %}
@@ -36,6 +40,7 @@ Please look at the lists of full papers and visualization notes.  Posters show u
 {% endif %}
 {% endfor %}
 
+<script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/preview.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.js"></script>
