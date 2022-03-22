@@ -577,7 +577,7 @@
       "Paper ID": "poster-1028",
       "Title": "ChordTransition: A New State Transition Model with a Time Order TrackingMechanism for Time Series Data",
       "type": "Poster",
-      "Abstract": "1. Correct some grammatical errors.\n2. Add the description of figure 2.(Explain the time order mechanism in our method)\n3. Add the demonstration of dataset used in the usage scenario session.",
+      "Abstract": "In real systems such as those found in ecology, relationships between time series variables dynamically change in a nonlinear or state-dependent manner. Nonlinear analysis, as represented by empirical dynamic modeling, can represent time series data as trajectories in state space. By summarizing a sequence of points in a high-dimensional space, we can visualize the state transitions of the underlying system. State transition representations using node-link diagrams have often been used in previous research. Therefore, time order tracking is difficult in the state transition graph and the complex timelines cause clutter. To solve the problem, we propose ChordTransition, a new state transition model that employs Chord technique and refines the transition details within states. We discuss the design of ChordTransition, and present a prototype visual analytic system.",
       "show_abstract": false
     },
     "poster-1024": {
@@ -1384,7 +1384,7 @@
       "Paper ID": "poster-1028",
       "Title": "ChordTransition: A New State Transition Model with a Time Order TrackingMechanism for Time Series Data",
       "type": "Poster",
-      "Abstract": "1. Correct some grammatical errors.\n2. Add the description of figure 2.(Explain the time order mechanism in our method)\n3. Add the demonstration of dataset used in the usage scenario session.",
+      "Abstract": "In real systems such as those found in ecology, relationships between time series variables dynamically change in a nonlinear or state-dependent manner. Nonlinear analysis, as represented by empirical dynamic modeling, can represent time series data as trajectories in state space. By summarizing a sequence of points in a high-dimensional space, we can visualize the state transitions of the underlying system. State transition representations using node-link diagrams have often been used in previous research. Therefore, time order tracking is difficult in the state transition graph and the complex timelines cause clutter. To solve the problem, we propose ChordTransition, a new state transition model that employs Chord technique and refines the transition details within states. We discuss the design of ChordTransition, and present a prototype visual analytic system.",
       "show_abstract": false
     },
     {
