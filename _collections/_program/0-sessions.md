@@ -36,9 +36,9 @@ Chair: Junpeng Wang
 
 Opening and Invited Talk by Hanqi Guo on "[Intelligent Visualization for Science]({{site.baseurl}}/program/visxai/#hanqi_guo)"
 
-<paper data-paper_id="4033"></paper>
+<paper data-paper_id="visxai-4033"></paper>
 
-<paper data-paper_id="6403"></paper>
+<paper data-paper_id="visxai-6403"></paper>
 
 ## 11:10-12:50 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 2 {#visxai2}
 
@@ -46,9 +46,9 @@ Chair: Takanori Fujiwara
 
 Invited Talk by Yong Wang on "[Visualization Meets AI: Automated Visualization Design and Evaluation]({{site.baseurl}}/program/visxai/#yong_wang)"
 
-<paper data-paper_id="9591"></paper>
+<paper data-paper_id="visxai-9591"></paper>
 
-<paper data-paper_id="5160"></paper>
+<paper data-paper_id="visxai-5160"></paper>
 
 ---
 ## 14:30-15:00 PacificVIS Opening {#opening}
@@ -97,6 +97,13 @@ Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keyno
 # 14:50-16:20 Posters {#posters}
 
 Posters will take place on a Gather.Town room.
+
+{% for paper in accepted["Posters"] %}
+{% assign id = paper["Paper ID"] %}
+{% if id != "poster-1027" and id != "poster-1033" %}
+<paper data-paper_id="{{id}}"></paper>
+{% endif %}
+{% endfor %}
 
 # 16:30-17:30 Virtual Banquet {#banquet}
 

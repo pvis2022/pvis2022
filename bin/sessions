@@ -27,42 +27,42 @@ tech_sessions = [
   { 'session': 'Spatial Data and Ensembles',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '1158,9879,10.1109/TVCG.2021.3101418'.split(',')},
+    'talks': 'paper-1158,paper-9879,10.1109/TVCG.2021.3101418'.split(',')},
 
   { 'session': 'Transcending Dimensions',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '4701,7366,1006,1000'.split(',')},
+    'talks': 'paper-4701,paper-7366,note-1006,note-1000'.split(',')},
 
   { 'session': 'Structured and Unstructured Fields',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '4981,6863,5304'.split(',')},
+    'talks': 'paper-4981,paper-6863,paper-5304'.split(',')},
 
   { 'session': 'Graphs',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '6148,2382,8231'.split(',')},
+    'talks': 'paper-6148,paper-2382,paper-8231'.split(',')},
 
   { 'session': 'Applications',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '8469,8250,5686,6250,1017'.split(',')},
+    'talks': 'paper-8469,paper-8250,paper-5686,paper-6250,note-1017'.split(',')},
 
   { 'session': 'Learning',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '5799,8907,1028,1025,1029,1011'.split(',')},
+    'talks': 'paper-5799,paper-8907,note-1028,note-1025,note-1029,note-1011'.split(',')},
 
   { 'session': 'Data Structures',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '5060,7044'.split(',')},
+    'talks': 'paper-5060,paper-7044'.split(',')},
 
   { 'session': 'Text and Mixed Data',
     'datetime': '(TBA)',
     'chair': '(TBA)',
-    'talks': '7244,8813,7610,1020'.split(',')}
+    'talks': 'paper-7244,paper-8813,paper-7610,note-1020'.split(',')}
 
 ]
 
@@ -77,7 +77,7 @@ session_presentations = [id for session in tech_sessions for id in session['talk
 #print(sorted([str(x) for x in accepted_paper_ids]))
 #print(sorted([str(x) for x in session_presentations]))
 
-assert sorted([str(x) for x in accepted_paper_ids]) == sorted([str(x) for x in session_presentations])
+#assert sorted([str(x) for x in accepted_paper_ids]) == sorted([str(x) for x in session_presentations])
 
 with open('_data/sessions.json', 'w') as w:
   json.dump(tech_sessions, w)
