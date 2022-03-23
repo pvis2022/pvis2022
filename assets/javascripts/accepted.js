@@ -43,7 +43,7 @@ const CreateApp = (paper) => {
       paper_type: function (ev) {
         const t = this.paper.type.toLowerCase();
         if (t == 'ppaper') return 'paper';
-        if (t == 'poster') return this.paper_id;
+        if (t == 'poster') return this.paper_id.split('-')[1];
         return t;
       },
       paper_type_class: function (ev) {

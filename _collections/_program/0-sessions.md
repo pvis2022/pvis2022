@@ -96,10 +96,11 @@ Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keyno
 
 # 14:50-16:20 Posters {#posters}
 
-Posters will take place on a Gather.Town room.
+Posters will take place in a Gather.Town room.
 
-{% for paper in accepted["Posters"] %}
-{% assign id = paper["Paper ID"] %}
+{% assign posters = accepted["Posters"] | sort: "Paper ID" %}
+{% for poster in posters %}
+{% assign id = poster["Paper ID"] %}
 {% if id != "poster-1027" and id != "poster-1033" %}
 <paper data-paper_id="{{id}}"></paper>
 {% endif %}

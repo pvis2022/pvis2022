@@ -33,8 +33,9 @@ date: 2022-03-17
 
 # Posters {#posters}
 
-{% for paper in accepted["Posters"] %}
-{% assign id = paper["Paper ID"] %}
+{% assign posters = accepted["Posters"] | sort: "Paper ID" %}
+{% for poster in posters %}
+{% assign id = poster["Paper ID"] %}
 {% if id != "poster-1027" and id != "poster-1033" %}
 <paper data-paper_id="{{id}}"></paper>
 {% endif %}
