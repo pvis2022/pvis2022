@@ -56,33 +56,15 @@ Kobe University
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
 
-{% comment %}
 
-<!-- Moved to pages/committees.md -->
+## Visualization Notes
 
-# Conference Committees
-
-{% assign role = "" %}
-{% for member in data.Organization %}
-  {% if role != member.Role %}
-    {% assign role = member.Role %}
-<p class="oc-role">{{ member.Role }}</p>
-  {% endif %}
-
-<div style="display: inline-block; width: 32%; text-align: center;">
-  {% if member.Photo == "yes" %}
-<img src="assets/images/oc/{{ member.First | replace: " ", "_" }}_{{ member.Given }}.jpg"
-     class="circle" width="150" height="150" /><br />
-  {% else %}
-<img src="assets/images/oc/nobody.jpg" width="100" height="100" /><br />
-  {% endif %}
-<strong>{{ member.First }} {{ member.Given }}</strong><br/>
-{{ member.Affiliation }}
-</div>
-
-{% endfor %}
-
-{% endcomment %}
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/pS0jLAr1-xo"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
 
 ---
 
