@@ -20,5 +20,13 @@ const preview = {
   "paper-8813": "https://youtu.be/hutiNbibNJQ",
   "paper-8907": "https://youtu.be/d6Co7Fde4WY",
   "paper-9879": "https://youtu.be/6IVz_6mhHHM",
-  "10.1109/TVCG.2021.3101418": "https://youtu.be/Ep_jZzhpWuc"
+  "10.1109/TVCG.2021.3101418": "https://youtu.be/Ep_jZzhpWuc",
+  "note-1000": "https://youtu.be/pS0jLAr1-xo",
+  "note-1006": "https://youtu.be/SghlKcj24G0",
+  "note-1011": "https://youtu.be/YOVGWAkTQF4",
+  "note-1017": "https://youtu.be/a9G6yXDrKW4",
+  "note-1020": "https://youtu.be/BiEhUwMwWbU",
+  "note-1025": "https://youtu.be/JakU5Qs1g00",
+  "note-1028": "https://youtu.be/GaH8U-AtR54",
+  "note-1029": "https://youtu.be/BR9--CXX_Po"
 };

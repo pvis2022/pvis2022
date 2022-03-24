@@ -14,7 +14,7 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 # News
 
-- [List of papers, notes, and posters are available]({{site.baseurl}}/program/accepted).  Don't miss the paper previews! (2022-03-22)
+- [List of papers, notes, and posters are available]({{site.baseurl}}/program/accepted).  Don't miss the papers and notes previews! (2022-03-24)
 - [Visualization Meets AI Workshop]({{site.baseurl}}/program/visxai/) is scheduled on Day 1!  (2022-03-21)
 - Let's watch at [four beautiful visual data stories]({{site.baseurl}}/program/contest/)!  (2022-03-15)
 - [We welcome your registration]({{site.baseurl}}/registration/). (2022-03-11)

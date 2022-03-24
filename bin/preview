@@ -14,7 +14,7 @@ def download():
   book = gc.open_by_key(GSHEET_ID)
   preview = dict()
   for sheet in book.worksheets():
-    if not sheet.title in set('Full Papers Preview'.split(',')): continue
+    if not sheet.title in set('Full Papers Preview,Notes Preview'.split(',')): continue
     df = pd.DataFrame(sheet.get_all_records()).rename(columns={'utube url(限定公開)': 'url'})[['id', 'url']]
     for row in df.itertuples():
       id = str(row[1]); url = row[2]
