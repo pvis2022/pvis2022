@@ -11,3 +11,4 @@ permalink: '/program/'
 - [Visual Data Storytelling Contest Shortlist]({{site.baseurl}}/program/contest/)
 - [Accepted papers/notes/stories]({{site.baseurl}}/program/accepted/)
 - [Social events]({{site.baseurl}}/program/social/)
+- [China-Japan Joint Visualization Workshop]({{site.baseurl}}/program/cjvis/)
