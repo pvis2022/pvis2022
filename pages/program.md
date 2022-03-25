@@ -23,3 +23,4 @@ permalink: '/program/'
 |       |                | Afternoon | 14:00 [Keynote 2]({{site.baseurl}}/program/sessions/#keynote2), 14:50 [Posters]({{site.baseurl}}/program/sessions/#posters), 16:30 [Banquet]({{site.baseurl}}/program/sessions/#banquet)
 | **Day 4** | April 14 (Thu) | Morning   | 10:00 [Sessions 7]({{site.baseurl}}/program/sessions/#session7), 11:30 [Session 8]({{site.baseurl}}/program/sessions/#session8), 12:30 [Closing]({{site.baseurl}}/program/sessions/#closing)
 
+<p class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9). More detail will be announced shortly.</p>
