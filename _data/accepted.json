@@ -537,13 +537,6 @@
       "type": "Poster",
       "show_abstract": false
     },
-    "poster-1033": {
-      "authors": [],
-      "Paper ID": "poster-1033",
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain]",
-      "type": "Poster",
-      "show_abstract": false
-    },
     "poster-1015": {
       "authors": [
         "Jiayang Li (Tianjin University)",
@@ -806,6 +799,22 @@
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
+      "show_abstract": false
+    },
+    "poster-1033": {
+      "authors": [
+        "Xuan Chen (Fudan University)",
+        "Xincan Zhang (Fudan University)",
+        "Zhaohan Wang (Fudan University)",
+        "Kerun Yu (Fudan University)",
+        "Jason Wong (The Hong Kong University of Science and Technology)",
+        "Haoyun Guo (EthPlanet)",
+        "Siming Chen (Fudan University)"
+      ],
+      "Paper ID": "poster-1033",
+      "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
+      "type": "Poster",
+      "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
       "show_abstract": false
     }
   },
@@ -1345,13 +1354,6 @@
       "show_abstract": false
     },
     {
-      "authors": [],
-      "Paper ID": "poster-1033",
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain]",
-      "type": "Poster",
-      "show_abstract": false
-    },
-    {
       "authors": [
         "Jiayang Li (Tianjin University)",
         "Chongke Bi (Tianjin University)"
@@ -1613,6 +1615,22 @@
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
+      "show_abstract": false
+    },
+    {
+      "authors": [
+        "Xuan Chen (Fudan University)",
+        "Xincan Zhang (Fudan University)",
+        "Zhaohan Wang (Fudan University)",
+        "Kerun Yu (Fudan University)",
+        "Jason Wong (The Hong Kong University of Science and Technology)",
+        "Haoyun Guo (EthPlanet)",
+        "Siming Chen (Fudan University)"
+      ],
+      "Paper ID": "poster-1033",
+      "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
+      "type": "Poster",
+      "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
       "show_abstract": false
     }
   ]

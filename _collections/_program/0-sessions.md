@@ -101,7 +101,7 @@ Posters will take place in a Gather.Town room.
 {% assign posters = accepted["Posters"] | sort: "Paper ID" %}
 {% for poster in posters %}
 {% assign id = poster["Paper ID"] %}
-{% if id != "poster-1027" and id != "poster-1033" %}
+{% if id != "poster-1027" %}
 <paper data-paper_id="{{id}}"></paper>
 {% endif %}
 {% endfor %}
