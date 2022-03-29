@@ -13,6 +13,9 @@ permalink: '/program/'
 - [Social events]({{site.baseurl}}/program/social/)
 - [China-Japan Joint Visualization Workshop]({{site.baseurl}}/program/cjvis/)
 
+<span style="font-size: xx-large;">📅&nbsp;&nbsp;</span>
+Troubled interpreting datetimes described in Japanese timezones? Please merge [pvis2022 Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) into yours.  Each entry of the calendar has a link to the corresponding section in the program page.  And do not forget to set alerts on the sessions that you can not miss.
+
 | Day | Date | M/A | Sessions |
 | ----- | -------------- | --------- | -------------------- |
 | **Day 1** | April 11 (Mon) | Morning   | 9:00 [VISxAI 1]({{site.baseurl}}/program/sessions/#visxai1), 11:10 [VISxAI 2]({{site.baseurl}}/program/sessions/#visxai2)
