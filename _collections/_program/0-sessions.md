@@ -9,7 +9,7 @@ date: 2022-03-21
 PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storytelling contest, and social events.
 
 <span style="font-size: xx-large;">📅&nbsp;&nbsp;</span>
-Troubled interpreting datetimes described in Japanese timezones? Please merge [pvis2022 Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) into yours.  Each entry of the calendar has a link to the corresponding section in the program page.  And do not forget to set alerts on the sessions that you can not miss.
+Troubled interpreting datetimes described in Japanese timezones? Please import [pvis2022 Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) into yours.  Each entry of the calendar has a link to the corresponding section in the program page.  And do not forget to set alerts on the sessions that you can not miss.
 
 {% include hide.md %}
 
