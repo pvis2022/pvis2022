@@ -22,7 +22,7 @@ Abstract
 Bio
 : Daniel Weiskopf is a professor and one of the directors of the Visualization Research Center (VISUS) and acting director of the Institute for Visualization and Interactive Systems (VIS), both at the University of Stuttgart, Germany. He received his Dr. rer. nat. (PhD) degree in physics from the University of Tübingen, Germany (2001), and the Habilitation degree in computer science at the University of Stuttgart, Germany (2005). His research interests include visualization, visual analytics, eye tracking, human-computer interaction, computer graphics, augmented and virtual reality, and special and general relativity. He is spokesperson of the DFG-funded Collaborative Research Center SFB/Transregio 161 "Quantitative Methods for Visual Computing" (www.sfbtrr161.de), which covers basic research on visualization, including multidimensional visualization.
 
-# Keynote 2: [Professor Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) (Colleage of Computer Science, Zhejiang University) {#weichen}
+# Keynote 2: [Professor Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) (College of Computer Science, Zhejiang University) {#weichen}
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/keynotes/WeiChen.png" width="500" height="500" />
 
