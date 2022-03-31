@@ -6,7 +6,7 @@ collection: program
 date: 2022-03-11
 ---
 
-We are fascinated to invite two keynote speakers Professor Daniel Weiskopf (University of Stuttgart) and Professor Wei Chen (Colleage of Computer Science, Zhejiang University) during the symposium.
+We are fascinated to invite two keynote speakers Professor Daniel Weiskopf (University of Stuttgart) and Professor Wei Chen (College of Computer Science, Zhejiang University) during the symposium.
 
 <!-- Format: pre-recorded video and live QA -->
 
