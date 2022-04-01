@@ -25,5 +25,6 @@ Troubled interpreting datetimes described in Japanese timezones? Please import [
 | **Day 3** | April 13 (Wed) | Morning   | 10:00 [Storytelling Contest]({{site.baseurl}}/program/sessions/#contest), 11:30 [Session 6]({{site.baseurl}}/program/sessions/#session6)
 |       |                | Afternoon | 14:00 [Keynote 2]({{site.baseurl}}/program/sessions/#keynote2), 14:50 [Posters]({{site.baseurl}}/program/sessions/#posters), 16:30 [Banquet]({{site.baseurl}}/program/sessions/#banquet)
 | **Day 4** | April 14 (Thu) | Morning   | 10:00 [Sessions 7]({{site.baseurl}}/program/sessions/#session7), 11:30 [Session 8]({{site.baseurl}}/program/sessions/#session8), 12:30 [Closing]({{site.baseurl}}/program/sessions/#closing)
+|       |                | Afternoon | 13:00 [C-J Vis](https://fj.ics.keio.ac.jp/cj2022/)
 
 <p class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9). More detail will be announced shortly.</p>

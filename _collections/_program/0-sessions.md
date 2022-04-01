@@ -24,6 +24,7 @@ Troubled interpreting datetimes described in Japanese timezones? Please import [
 | **Day 3** | April 13 (Wed) | Morning   | 10:00 [Storytelling Contest](#contest), 11:30 [Session 6](#session6)
 |       |                | Afternoon | 14:00 [Keynote 2](#keynote2), 14:50 [Posters](#posters), 16:30 [Banquet](#banquet)
 | **Day 4** | April 14 (Thu) | Morning   | 10:00 [Sessions 7](#session7), 11:30 [Session 8](#session8), 12:30 [Closing](#closing)
+|       |                | Afternoon | 13:00 [C-J Vis](https://fj.ics.keio.ac.jp/cj2022/)
 
 {% assign session_period = "16:00-17:00, 10:00-11:00, 11:30-13:00, 14:00-15:30, 16:00-17:00, 11:30-13:00, 10:00-11:00, 11:30-12:30" | split: ", " %}
 
