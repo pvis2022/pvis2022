@@ -66,11 +66,11 @@ Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/
 {% assign accepted = site.data.accepted %}
 {% assign index = accepted.index %}
 
----
-# Day 2 - April 12
-
 {% assign session_id = 0 %}
 {% include tech_session.md %}
+
+---
+# Day 2 - April 12
 
 {% assign session_id = 1 %}
 {% include tech_session.md %}
