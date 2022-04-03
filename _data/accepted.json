@@ -530,13 +530,6 @@
       "Abstract": "Hierarchical clustering techniques are widely used to classify documents based on a set of text written on a specific topic. Dendrograms (or tree diagrams) are often used to visualize the hierarchical clustering results; however, visual scalability for thousands of documents is an issue. To visualize a large number of documents, an provide abstract overview of hierarchical document clusters is required. In this paper, we present a novel visual analytics method to obtain an overview of hierarchical document clusters by aggregating dendrograms and summarizing subclusters using keyphrase extraction. The proposed method includes user interactions for adjusting the dendrogram's level of detail and drilling down to subclusters. An application example of the visualization publications dataset demonstrates the usefulness of our proposed method.",
       "show_abstract": false
     },
-    "poster-1027": {
-      "authors": [],
-      "Paper ID": "poster-1027",
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Direct Manipulation of Static Visualizations]",
-      "type": "Poster",
-      "show_abstract": false
-    },
     "poster-1015": {
       "authors": [
         "Jiayang Li (Tianjin University)",
@@ -815,6 +808,19 @@
       "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
       "type": "Poster",
       "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
+      "show_abstract": false
+    },
+    "poster-1027": {
+      "authors": [
+        "Can Liu (Peking University)",
+        "Yu Zhang (University of Oxford)",
+        "Cong Wu (Peking University)",
+        "Xiaoru Yuan (Peking University)"
+      ],
+      "Paper ID": "poster-1027",
+      "Title": "Direct Manipulation of Static Visualizations",
+      "type": "Poster",
+      "Abstract": "We propose a method that enables manipulating static visualizations and carrying out various interaction tasks through simple operations. Our method models the visual mark layout of static visualization with spatial constraints. Given a static visualization, we extract control points and deduce initial spatial constraints. We formulate a wide range of interaction tasks as changes to force-directed movements, including selection, filtering, navigation, arrangement, and aggregation. The control point positions and spatial constraints are updated upon manipulating the visual marks. The spatial constraints are encoded as forces that drive visual marks to converge to a stable spatial layout.",
       "show_abstract": false
     }
   },
@@ -1347,13 +1353,6 @@
       "show_abstract": false
     },
     {
-      "authors": [],
-      "Paper ID": "poster-1027",
-      "Title": "[NO FINAL TITLE PROVIDED. ORIGINAL TITLE: Direct Manipulation of Static Visualizations]",
-      "type": "Poster",
-      "show_abstract": false
-    },
-    {
       "authors": [
         "Jiayang Li (Tianjin University)",
         "Chongke Bi (Tianjin University)"
@@ -1631,6 +1630,19 @@
       "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
       "type": "Poster",
       "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
+      "show_abstract": false
+    },
+    {
+      "authors": [
+        "Can Liu (Peking University)",
+        "Yu Zhang (University of Oxford)",
+        "Cong Wu (Peking University)",
+        "Xiaoru Yuan (Peking University)"
+      ],
+      "Paper ID": "poster-1027",
+      "Title": "Direct Manipulation of Static Visualizations",
+      "type": "Poster",
+      "Abstract": "We propose a method that enables manipulating static visualizations and carrying out various interaction tasks through simple operations. Our method models the visual mark layout of static visualization with spatial constraints. Given a static visualization, we extract control points and deduce initial spatial constraints. We formulate a wide range of interaction tasks as changes to force-directed movements, including selection, filtering, navigation, arrangement, and aggregation. The control point positions and spatial constraints are updated upon manipulating the visual marks. The spatial constraints are encoded as forces that drive visual marks to converge to a stable spatial layout.",
       "show_abstract": false
     }
   ]
