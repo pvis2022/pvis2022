@@ -153,7 +153,7 @@ const talks = {
     },
     "paper-6863": {
       "authors": [
-        "Dana EL-Rushaidat (Purdue University)",
+        "Dana EL-Rushaidat (Jordan University of Science and Technology)",
         "Raine Yeh (Google)",
         "Xavier Tricoche (Purdue University )"
       ],
@@ -967,7 +967,7 @@ const talks = {
     },
     {
       "authors": [
-        "Dana EL-Rushaidat (Purdue University)",
+        "Dana EL-Rushaidat (Jordan University of Science and Technology)",
         "Raine Yeh (Google)",
         "Xavier Tricoche (Purdue University )"
       ],
