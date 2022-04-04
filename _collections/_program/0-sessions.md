@@ -19,11 +19,11 @@ Troubled interpreting datetimes described in Japanese timezones? Please import [
 | ----- | -------------- | --------- | -------------------- |
 | **Day 1** | April 11 (Mon) | Morning   | 9:00 [VISxAI 1](#visxai1), 11:10 [VISxAI 2](#visxai2)
 |       |                | Afternoon | 14:30 [PVIS Opening](#opening), 15:00 [Keynote 1](#keynote1), 16:00 [Session 1](#session1)
-| **Day 2** | April 12 (Tue) | Morning | 10:00 [Sessions 2](#session2), 11:30 [Session 3](#session3)
+| **Day 2** | April 12 (Tue) | Morning | 10:00 [Session 2](#session2), 11:30 [Session 3](#session3)
 |       |                | Afternoon |  14:00 [Session 4](#session4), 16:00 [Session 5](#session5)
 | **Day 3** | April 13 (Wed) | Morning   | 10:00 [Storytelling Contest](#contest), 11:30 [Session 6](#session6)
 |       |                | Afternoon | 14:00 [Keynote 2](#keynote2), 14:50 [Posters](#posters), 16:30 [Banquet](#banquet)
-| **Day 4** | April 14 (Thu) | Morning   | 10:00 [Sessions 7](#session7), 11:30 [Session 8](#session8), 12:30 [Closing](#closing)
+| **Day 4** | April 14 (Thu) | Morning   | 10:00 [Session 7](#session7), 11:30 [Session 8](#session8), 12:30 [Closing](#closing)
 |       |                | Afternoon | 13:00 [C-J Vis](https://fj.ics.keio.ac.jp/cj2022/)
 
 {% assign session_period = "16:00-17:00, 10:00-11:00, 11:30-13:00, 14:00-15:30, 16:00-17:00, 11:30-13:00, 10:00-11:00, 11:30-12:30" | split: ", " %}
@@ -61,6 +61,9 @@ Invited Talk by Yong Wang on "[Visualization Meets AI: Automated Visualization D
 
 Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
 
+Chair
+: Steffen Frey
+
 <p class="notice">The keynote q/a starts with a brief explanation by Dr. Weiskopf followed by questions/answers.   Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Weiskopf realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</p>
 
 {% assign accepted = site.data.accepted %}
@@ -95,6 +98,9 @@ Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/
 # 14:00-14:30 Keynote 2 {#keynote2}
 
 Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
+
+Chair
+: Nan Cao
 
 <p class="notice">The keynote q/a starts with a brief explanation by Dr. Chen followed by questions/answers.  Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Chen realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</p>
 
