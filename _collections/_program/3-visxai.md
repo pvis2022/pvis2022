@@ -6,6 +6,10 @@ collection: program
 date: 2022-03-21
 ---
 
+## 9:00-10:40 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 1 {#visxai1}
+
+Opening and Invited Talk by Hanqi Guo on "Intelligent Visualization for Science"
+
 The task of data visualization generally involves a design step, which requires the knowledge of the data domain and visualization methods to do well. Because of the immense design space for optimization, it can take both novices and experts substantial effort to derive desired visualization results from data for exploration or communication. Following the resurgence of artificial intelligence (AI) technology in recent years, in the field of visualization, there is a growing interest and opportunity in applying AI to perform data transformation and to assist the generation of visualization, aiming to strike a balance between cost and quality. The use of visualization to enhance AI is the other active line of research. This workshop, held in conjunction with IEEE PacificVis 2022, aims at exploring this emerging area of research and practice by fostering communication between visualization researchers and practitioners. Attendees will be introduced to the latest and greatest research innovations in AI-enhanced visualization (AI4VIS) as well as visualization-enhanced AI (VIS4AI), and also learn about further research opportunities. The workshop will be composed of paper presentations and invited talks.
 
 # Session 1: AI for VIS Representation and Prediction (Chair: Junpeng Wang) {#session1}
@@ -29,9 +33,9 @@ Bio
 
 ## 10:00-10:40: Paper Presentations
 
-<paper data-paper_id="4033"></paper>
+<paper data-paper_id="visxai-4033"></paper>
 
-<paper data-paper_id="6403"></paper>
+<paper data-paper_id="visxai-6403"></paper>
 
 
 ---
@@ -57,9 +61,9 @@ Bio
 
 ## 12:10-12:50: Paper Presentations
 
-<paper data-paper_id="9591"></paper>
+<paper data-paper_id="visxai-9591"></paper>
 
-<paper data-paper_id="5160"></paper>
+<paper data-paper_id="visxai-5160"></paper>
 
 <script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
