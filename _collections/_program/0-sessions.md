@@ -36,7 +36,7 @@ Troubled interpreting datetimes described in Japanese timezones? Please import [
 
 ## 9:00-10:40 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 1 {#visxai1}
 
-Chair: Junpeng Wang
+**Chair**: Junpeng Wang
 
 Opening and Invited Talk by Hanqi Guo on "[Intelligent Visualization for Science]({{site.baseurl}}/program/visxai/#hanqi_guo)"
 
@@ -46,7 +46,7 @@ Opening and Invited Talk by Hanqi Guo on "[Intelligent Visualization for Science
 
 ## 11:10-12:50 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 2 {#visxai2}
 
-Chair: Takanori Fujiwara
+**Chair**: Takanori Fujiwara
 
 Invited Talk by Yong Wang on "[Visualization Meets AI: Automated Visualization Design and Evaluation]({{site.baseurl}}/program/visxai/#yong_wang)"
 
@@ -61,8 +61,7 @@ Invited Talk by Yong Wang on "[Visualization Meets AI: Automated Visualization D
 
 Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/keynotes/#danielweiskopf)"
 
-Chair
-: Steffen Frey
+**Chair**: Steffen Frey
 
 <p class="notice">The keynote q/a starts with a brief explanation by Dr. Weiskopf followed by questions/answers.   Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Weiskopf realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</p>
 
@@ -99,8 +98,7 @@ Chair
 
 Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
-Chair
-: Nan Cao
+**Chair**: Nan Cao
 
 <p class="notice">The keynote q/a starts with a brief explanation by Dr. Chen followed by questions/answers.  Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Chen realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</p>
 

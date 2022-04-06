@@ -26,42 +26,42 @@ presentations['10.1109/TVCG.2021.3101418'] = {
 tech_sessions = [
   { 'session': 'Spatial Data and Ensembles',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Thomas Höllt',
     'talks': 'paper-1158,paper-9879,10.1109/TVCG.2021.3101418'.split(',')},
 
   { 'session': 'Transcending Dimensions',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Takanori Fujiwara',
     'talks': 'paper-4701,paper-7366,note-1006,note-1000'.split(',')},
 
   { 'session': 'Structured and Unstructured Fields',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Yang Shi',
     'talks': 'paper-4981,paper-6863,paper-5304'.split(',')},
 
   { 'session': 'Graphs',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Qing Chen',
     'talks': 'paper-6148,paper-2382,paper-8231'.split(',')},
 
   { 'session': 'Applications',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Chongke Bi',
     'talks': 'paper-8469,paper-8250,paper-5686,paper-6250,note-1017'.split(',')},
 
   { 'session': 'Learning',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Chaoli Wang',
     'talks': 'paper-5799,paper-8907,note-1028,note-1025,note-1029,note-1011'.split(',')},
 
   { 'session': 'Data Structures',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Liang Gou',
     'talks': 'paper-5060,paper-7044'.split(',')},
 
   { 'session': 'Text and Mixed Data',
     'datetime': '(TBA)',
-    'chair': '(TBA)',
+    'chair': 'Bum Chul Kwon',
     'talks': 'paper-7244,paper-8813,paper-7610,note-1020'.split(',')}
 
 ]
