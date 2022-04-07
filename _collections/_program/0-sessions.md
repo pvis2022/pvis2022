@@ -71,6 +71,8 @@ Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/
 {% assign session_id = 0 %}
 {% include tech_session.md %}
 
+**doi:** [10.1109/TVCG.2021.3101418](https://doi.org/10.1109/TVCG.2021.3101418)
+
 ---
 # Day 2 - April 12
 
