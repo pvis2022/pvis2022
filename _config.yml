@@ -53,21 +53,23 @@ defaults:
     values:
       image:
         #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-morning.jpg'
+        path: 'assets/images/intro-image/intro-night.jpg'
   - scope:
       path: "_collections/_cfp"
     values:
       collection: cfp
       layout: page
       image:
-        path: 'assets/images/tsukuba_center_wide.jpg'
+        #path: 'assets/images/tsukuba_center_wide.jpg'
+        path: 'assets/images/intro-image/intro-morning.jpg'
   - scope:
       path: "_collections/_program"
     values:
       collection: program
       layout: page
       image:
-        path: 'assets/images/tsukuba_center_wide.jpg'
+        #path: 'assets/images/tsukuba_center_wide.jpg'
+        path: 'assets/images/intro-image/intro-morning.jpg'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
