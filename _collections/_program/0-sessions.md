@@ -91,12 +91,12 @@ Daniel Weiskopf on "[Multidimensional Visualization]({{ site.baseurl }}/program/
 ---
 # Day 3 - April 13
 
-# 10:00-11:00 Visual Data Storytelling Contest {#contest}
+## 10:00-11:00 Visual Data Storytelling Contest {#contest}
 
 {% assign session_id = 5 %}
 {% include tech_session.md %}
 
-# 14:00-14:30 Keynote 2 {#keynote2}
+## 14:00-14:30 Keynote 2 {#keynote2}
 
 Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keynotes/#weichen)"
 
@@ -104,7 +104,7 @@ Wei Chen on "[When Visualization Meets Privacy]({{ site.baseurl }}/program/keyno
 
 <p class="notice">The keynote q/a starts with a brief explanation by Dr. Chen followed by questions/answers.  Keynote talks will appear a few days before the opening on the conference YouTube channel.  You can discuss with Dr. Chen realtime on Zoom or drop your messages on the `#keynote1` channel of the conference Discord a head of this session.</p>
 
-# 14:50-16:20 Posters {#posters}
+## 14:50-16:20 Posters {#posters}
 
 Posters will take place in a Gather.Town room.
 
@@ -114,18 +114,20 @@ Posters will take place in a Gather.Town room.
 <paper data-paper_id="{{id}}"></paper>
 {% endfor %}
 
-# 16:30-17:30 Virtual Banquet {#banquet}
+## 16:30-17:30 Virtual Banquet {#banquet}
 
 Virtual banquet will take place on a Gather.Town room.
 
 ---
+# Day 4 - April 14
+
 {% assign session_id = 6 %}
 {% include tech_session.md %}
 
 {% assign session_id = 7 %}
 {% include tech_session.md %}
 
-# 12:30-13:00 Closing {#closing}
+## 12:30-13:00 Closing {#closing}
 
 <script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
