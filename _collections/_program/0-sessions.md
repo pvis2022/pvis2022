@@ -8,27 +8,7 @@ date: 2022-03-21
 
 PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storytelling contest, and social events.
 
-<span style="font-size: xx-large;">📅&nbsp;&nbsp;</span>
-Troubled interpreting datetimes described in Japanese timezones? Please import [pvis2022 Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) into yours.  Each entry of the calendar has a link to the corresponding section in the program page.  And do not forget to set alerts on the sessions that you can not miss.
-
-{% include hide.md %}
-
-{% assign hide = false %}
-
-| Day | Date | M/A | Sessions |
-| ----- | -------------- | --------- | -------------------- |
-| **Day 1** | April 11 (Mon) | Morning   | 9:00 [VISxAI 1](#visxai1), 11:10 [VISxAI 2](#visxai2)
-|       |                | Afternoon | 14:30 [PVIS Opening](#opening), 15:00 [Keynote 1](#keynote1), 16:00 [Session 1](#session1)
-| **Day 2** | April 12 (Tue) | Morning | 10:00 [Session 2](#session2), 11:30 [Session 3](#session3)
-|       |                | Afternoon |  14:00 [Session 4](#session4), 16:00 [Session 5](#session5)
-| **Day 3** | April 13 (Wed) | Morning   | 10:00 [Storytelling Contest](#contest), 11:30 [Session 6](#session6)
-|       |                | Afternoon | 14:00 [Keynote 2](#keynote2), 14:50 [Posters](#posters), 16:30 [Banquet](#banquet)
-| **Day 4** | April 14 (Thu) | Morning   | 10:00 [Session 7](#session7), 11:30 [Session 8](#session8), 12:30 [Closing](#closing)
-|       |                | Afternoon | 13:00 [C-J Vis](https://fj.ics.keio.ac.jp/cj2022/)
-
-{% assign session_period = "16:00-17:00, 10:00-11:00, 11:30-13:00, 14:00-15:30, 16:00-17:00, 11:30-13:00, 10:00-11:00, 11:30-12:30" | split: ", " %}
-
-<p class="notice">Date/Time is presented in Japanese standard time (JST/UTC+9). More detail will be announced shortly.</p>
+{% include timetable.md %}
 
 ---
 
@@ -127,7 +107,7 @@ Virtual banquet will take place on a Gather.Town room.
 {% assign session_id = 7 %}
 {% include tech_session.md %}
 
-## 12:30-13:00 Closing {#closing}
+## 12:40-13:00 Closing {#closing}
 
 <script src="https://unpkg.com/vue@3"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>

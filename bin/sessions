@@ -29,10 +29,10 @@ tech_sessions = [
     'chair': 'Thomas Höllt',
     'talks': 'paper-1158,paper-9879,10.1109/TVCG.2021.3101418'.split(',')},
 
-  { 'session': 'Transcending Dimensions',
+  { 'session': 'Applications',
     'datetime': '(TBA)',
-    'chair': 'Takanori Fujiwara',
-    'talks': 'paper-4701,paper-7366,note-1006,note-1000'.split(',')},
+    'chair': 'Chongke Bi',
+    'talks': 'paper-8469,paper-8250,paper-5686,paper-6250,note-1017'.split(',')},
 
   { 'session': 'Structured and Unstructured Fields',
     'datetime': '(TBA)',
@@ -44,10 +44,10 @@ tech_sessions = [
     'chair': 'Qing Chen',
     'talks': 'paper-6148,paper-2382,paper-8231'.split(',')},
 
-  { 'session': 'Applications',
+  { 'session': 'Transcending Dimensions',
     'datetime': '(TBA)',
-    'chair': 'Chongke Bi',
-    'talks': 'paper-8469,paper-8250,paper-5686,paper-6250,note-1017'.split(',')},
+    'chair': 'Takanori Fujiwara',
+    'talks': 'paper-4701,paper-7366,note-1006,note-1000'.split(',')},
 
   { 'session': 'Learning',
     'datetime': '(TBA)',
