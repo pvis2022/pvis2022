@@ -6,6 +6,8 @@ collection: program
 date: 2022-03-21
 ---
 
+<span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2022-04-08)
+
 PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storytelling contest, and social events.
 
 {% include timetable.md %}

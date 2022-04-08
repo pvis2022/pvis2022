@@ -14,6 +14,7 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 # News
 
+- <span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2022-04-08)
 - [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is provided.  (2022-03-29)
 - [China-Japan Joint Visualization Workshop](https://fj.ics.keio.ac.jp/cj2022/) starts right after the symposium.
 - [List of papers, notes, and posters are available]({{site.baseurl}}/program/accepted).  Don't miss the papers and notes previews! (2022-03-24)
