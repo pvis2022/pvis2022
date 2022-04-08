@@ -611,7 +611,7 @@ const talks = {
         "Cong Feng (Department of Statics and Information)"
       ],
       "Paper ID": "poster-1001",
-      "Title": "A New Space-slicing Treemapping mathod",
+      "Title": "A New Space-slicing Treemapping method",
       "type": "Poster",
       "Abstract": "Dynamical stability is a desired property for treemapping methods. Since in real world, the dataset is usually in a continuous way to be proceed, and the treemap we visualized will be in a dynamic flow. In this paper, We present a dynamic stable treepping method. Our approach has two main stages, the first step is to layout each rectangle into the treemap in a near-uniform way, and then we resize each rectangle into its real size. This method is a novel method which focuses on the dynamic stable issue of treemapping methods. And this method shows good dynamical stable property in our experiments with real world datasets.",
       "show_abstract": false
@@ -1433,7 +1433,7 @@ const talks = {
         "Cong Feng (Department of Statics and Information)"
       ],
       "Paper ID": "poster-1001",
-      "Title": "A New Space-slicing Treemapping mathod",
+      "Title": "A New Space-slicing Treemapping method",
       "type": "Poster",
       "Abstract": "Dynamical stability is a desired property for treemapping methods. Since in real world, the dataset is usually in a continuous way to be proceed, and the treemap we visualized will be in a dynamic flow. In this paper, We present a dynamic stable treepping method. Our approach has two main stages, the first step is to layout each rectangle into the treemap in a near-uniform way, and then we resize each rectangle into its real size. This method is a novel method which focuses on the dynamic stable issue of treemapping methods. And this method shows good dynamical stable property in our experiments with real world datasets.",
       "show_abstract": false
