@@ -17,6 +17,7 @@ PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storyt
 # Day 1 - April 11
 
 ## 9:00-10:40 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 1 {#visxai1}
+### AI for VIS Representation and Prediction
 
 **Chair**: Junpeng Wang
 
@@ -27,6 +28,7 @@ Opening and Invited Talk by Hanqi Guo on "[Intelligent Visualization for Science
 <paper data-paper_id="visxai-6403"></paper>
 
 ## 11:10-12:50 [Visualization Meets AI]({{site.baseurl}}/program/visxai/): Session 2 {#visxai2}
+### Design and Evaluation of VIS-Assisted AI
 
 **Chair**: Takanori Fujiwara
 
