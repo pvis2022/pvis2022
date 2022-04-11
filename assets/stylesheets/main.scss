@@ -102,7 +102,7 @@ paper .title {
   font-weight: bold;
 }
 
-paper .type {
+.type {
   color: rgb(241, 203, 255);
   background-color: rgb(71, 33, 109);
   font-weight: bold;
@@ -112,15 +112,17 @@ paper .type {
 }
 
 paper .type-premium {
+  /*
   background-color: gold;
   color: rgb(71, 33, 109);
+  */
 }
 
-paper .type-note {
+.type-note {
   background-color: mediumblue;
 }
 
-paper .type-poster {
+.type-poster {
   background-color: green;
 }
 
@@ -137,4 +139,8 @@ paper .abstract {
 paper .abstract-heading {
   color: #666;
   font-weight: bold;
+}
+
+.awarded {
+  color: gold;
 }

@@ -3,6 +3,8 @@ const PreviewTemplate = '<iframe width="560" height="315" src="https://www.youtu
 const PaperTemplate = `
 <div @click="toggle_show_detail">
 <span class="title">{{this.paper.Title}}
+<span v-if="this.paper_award == 'best'" class="fa fa-star awarded"><span class="fa fa-star awarded" /><span class="fa fa-star awarded" /></span>
+<span v-if="this.paper_award == 'honorable'" class="fa fa-star awarded"><span class="fa fa-star awarded" /></span>
 <span v-if="this.paper_type!='?'" :class="this.paper_type_class">{{this.paper_type}}</span></span>
 <ul><li v-for="author in this.paper.authors" class="author">{{author}}</li></ul>
 <p class="abstract"><span class="abstract-heading">Abstract:</span> {{this.abstract_content}}</p>
@@ -54,6 +56,10 @@ const CreateApp = (paper) => {
         if (t == 'Note') return 'type type-note';
         if (t == 'Poster') return 'type type-poster';
         return 'type';
+      },
+      // https://www.w3schools.com/howto/howto_css_star_rating.asp
+      paper_award: function (ev) {
+        return this.paper.award;
       },
 
       abstract_content: function (ev) {

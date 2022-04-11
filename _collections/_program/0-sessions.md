@@ -6,6 +6,8 @@ collection: program
 date: 2022-03-21
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2022-04-08)
 
 PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storytelling contest, and social events.
@@ -13,6 +15,15 @@ PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storyt
 {% include timetable.md %}
 
 ---
+
+**Color coding**:
+
+- Best paper: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /><span class="fa fa-star awarded" /></span> <span class="type type-paper">paper</span>
+- Honorable mention: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /></span> <span class="type type-paper">paper</span>
+
+- Best note: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /><span class="fa fa-star awarded" /></span> <span class="type type-note">note</span>
+- Honorable mention: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /></span> <span class="type type-note">note</span>
+
 
 # Day 1 - April 11
 
