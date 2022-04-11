@@ -28,7 +28,7 @@ const preview = {
   "note-1020": "https://youtu.be/BiEhUwMwWbU",
   "note-1025": "https://youtu.be/JakU5Qs1g00",
   "note-1028": "https://youtu.be/GaH8U-AtR54",
-  "note-1029": "https://youtu.be/BR9--CXX_Po",
+  "note-1029": "https://youtu.be/DXZ122rS18Q",
   "poster-1030": "https://youtu.be/ssZS8l-V6Nk",
   "poster-1027": "https://youtu.be/wVDLT0bcZZQ",
   "poster-1033": "https://youtu.be/mUgQRWwTGzI",
