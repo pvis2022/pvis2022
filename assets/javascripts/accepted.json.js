@@ -416,7 +416,7 @@ const talks = {
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
-      "award": false
+      "award": "honorable"
     },
     "contest-1019": {
       "authors": [
@@ -433,7 +433,7 @@ const talks = {
       "Abstract pages": 2,
       "Abstract paper size": "letter",
       "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
-      "award": false
+      "award": "best"
     },
     "contest-1021": {
       "authors": [
@@ -1234,7 +1234,7 @@ const talks = {
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
-      "award": false
+      "award": "honorable"
     },
     {
       "authors": [
@@ -1251,7 +1251,7 @@ const talks = {
       "Abstract pages": 2,
       "Abstract paper size": "letter",
       "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
-      "award": false
+      "award": "best"
     },
     {
       "authors": [
