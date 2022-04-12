@@ -14,6 +14,7 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 # News
 
+- [Winner and honorable mention of visual data storytelling contest]({{site.baseurl}}/program/contest) were announed at the opening. (2022-04-12)
 - Best paper/note and honorable mentions were announced at the opening session.  Check them out in [the program]({{site.baseurl}}/program/sessions/) (2022-04-11)
 - <span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2022-04-08)
 - [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is provided.  (2022-03-29)
