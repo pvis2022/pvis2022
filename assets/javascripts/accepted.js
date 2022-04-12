@@ -63,7 +63,8 @@ const CreateApp = (paper) => {
       },
 
       abstract_content: function (ev) {
-        let content = this.paper.Abstract;
+        let content = (this.paper.type == 'Storytelling') ? this.paper['Abstract.1'] : this.paper.Abstract;
+        //let content = this.paper.Abstract;
         if (this.show_detail) return content;
         for (i = 0, p = 0; i < 25; i++) p = content.indexOf(' ', p+1);
         return content.slice(0, p) + ' ...';
