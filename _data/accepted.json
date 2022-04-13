@@ -416,7 +416,8 @@
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
-      "award": "honorable"
+      "award": "honorable",
+      "url": false
     },
     "contest-1019": {
       "authors": [
@@ -433,7 +434,8 @@
       "Abstract pages": 2,
       "Abstract paper size": "letter",
       "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
-      "award": "best"
+      "award": "best",
+      "url": false
     },
     "contest-1021": {
       "authors": [
@@ -448,7 +450,8 @@
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The submitted story is part of an open source project called Polydodo. This project proposes a user-friendly tool and interface to classify sleep stages. The user can upload sleep records, and then visualize them through a data story-telling format. The story and visualizations adapt to the user's data. For the sake of submission to PacificVis, we show the \"preview\" mode, using already loaded data. EEG data is analyzed by a Random forest classifier followed by a Hidden Markov Model post-processing. The design process of this project started as a team project during the 2020 winter semester of \"Data Visualization Design\" course at Polytechnique Montreal. It followed a classical iterative user-centred design process, targeting non expert user regarding sleep cycles data, therefore also the choice of using a story-telling based format to communicate them. The fact that the user can upload personal sleep data also reinforces the user engagement.",
-      "award": false
+      "award": false,
+      "url": false
     },
     "contest-1024": {
       "authors": [
@@ -466,7 +469,8 @@
       "Abstract pages": 8,
       "Abstract paper size": "A4",
       "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
-      "award": false
+      "award": false,
+      "url": false
     },
     "visxai-6403": {
       "authors": [
@@ -736,7 +740,7 @@
       "Title": "Exploring Flow Data Using Natural Languages",
       "type": "Poster",
       "Abstract": "Flow visualization conveys critical information of flow fields by rendering flow features and patterns of interest. To identify desired features for visualization, traditional approaches often rely on graphical user interfaces for interactive exploration, which requires a great amount of learning effort. To reduce this effort, we present a novel interactive system to explore flow data using natural languages. The system consists of a natural language parser, a declarative language, and a visualization engine. The natural language parser interprets user intention from textual input and translates it into the declarative language. The declarative language is specifically designed for flow visualization. It serves as an intermediate layer between the natural language and the flow visualization engine. The declarative language features a series of flexible operations to derive complicated structures from existing ones (e.g., streamlines, critical points, simple patterns, and scalar values), so that various kinds of queries can be answered.",
-      "award": false
+      "award": "honorable"
     },
     "poster-1029": {
       "authors": [
@@ -792,7 +796,7 @@
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
-      "award": false
+      "award": "best"
     },
     "poster-1033": {
       "authors": [
@@ -1234,7 +1238,8 @@
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The Guinness World Record for the \"the most subscribed Chinese YouTube Channel\" was set by Chinese short video blogger Li Ziqi, whose videos are not in English but are popular with foreign audiences. This data video presents a visual portrait of Li Ziqi's YouTube channel. The visual portrait depicts cultural communication power using six dimensions: subscriptions, the number of videos in vogue, average video views, like rate, YouTube category, and whether the channel is a personal blogger. By building a series of visual portraits of YouTube channels, we first compared China's cultural communication power among the three East Asian culture countries, including China, Japan, and Korea. Then, we compared East Asian culture's cultural communication power as a whole among different cultural regions of the world. We collected data through public data sources and Google YouTube Data API and processed the data through statistical analysis. Finally, we proposed a set of suggestions regarding how to improve the cultural communication power of Chinese on YouTube.",
-      "award": "honorable"
+      "award": "honorable",
+      "url": false
     },
     {
       "authors": [
@@ -1251,7 +1256,8 @@
       "Abstract pages": 2,
       "Abstract paper size": "letter",
       "Abstract.1": "COVID-19 has brought a significant impact on the world. It is a joint responsibility of all countries to fight against this epidemic together. Through visual and interactive web pages, taking emergency logistics as the clue, the work tells a touching story: in the spring of 2020, people all over China and even the world supported Wuhan to fight the outbreak and overcome the shortage of resources.\nWuhan, known as the \"thoroughfare of nine provinces,\" was not isolated from the outside world under lockdown but has received a steady stream of support despite the corona-virus crisis. The story divides into five chapters. The color of the visualization page changes from dark to bright, representing Wuhan getting rid of the haze of the epidemic step by step. We hope to encourage people to help each other and contribute to an early and complete victory over the coronavirus throughout the world.",
-      "award": "best"
+      "award": "best",
+      "url": false
     },
     {
       "authors": [
@@ -1266,7 +1272,8 @@
       "Abstract pages": 1,
       "Abstract paper size": "letter",
       "Abstract.1": "The submitted story is part of an open source project called Polydodo. This project proposes a user-friendly tool and interface to classify sleep stages. The user can upload sleep records, and then visualize them through a data story-telling format. The story and visualizations adapt to the user's data. For the sake of submission to PacificVis, we show the \"preview\" mode, using already loaded data. EEG data is analyzed by a Random forest classifier followed by a Hidden Markov Model post-processing. The design process of this project started as a team project during the 2020 winter semester of \"Data Visualization Design\" course at Polytechnique Montreal. It followed a classical iterative user-centred design process, targeting non expert user regarding sleep cycles data, therefore also the choice of using a story-telling based format to communicate them. The fact that the user can upload personal sleep data also reinforces the user engagement.",
-      "award": false
+      "award": false,
+      "url": false
     },
     {
       "authors": [
@@ -1284,7 +1291,8 @@
       "Abstract pages": 8,
       "Abstract paper size": "A4",
       "Abstract.1": "The original intention of our work is to make people understand the development of Slow train in China and the role it plays in rural revitalization.\nIn terms of data, we first collect the slow train data of China's railway network and related news reports (including train number, mileage, starting and ending points, etc.) and displayed the data results in charts.\nIn terms of design, we first interpret the data and compare the speed of slow trains with high-speed trains. Then, we use charts and maps to analyze the distribution and development of slow trains in China. Finally, we use collages to illustrate the story of people's livelihood.\nThe technical implementation method uses the web page interaction technology of CSS3 and Javascript.\nDue to technical limitations, to give you a better viewing experience, this work is recommended to be viewed at 1920X1080 resolution.",
-      "award": false
+      "award": false,
+      "url": false
     }
   ],
   "Visualization Meets AI Papers": [
@@ -1558,7 +1566,7 @@
       "Title": "Exploring Flow Data Using Natural Languages",
       "type": "Poster",
       "Abstract": "Flow visualization conveys critical information of flow fields by rendering flow features and patterns of interest. To identify desired features for visualization, traditional approaches often rely on graphical user interfaces for interactive exploration, which requires a great amount of learning effort. To reduce this effort, we present a novel interactive system to explore flow data using natural languages. The system consists of a natural language parser, a declarative language, and a visualization engine. The natural language parser interprets user intention from textual input and translates it into the declarative language. The declarative language is specifically designed for flow visualization. It serves as an intermediate layer between the natural language and the flow visualization engine. The declarative language features a series of flexible operations to derive complicated structures from existing ones (e.g., streamlines, critical points, simple patterns, and scalar values), so that various kinds of queries can be answered.",
-      "award": false
+      "award": "honorable"
     },
     {
       "authors": [
@@ -1614,7 +1622,7 @@
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
-      "award": false
+      "award": "best"
     },
     {
       "authors": [
