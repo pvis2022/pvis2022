@@ -45,7 +45,13 @@ date: 2022-04-11
 
 ---
 
-## Best Posters
+## Best Poster
+
+<paper data-paper_id="poster-1003"></paper>
+
+## Best Poster Honorable Mention
+<paper data-paper_id="poster-1025"></paper>
+
 
 [Voting is open for PacificVis2022 Posters](https://bit.ly/3LRRwGv).  The result will be announced during virtual banquet at Gather.town.
 
@@ -53,4 +59,3 @@ date: 2022-04-11
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/preview.json.js"></script>
 <script type="text/javascript" src="/pvis2022/assets/javascripts/accepted.js"></script>
-
