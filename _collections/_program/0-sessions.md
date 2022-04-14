@@ -24,6 +24,7 @@ PacificVis 2022 hosts two keynotes, eight technical sessions, visual data storyt
 - Best note: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /><span class="fa fa-star awarded" /></span> <span class="type type-note">note</span>
 - Honorable mention: <span class="fa fa-star awarded"><span class="fa fa-star awarded" /></span> <span class="type type-note">note</span>
 
+A few no-show poster presentations are indicated by <span style="text-decoration: line-through;">line-through</span>.
 
 # Day 1 - April 11
 

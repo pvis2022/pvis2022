@@ -531,6 +531,7 @@
       "Paper ID": "poster-1030",
       "Title": "Summarized Dendrogram for Interactive Exploration of Hierarchical Document Clusters",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Hierarchical clustering techniques are widely used to classify documents based on a set of text written on a specific topic. Dendrograms (or tree diagrams) are often used to visualize the hierarchical clustering results; however, visual scalability for thousands of documents is an issue. To visualize a large number of documents, an provide abstract overview of hierarchical document clusters is required. In this paper, we present a novel visual analytics method to obtain an overview of hierarchical document clusters by aggregating dendrograms and summarizing subclusters using keyphrase extraction. The proposed method includes user interactions for adjusting the dendrogram's level of detail and drilling down to subclusters. An application example of the visualization publications dataset demonstrates the usefulness of our proposed method.",
       "award": false
     },
@@ -542,6 +543,7 @@
       "Paper ID": "poster-1015",
       "Title": "Visual Analysis of Air Pollutants Transmission Patterns Based on Similarity Metric",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In recent years, air pollution has become one of the major environmental problems. Tracking the transmission of pollutants is an important method to combat air pollution. However, the accuracy and efficiency of existing analysis methods cannot fully satisfy domain scientists\u2019 requirements. In this paper, we proposed a similarity metric based method to successfully extract the transmission patterns from high-dimensional air pollution data. Furthermore, a visual analysis framework is also designed to help domain scientists interactively mine some potential features. Finally, the effectiveness of our framework has been demonstrated by user study from domain scientists. Our framework has successfully help domain scientists understanding the development of air pollution trends and transmission patterns.",
       "award": false
     },
@@ -555,6 +557,7 @@
       "Paper ID": "poster-1020",
       "Title": "Visualization of a plasma shape and its interference with a fusion reactor in 3D space",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The design of a fusion reactor, FFHR, requires domain experts to inspect the interference of a plasma shape and inner components. As the plasma shape has a complex structure, we propose introducing the alpha shape method and neural network technology to obtain its boundary in three-dimensional space. Then, the interference is rendered with data mapping. The effectiveness of our approach is confirmed by slices.",
       "award": false
     },
@@ -567,6 +570,7 @@
       "Paper ID": "poster-1028",
       "Title": "ChordTransition: A New State Transition Model with a Time Order TrackingMechanism for Time Series Data",
       "type": "Poster",
+      "cancel": true,
       "Abstract": "In real systems such as those found in ecology, relationships between time series variables dynamically change in a nonlinear or state-dependent manner. Nonlinear analysis, as represented by empirical dynamic modeling, can represent time series data as trajectories in state space. By summarizing a sequence of points in a high-dimensional space, we can visualize the state transitions of the underlying system. State transition representations using node-link diagrams have often been used in previous research. Therefore, time order tracking is difficult in the state transition graph and the complex timelines cause clutter. To solve the problem, we propose ChordTransition, a new state transition model that employs Chord technique and refines the transition details within states. We discuss the design of ChordTransition, and present a prototype visual analytic system.",
       "award": false
     },
@@ -579,6 +583,7 @@
       "Paper ID": "poster-1024",
       "Title": "Visual Analytics for Deriving PDE Using Physics-Informed Neural Network",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In this paper, we proposed a visual analytics approach to support the derivation of high-precision partial differential equations (PDEs) using a neural network from point cloud data consisting of the spatiotemporal coordinates. In neural networks, spatiotemporal coordinates are input, physical data is output, and a function approximates point cloud data is regressed. This makes the PDE residual a supervised data, especially in the case of equation derivation. In addition, although optimization of the neural network structure is important, it is difficult to automate it, and it is largely left to humans. As a result, to create knowledge from data, we developed a visual analytics system that emphasizes the importance of human involvement while also automatically building a model. We also conducted several case studies using the proposed system to confirm the effectiveness of this system and illustrated the results.",
       "award": false
     },
@@ -594,6 +599,7 @@
       "Paper ID": "poster-1031",
       "Title": "Visual Exploration of the Reading Comprehension Question Answering Model for Improving the Interpretability",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Reading Comprehension Question Answering (RCQA) is an important task in natural language processing (NLP), aiming at answering questions based on natural language formats of unstructured documents. Recent research work has advanced the performance on benchmark datasets to new records, especially in combination with techniques based on the transformer model of neural machine reading comprehension (MRC). However, understanding the decision process of the model is challenging, which limits the development of RCQA. Therefore, we propose a tree-based visual analysis method that tries to explain the data flow in the model for gaining the interpretability. We demonstrate its effectiveness in promoting the interpretability of RCQA models with initial visual explorations.",
       "award": false
     },
@@ -607,6 +613,7 @@
       "Paper ID": "poster-1021",
       "Title": "Gazed Object Sequence for Similarity Comparison of Attention Moving",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "AoIs (Area of Interest) refers to meaningful areas in visual stimuli, such as images and videos, for experiment and verification of research hypotheses. In the eye-tracking study, AoIs are appointed to compare the gaze behaviors of the participants and analyze their eye movement. AoI-based visualization shows patterns in attention moving such as AoI sequence, AoI hit, and dwell time. However, since the AoI-based technique focuses on the attention movement between AoIs, it is not easy to analyze gaze behavior patterns within the AoI. The gaze observing the visual stimulus behaves to search for objects while finding the search target.The gazed object is used as a clue to infer the visual search target of gaze behavior. In this paper, we propose a gazed object sequence with AoIs for comparing similarity of attention moving. The proposed sequence provides AoI sequence and gazed object sequence by mapping eye movement, AoIs, and segmented object data. We compare the proposed sequence with the existing AoI sequence.",
       "award": false
     },
@@ -617,6 +624,7 @@
       "Paper ID": "poster-1001",
       "Title": "A New Space-slicing Treemapping Method",
       "type": "Poster",
+      "cancel": true,
       "Abstract": "Dynamical stability is a desired property for treemapping methods. Since in real world, the dataset is usually in a continuous way to be proceed, and the treemap we visualized will be in a dynamic flow. In this paper, We present a dynamic stable treepping method. Our approach has two main stages, the first step is to layout each rectangle into the treemap in a near-uniform way, and then we resize each rectangle into its real size. This method is a novel method which focuses on the dynamic stable issue of treemapping methods. And this method shows good dynamical stable property in our experiments with real world datasets.",
       "award": false
     },
@@ -630,6 +638,7 @@
       "Paper ID": "poster-1017",
       "Title": "Visual Analytics For Industry Hierarchies",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The industry structure is always presented as hierarchical data. We are keen to analyze the competitive situation among companies or regions in the industry. We propose a visual analytics system for industry hierarchies with an illustrative example of the semiconductor display industry, which can be used to explore the industry structure and the competitive or complementary relationships between companies or regions in one or more industries. We also give a case study comparing two companies in the red phosphorescent material industry to validate our system.",
       "award": false
     },
@@ -640,6 +649,7 @@
       "Paper ID": "poster-1013",
       "Title": "Visualising Multivariate Categorical Data",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Despite categorical dimensions being common in real-world datasets, few visualisation techniques support the analysis of multiple categorical variables at the same time. Those methods that do exist do not scale well, or do not consider relationships between all variables simultaneously, instead breaking them down into more restricted views or reflecting a hierarchy of variables. Drawing inspiration from set-based tools, this paper introduces a novel technique for visualising multivariate categorical data, by aggregating different combinations of categories. Advantages of this approach include the ability to easily compare frequencies among both variable categories and their combinations, the absence of line crossings, and a non-hierarchical layout that does not privilege one variable above all others.",
       "award": false
     },
@@ -654,6 +664,7 @@
       "Paper ID": "poster-1032",
       "Title": "Visualization System for Data Quality Improvement",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Poor quality data leads to erroneous results in the analytical model. Therefore, the data scientist repeats the data cleaning and quality assessment steps to improve the data quality. Data scientists examine the causes of poor data quality and clean up the data by replacement and deletion. After cleaning the data, data scientists evaluate data quality using data quality metrics and normality tests. It is up to the data scientist to decide which method to use during the data quality improvement step. Therefore, data scientists spend much time and effort deciding how to improve data quality. In this study, we propose a visualization system to assist data scientists in determining how to improve data quality. The visualization system suggests data correction methods such as replacement or deletion according to quality criteria. In addition, the visualization system provides data quality visualizations using node-link diagrams, heat maps, histograms, eCDFs, and density plots.",
       "award": false
     },
@@ -668,6 +679,7 @@
       "Paper ID": "poster-1022",
       "Title": "Three-dimensional book data page segmentation and extraction method using neural network",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "At present, X-ray-based CT scans have been used to analyze the closed booklet form without the need for physical expansion, where the important task is to extract page information. Previously, we constructed page volume data by 3D annotations and calculated Laplace equations, and used data-mapped iso-surfaces to visualize paper information. The generated page volume data, where the scalar data value represents the page number. In order to improve the accuracy of the method, we use a deep neural network to approximate the page volume data from the annotated spatial points. We confirm its validity by evaluating the accuracy of page extraction.",
       "award": false
     },
@@ -678,6 +690,7 @@
       "Paper ID": "poster-1018",
       "Title": "Enhancing Scientific Visualization Through Virtual Reality in ParaView",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Scientific visualization is a highly relevant area for all scientific domains that aims to extract information out of raw data and display it as explicitly and intuitively as possible to give users a quick grasp of their data characteristics. In particular, virtual reality (VR) is a well-suited method for three-dimensional data which creates a visualization of objects as if present in the real world. On the other hand, ParaView is a leading open-source software offering a great variety of processing tools for data analysis and visualization. As such, ParaView includes a plugin for VR support providing an easy way of viewing most 3D data in VR, as well as specific user actions through controllers and an overlay menu giving access to many customization options. This work brings insight into how the VR capabilities combine with ParaView to enhance user experience for scientific visualization. Example use cases are presented to illustrate some of the VR functionalities in ParaView.",
       "award": false
     },
@@ -690,6 +703,7 @@
       "Paper ID": "poster-1023",
       "Title": "People Flow Visualization based on Proximity Networks",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "With the worldwide spread of novel coronavirus (COVID-19), Japanese politicians require people to avoid the \u201cThree Cs.\u201d  Here, three Cs stands for Crowded places, Close-contact settings and Confined and enclosed spaces. Against this background, there have been a lot of studies that analyze the flow of people and visualize it. It is important to reduce congestion during events, and reducing the proximity of people is particularly effective, in order to prevent the spread of infections. On the other hand, there are a small number of methods to visualize the human flow based on the proximity of people. This paper presents a method to visualize walking patterns with high infection risk based on the network formed by connecting conjunct pedestrians.",
       "award": false
     },
@@ -701,6 +715,7 @@
       "Paper ID": "poster-1012",
       "Title": "Classification and Visualization of Lyric Collections Using Guided LDA",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Lyrics are one of the most important components of music and have a great impact on our daily listening to music. Therefore, a music search system based on the meaning of lyrics is useful. However, the impression of lyrics is subjective, and it is difficult to analyze music by focusing only on the lyrics. Therefore, we propose a method to analyze lyrics using guided LDA and to visualize the distribution of lyrics.",
       "award": false
     },
@@ -714,6 +729,7 @@
       "Paper ID": "poster-1007",
       "Title": "CiteVis: Visual Analysis of Overlapping Citation Intents as Dynamic Sets",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "A scientific article can be cited with different intents over several years. The citation intents can be inferred by classifying the citation text into different categories. With multiple citations to the same article, the citation intent categories overlap, making their analysis more challenging. We model the categories as dynamic sets and propose an approach to visualize temporal citation trends of an article across overlapping citation intents. The approach supports comparison between the citation trends of two seed articles of interest. The implemented prototype supports searching and selecting seed articles from a Semantic Scholar dataset.",
       "award": false
     },
@@ -726,6 +742,7 @@
       "Paper ID": "poster-1019",
       "Title": "Towards Designing a Map-Based Data Visualization Application to Enhance Collaboration through Awareness among Different Experts in Vitality",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Visualizations have been used for solving real-world problems in a variety of contexts. Therefore, it is considered that empirical studies to understand visualizations in each specific context are necessary. We conducted a study to understand users\u2019 search behavior and requirements on a visualization utilized by various domain experts who work on improving vitality, which is considered a major societal issue today. A mixed-methods study involving online surveys, open-ended tasks, and semi-structured interviews was conducted with three experts each from the fields of government, business, and research (N=9). The results of our study show that a combination of multiple datasets potentially supports achieving goals for various users in the context of vitality. The study also found the collaborative use of visualizations among domain experts. Based on these findings, we propose a preliminary design of a collaborative map-based data visualization application for the field of vitality. For this application, we hypothesize awareness to be a key factor to enhance various users\u2019 engagement and collaboration.",
       "award": false
     },
@@ -739,6 +756,7 @@
       "Paper ID": "poster-1025",
       "Title": "Exploring Flow Data Using Natural Languages",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Flow visualization conveys critical information of flow fields by rendering flow features and patterns of interest. To identify desired features for visualization, traditional approaches often rely on graphical user interfaces for interactive exploration, which requires a great amount of learning effort. To reduce this effort, we present a novel interactive system to explore flow data using natural languages. The system consists of a natural language parser, a declarative language, and a visualization engine. The natural language parser interprets user intention from textual input and translates it into the declarative language. The declarative language is specifically designed for flow visualization. It serves as an intermediate layer between the natural language and the flow visualization engine. The declarative language features a series of flexible operations to derive complicated structures from existing ones (e.g., streamlines, critical points, simple patterns, and scalar values), so that various kinds of queries can be answered.",
       "award": "honorable"
     },
@@ -753,6 +771,7 @@
       "Paper ID": "poster-1029",
       "Title": "Data Transfer Interaction Technique for Multi-source Visualization in Mixed Space",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "This paper presents a data transfer interaction technique for multi-source visualization in mixed space. The technical solution consists of three parts: a Web client to parse existing 2D visualization data; HoloLens mixed reality client that handles gestures and immersive visualization data; and the server that receives and distributes messages. The user selects data elements on the existing 2D visualization through natural freehand interaction and drags them to the 3D visualization space. The Web client completes data extraction, the server completes data transmission, and the mixed reality terminal is responsible for gesture interaction recognition and rendering in the process of data transfer.",
       "award": false
     },
@@ -766,6 +785,7 @@
       "Paper ID": "poster-1010",
       "Title": "HiRegExp: Querying and Exploring Multivariate Hierarchical Data using Regular Expressions",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "We present HiRegExp, a declarative grammar for querying multivariate hierarchical data. \nBased on tree visualization's task abstraction framework, we identify three types of query targets (node, path, and subtree) and two aspects for querying these targets (target features and target positions). To give the user flexible and fine-grained specifications for these targets, HiRegExp borrows the operators from traditional regular expressions. \nFurthermore, it extends the expressiveness by allowing users to add several attributes constraints for each node and defining extra operators for specifying topological structures and element compositions. We design and implement a visual editor based on HiRegExp to allow analysts to construct the query statements interactively.",
       "award": false
     },
@@ -779,6 +799,7 @@
       "Paper ID": "poster-1026",
       "Title": "Feature Selection on Deep Learning Models: an Interactive Visualization Approach",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In the era of data explosion, deep neural networks are widely used for prediction tasks in various scenarios. However, the complex feature spaces in high-dimensional data pose challenges to model training. While the common practice is to perform feature selection, existing approaches are generally designed for non-deep models. Additionally, deep models, considered as black-boxes, lack interpretability in utilizing features. This paper presents a visual analytics approach to facilitate the feature selection process of deep learning models by introducing human experience and decisions in integrated classical statistical methods. Our visual analytics system includes a Data Filter Component and an Interactive Verification Component. The former identifies and filters irrelevant and redundant features, while the latter supports the fine selection by understanding the features\u2019 contribution. Furthermore, iterative exploration is supported to gain a proper feature subspace.",
       "award": false
     },
@@ -795,6 +816,7 @@
       "Paper ID": "poster-1003",
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
       "award": "best"
     },
@@ -811,6 +833,7 @@
       "Paper ID": "poster-1033",
       "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
       "award": false
     },
@@ -824,6 +847,7 @@
       "Paper ID": "poster-1027",
       "Title": "Direct Manipulation of Static Visualizations",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "We propose a method that enables manipulating static visualizations and carrying out various interaction tasks through simple operations. Our method models the visual mark layout of static visualization with spatial constraints. Given a static visualization, we extract control points and deduce initial spatial constraints. We formulate a wide range of interaction tasks as changes to force-directed movements, including selection, filtering, navigation, arrangement, and aggregation. The control point positions and spatial constraints are updated upon manipulating the visual marks. The spatial constraints are encoded as forces that drive visual marks to converge to a stable spatial layout.",
       "award": false
     }
@@ -1357,6 +1381,7 @@
       "Paper ID": "poster-1030",
       "Title": "Summarized Dendrogram for Interactive Exploration of Hierarchical Document Clusters",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Hierarchical clustering techniques are widely used to classify documents based on a set of text written on a specific topic. Dendrograms (or tree diagrams) are often used to visualize the hierarchical clustering results; however, visual scalability for thousands of documents is an issue. To visualize a large number of documents, an provide abstract overview of hierarchical document clusters is required. In this paper, we present a novel visual analytics method to obtain an overview of hierarchical document clusters by aggregating dendrograms and summarizing subclusters using keyphrase extraction. The proposed method includes user interactions for adjusting the dendrogram's level of detail and drilling down to subclusters. An application example of the visualization publications dataset demonstrates the usefulness of our proposed method.",
       "award": false
     },
@@ -1368,6 +1393,7 @@
       "Paper ID": "poster-1015",
       "Title": "Visual Analysis of Air Pollutants Transmission Patterns Based on Similarity Metric",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In recent years, air pollution has become one of the major environmental problems. Tracking the transmission of pollutants is an important method to combat air pollution. However, the accuracy and efficiency of existing analysis methods cannot fully satisfy domain scientists\u2019 requirements. In this paper, we proposed a similarity metric based method to successfully extract the transmission patterns from high-dimensional air pollution data. Furthermore, a visual analysis framework is also designed to help domain scientists interactively mine some potential features. Finally, the effectiveness of our framework has been demonstrated by user study from domain scientists. Our framework has successfully help domain scientists understanding the development of air pollution trends and transmission patterns.",
       "award": false
     },
@@ -1381,6 +1407,7 @@
       "Paper ID": "poster-1020",
       "Title": "Visualization of a plasma shape and its interference with a fusion reactor in 3D space",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The design of a fusion reactor, FFHR, requires domain experts to inspect the interference of a plasma shape and inner components. As the plasma shape has a complex structure, we propose introducing the alpha shape method and neural network technology to obtain its boundary in three-dimensional space. Then, the interference is rendered with data mapping. The effectiveness of our approach is confirmed by slices.",
       "award": false
     },
@@ -1393,6 +1420,7 @@
       "Paper ID": "poster-1028",
       "Title": "ChordTransition: A New State Transition Model with a Time Order TrackingMechanism for Time Series Data",
       "type": "Poster",
+      "cancel": true,
       "Abstract": "In real systems such as those found in ecology, relationships between time series variables dynamically change in a nonlinear or state-dependent manner. Nonlinear analysis, as represented by empirical dynamic modeling, can represent time series data as trajectories in state space. By summarizing a sequence of points in a high-dimensional space, we can visualize the state transitions of the underlying system. State transition representations using node-link diagrams have often been used in previous research. Therefore, time order tracking is difficult in the state transition graph and the complex timelines cause clutter. To solve the problem, we propose ChordTransition, a new state transition model that employs Chord technique and refines the transition details within states. We discuss the design of ChordTransition, and present a prototype visual analytic system.",
       "award": false
     },
@@ -1405,6 +1433,7 @@
       "Paper ID": "poster-1024",
       "Title": "Visual Analytics for Deriving PDE Using Physics-Informed Neural Network",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In this paper, we proposed a visual analytics approach to support the derivation of high-precision partial differential equations (PDEs) using a neural network from point cloud data consisting of the spatiotemporal coordinates. In neural networks, spatiotemporal coordinates are input, physical data is output, and a function approximates point cloud data is regressed. This makes the PDE residual a supervised data, especially in the case of equation derivation. In addition, although optimization of the neural network structure is important, it is difficult to automate it, and it is largely left to humans. As a result, to create knowledge from data, we developed a visual analytics system that emphasizes the importance of human involvement while also automatically building a model. We also conducted several case studies using the proposed system to confirm the effectiveness of this system and illustrated the results.",
       "award": false
     },
@@ -1420,6 +1449,7 @@
       "Paper ID": "poster-1031",
       "Title": "Visual Exploration of the Reading Comprehension Question Answering Model for Improving the Interpretability",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Reading Comprehension Question Answering (RCQA) is an important task in natural language processing (NLP), aiming at answering questions based on natural language formats of unstructured documents. Recent research work has advanced the performance on benchmark datasets to new records, especially in combination with techniques based on the transformer model of neural machine reading comprehension (MRC). However, understanding the decision process of the model is challenging, which limits the development of RCQA. Therefore, we propose a tree-based visual analysis method that tries to explain the data flow in the model for gaining the interpretability. We demonstrate its effectiveness in promoting the interpretability of RCQA models with initial visual explorations.",
       "award": false
     },
@@ -1433,6 +1463,7 @@
       "Paper ID": "poster-1021",
       "Title": "Gazed Object Sequence for Similarity Comparison of Attention Moving",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "AoIs (Area of Interest) refers to meaningful areas in visual stimuli, such as images and videos, for experiment and verification of research hypotheses. In the eye-tracking study, AoIs are appointed to compare the gaze behaviors of the participants and analyze their eye movement. AoI-based visualization shows patterns in attention moving such as AoI sequence, AoI hit, and dwell time. However, since the AoI-based technique focuses on the attention movement between AoIs, it is not easy to analyze gaze behavior patterns within the AoI. The gaze observing the visual stimulus behaves to search for objects while finding the search target.The gazed object is used as a clue to infer the visual search target of gaze behavior. In this paper, we propose a gazed object sequence with AoIs for comparing similarity of attention moving. The proposed sequence provides AoI sequence and gazed object sequence by mapping eye movement, AoIs, and segmented object data. We compare the proposed sequence with the existing AoI sequence.",
       "award": false
     },
@@ -1443,6 +1474,7 @@
       "Paper ID": "poster-1001",
       "Title": "A New Space-slicing Treemapping Method",
       "type": "Poster",
+      "cancel": true,
       "Abstract": "Dynamical stability is a desired property for treemapping methods. Since in real world, the dataset is usually in a continuous way to be proceed, and the treemap we visualized will be in a dynamic flow. In this paper, We present a dynamic stable treepping method. Our approach has two main stages, the first step is to layout each rectangle into the treemap in a near-uniform way, and then we resize each rectangle into its real size. This method is a novel method which focuses on the dynamic stable issue of treemapping methods. And this method shows good dynamical stable property in our experiments with real world datasets.",
       "award": false
     },
@@ -1456,6 +1488,7 @@
       "Paper ID": "poster-1017",
       "Title": "Visual Analytics For Industry Hierarchies",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The industry structure is always presented as hierarchical data. We are keen to analyze the competitive situation among companies or regions in the industry. We propose a visual analytics system for industry hierarchies with an illustrative example of the semiconductor display industry, which can be used to explore the industry structure and the competitive or complementary relationships between companies or regions in one or more industries. We also give a case study comparing two companies in the red phosphorescent material industry to validate our system.",
       "award": false
     },
@@ -1466,6 +1499,7 @@
       "Paper ID": "poster-1013",
       "Title": "Visualising Multivariate Categorical Data",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Despite categorical dimensions being common in real-world datasets, few visualisation techniques support the analysis of multiple categorical variables at the same time. Those methods that do exist do not scale well, or do not consider relationships between all variables simultaneously, instead breaking them down into more restricted views or reflecting a hierarchy of variables. Drawing inspiration from set-based tools, this paper introduces a novel technique for visualising multivariate categorical data, by aggregating different combinations of categories. Advantages of this approach include the ability to easily compare frequencies among both variable categories and their combinations, the absence of line crossings, and a non-hierarchical layout that does not privilege one variable above all others.",
       "award": false
     },
@@ -1480,6 +1514,7 @@
       "Paper ID": "poster-1032",
       "Title": "Visualization System for Data Quality Improvement",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Poor quality data leads to erroneous results in the analytical model. Therefore, the data scientist repeats the data cleaning and quality assessment steps to improve the data quality. Data scientists examine the causes of poor data quality and clean up the data by replacement and deletion. After cleaning the data, data scientists evaluate data quality using data quality metrics and normality tests. It is up to the data scientist to decide which method to use during the data quality improvement step. Therefore, data scientists spend much time and effort deciding how to improve data quality. In this study, we propose a visualization system to assist data scientists in determining how to improve data quality. The visualization system suggests data correction methods such as replacement or deletion according to quality criteria. In addition, the visualization system provides data quality visualizations using node-link diagrams, heat maps, histograms, eCDFs, and density plots.",
       "award": false
     },
@@ -1494,6 +1529,7 @@
       "Paper ID": "poster-1022",
       "Title": "Three-dimensional book data page segmentation and extraction method using neural network",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "At present, X-ray-based CT scans have been used to analyze the closed booklet form without the need for physical expansion, where the important task is to extract page information. Previously, we constructed page volume data by 3D annotations and calculated Laplace equations, and used data-mapped iso-surfaces to visualize paper information. The generated page volume data, where the scalar data value represents the page number. In order to improve the accuracy of the method, we use a deep neural network to approximate the page volume data from the annotated spatial points. We confirm its validity by evaluating the accuracy of page extraction.",
       "award": false
     },
@@ -1504,6 +1540,7 @@
       "Paper ID": "poster-1018",
       "Title": "Enhancing Scientific Visualization Through Virtual Reality in ParaView",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Scientific visualization is a highly relevant area for all scientific domains that aims to extract information out of raw data and display it as explicitly and intuitively as possible to give users a quick grasp of their data characteristics. In particular, virtual reality (VR) is a well-suited method for three-dimensional data which creates a visualization of objects as if present in the real world. On the other hand, ParaView is a leading open-source software offering a great variety of processing tools for data analysis and visualization. As such, ParaView includes a plugin for VR support providing an easy way of viewing most 3D data in VR, as well as specific user actions through controllers and an overlay menu giving access to many customization options. This work brings insight into how the VR capabilities combine with ParaView to enhance user experience for scientific visualization. Example use cases are presented to illustrate some of the VR functionalities in ParaView.",
       "award": false
     },
@@ -1516,6 +1553,7 @@
       "Paper ID": "poster-1023",
       "Title": "People Flow Visualization based on Proximity Networks",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "With the worldwide spread of novel coronavirus (COVID-19), Japanese politicians require people to avoid the \u201cThree Cs.\u201d  Here, three Cs stands for Crowded places, Close-contact settings and Confined and enclosed spaces. Against this background, there have been a lot of studies that analyze the flow of people and visualize it. It is important to reduce congestion during events, and reducing the proximity of people is particularly effective, in order to prevent the spread of infections. On the other hand, there are a small number of methods to visualize the human flow based on the proximity of people. This paper presents a method to visualize walking patterns with high infection risk based on the network formed by connecting conjunct pedestrians.",
       "award": false
     },
@@ -1527,6 +1565,7 @@
       "Paper ID": "poster-1012",
       "Title": "Classification and Visualization of Lyric Collections Using Guided LDA",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Lyrics are one of the most important components of music and have a great impact on our daily listening to music. Therefore, a music search system based on the meaning of lyrics is useful. However, the impression of lyrics is subjective, and it is difficult to analyze music by focusing only on the lyrics. Therefore, we propose a method to analyze lyrics using guided LDA and to visualize the distribution of lyrics.",
       "award": false
     },
@@ -1540,6 +1579,7 @@
       "Paper ID": "poster-1007",
       "Title": "CiteVis: Visual Analysis of Overlapping Citation Intents as Dynamic Sets",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "A scientific article can be cited with different intents over several years. The citation intents can be inferred by classifying the citation text into different categories. With multiple citations to the same article, the citation intent categories overlap, making their analysis more challenging. We model the categories as dynamic sets and propose an approach to visualize temporal citation trends of an article across overlapping citation intents. The approach supports comparison between the citation trends of two seed articles of interest. The implemented prototype supports searching and selecting seed articles from a Semantic Scholar dataset.",
       "award": false
     },
@@ -1552,6 +1592,7 @@
       "Paper ID": "poster-1019",
       "Title": "Towards Designing a Map-Based Data Visualization Application to Enhance Collaboration through Awareness among Different Experts in Vitality",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Visualizations have been used for solving real-world problems in a variety of contexts. Therefore, it is considered that empirical studies to understand visualizations in each specific context are necessary. We conducted a study to understand users\u2019 search behavior and requirements on a visualization utilized by various domain experts who work on improving vitality, which is considered a major societal issue today. A mixed-methods study involving online surveys, open-ended tasks, and semi-structured interviews was conducted with three experts each from the fields of government, business, and research (N=9). The results of our study show that a combination of multiple datasets potentially supports achieving goals for various users in the context of vitality. The study also found the collaborative use of visualizations among domain experts. Based on these findings, we propose a preliminary design of a collaborative map-based data visualization application for the field of vitality. For this application, we hypothesize awareness to be a key factor to enhance various users\u2019 engagement and collaboration.",
       "award": false
     },
@@ -1565,6 +1606,7 @@
       "Paper ID": "poster-1025",
       "Title": "Exploring Flow Data Using Natural Languages",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Flow visualization conveys critical information of flow fields by rendering flow features and patterns of interest. To identify desired features for visualization, traditional approaches often rely on graphical user interfaces for interactive exploration, which requires a great amount of learning effort. To reduce this effort, we present a novel interactive system to explore flow data using natural languages. The system consists of a natural language parser, a declarative language, and a visualization engine. The natural language parser interprets user intention from textual input and translates it into the declarative language. The declarative language is specifically designed for flow visualization. It serves as an intermediate layer between the natural language and the flow visualization engine. The declarative language features a series of flexible operations to derive complicated structures from existing ones (e.g., streamlines, critical points, simple patterns, and scalar values), so that various kinds of queries can be answered.",
       "award": "honorable"
     },
@@ -1579,6 +1621,7 @@
       "Paper ID": "poster-1029",
       "Title": "Data Transfer Interaction Technique for Multi-source Visualization in Mixed Space",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "This paper presents a data transfer interaction technique for multi-source visualization in mixed space. The technical solution consists of three parts: a Web client to parse existing 2D visualization data; HoloLens mixed reality client that handles gestures and immersive visualization data; and the server that receives and distributes messages. The user selects data elements on the existing 2D visualization through natural freehand interaction and drags them to the 3D visualization space. The Web client completes data extraction, the server completes data transmission, and the mixed reality terminal is responsible for gesture interaction recognition and rendering in the process of data transfer.",
       "award": false
     },
@@ -1592,6 +1635,7 @@
       "Paper ID": "poster-1010",
       "Title": "HiRegExp: Querying and Exploring Multivariate Hierarchical Data using Regular Expressions",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "We present HiRegExp, a declarative grammar for querying multivariate hierarchical data. \nBased on tree visualization's task abstraction framework, we identify three types of query targets (node, path, and subtree) and two aspects for querying these targets (target features and target positions). To give the user flexible and fine-grained specifications for these targets, HiRegExp borrows the operators from traditional regular expressions. \nFurthermore, it extends the expressiveness by allowing users to add several attributes constraints for each node and defining extra operators for specifying topological structures and element compositions. We design and implement a visual editor based on HiRegExp to allow analysts to construct the query statements interactively.",
       "award": false
     },
@@ -1605,6 +1649,7 @@
       "Paper ID": "poster-1026",
       "Title": "Feature Selection on Deep Learning Models: an Interactive Visualization Approach",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "In the era of data explosion, deep neural networks are widely used for prediction tasks in various scenarios. However, the complex feature spaces in high-dimensional data pose challenges to model training. While the common practice is to perform feature selection, existing approaches are generally designed for non-deep models. Additionally, deep models, considered as black-boxes, lack interpretability in utilizing features. This paper presents a visual analytics approach to facilitate the feature selection process of deep learning models by introducing human experience and decisions in integrated classical statistical methods. Our visual analytics system includes a Data Filter Component and an Interactive Verification Component. The former identifies and filters irrelevant and redundant features, while the latter supports the fine selection by understanding the features\u2019 contribution. Furthermore, iterative exploration is supported to gain a proper feature subspace.",
       "award": false
     },
@@ -1621,6 +1666,7 @@
       "Paper ID": "poster-1003",
       "Title": "Echoes of Ancient China: Visualizing Refrain and Music in the Shijing",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "The refrain is a popular literary device that represents the repeated lines in poetry. It can be viewed as an essential part of most songs in the Shijing. In the past, only by chanting a particular poem, people can generally communicate their feelings and emotions. Is there any similar way existing for appreciation? Driven by the problem mentioned above, this work uses visualization technology to convert the repetitive structure into visual data, mainly presented on interactive web pages with visual analysis and music visualization. It also includes physical visualization incorporating \u2019synthetic\u2019 techniques to enrich the visual representation. We hope that this attempt at visualization will serve as a feasible solution for the concrete dissemination of poetic rhyme. To a certain extent, this work has great significance and enlightening impact on future education and cultural transmission.",
       "award": "best"
     },
@@ -1637,6 +1683,7 @@
       "Paper ID": "poster-1033",
       "Title": "A Visualization Method for Security Threats Detection on Ethereum 2.0 Beacon Chain",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "Ethereum, as one of the largest blockchain platforms, is conducting continuous upgrades towards Ethereum 2.0. Security issues of the beacon chain, the core component of Ethereum 2.0, have always been concerned. As far as we know, the beacon chain lacks an intuitive visualization method. This paper propose a visualization method for security threat awareness on Ethereum 2.0 beacon chain. After summarizing the most discussed security threats from previous works, we investigate the attacking activities' impact on beacon chain data and provide three views from macroscopic and microcosmic perspectives, including epoch overview, slot overview, and slot details view. Users can effectively detect suspicious information and observe the validator distribution and their voting results in an understandable manner.",
       "award": false
     },
@@ -1650,6 +1697,7 @@
       "Paper ID": "poster-1027",
       "Title": "Direct Manipulation of Static Visualizations",
       "type": "Poster",
+      "cancel": false,
       "Abstract": "We propose a method that enables manipulating static visualizations and carrying out various interaction tasks through simple operations. Our method models the visual mark layout of static visualization with spatial constraints. Given a static visualization, we extract control points and deduce initial spatial constraints. We formulate a wide range of interaction tasks as changes to force-directed movements, including selection, filtering, navigation, arrangement, and aggregation. The control point positions and spatial constraints are updated upon manipulating the visual marks. The spatial constraints are encoded as forces that drive visual marks to converge to a stable spatial layout.",
       "award": false
     }

@@ -1,16 +1,16 @@
 const PreviewTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/{preview_id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 const PaperTemplate = `
-<div @click="toggle_show_detail">
-<span class="title">{{this.paper.Title}}
+<div @click="toggle_show_detail"><div :class="this.poster_cancel">
+<span class="title">{{this.paper.Title}}</span>
 <span v-if="this.paper_award == 'best'" class="fa fa-star awarded"><span class="fa fa-star awarded" /><span class="fa fa-star awarded" /></span>
 <span v-if="this.paper_award == 'honorable'" class="fa fa-star awarded"><span class="fa fa-star awarded" /></span>
-<span v-if="this.paper_type!='?'" :class="this.paper_type_class">{{this.paper_type}}</span></span>
+<span v-if="this.paper_type!='?'" :class="this.paper_type_class">{{this.paper_type}}</span>
 <ul><li v-for="author in this.paper.authors" class="author">{{author}}</li></ul>
 <p class="abstract"><span class="abstract-heading">Abstract:</span> {{this.abstract_content}}</p>
 <div v-if="this.show_detail" v-html="this.preview_embed"></div>
 <!-- p><a :href="this.preview_url" target="_blank">Open preview video</a></p -->
-</div>
+</div></div>
 `;
 
 const CreateApp = (paper) => {
@@ -69,6 +69,10 @@ const CreateApp = (paper) => {
         for (i = 0, p = 0; i < 25; i++) p = content.indexOf(' ', p+1);
         return content.slice(0, p) + ' ...';
       },
+
+      poster_cancel: function (ev) {
+        return this.paper.type == 'Poster' && this.paper.cancel ? 'poster-cancel' : '';
+      }
     }
   };
 
