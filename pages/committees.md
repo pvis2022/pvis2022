@@ -25,3 +25,13 @@ date: 2022-03-15
 </div>
 
 {% endfor %}
+
+## Program Committee Members
+
+{% assign role = "Papers PC members" %}
+{% include pc_members.md %}
+
+## Visualization Notes Committee Members
+
+{% assign role = "Notes PC members" %}
+{% include pc_members.md %}
